@@ -44,32 +44,29 @@
 しかしここに10人目の人物、50人をあの世に送ったヒットマンが入ってきたとすると、このバーの客が殺した人の数は平均５人に跳ね上がります。だからといって自動的にあなたが暗殺者になるわけではありません。
 情報が間違っていたり、少なすぎたりしてチャートが嘘をつく場合があります。さらに、適切な種類と量の情報であってもデザインやラベルが適切ではないためにグラフが正しく表示されない場合があります。 
 2012年７月、FOXニュースはオバマ大統領が前任のジョージ・W・ブッシュ大統領による連邦税の最高税率引き下げを2013年初めまでに失効させると報じました。
-富裕層は税金の負担が増えることになります。どれくらい？ 第二の棒の高さを、ブッシュ政権下での最高税率を表す第一の棒と比較してください。
-It’s a massive tax increase! If Bush
- when discussing data like this, politicians and pundits mention both overall rates and the extreme values—also called “outliers”—that may be distorting those rates.
- Here’s an analogy to convey the statistics and help you grasp the role of outliers: Imagine you’re in a bar enjoying a beer. Eight other people are drinking and chatting. None of you has killed anyone in your life. Then, a tenth person comes in, a hitman for the Mob who’s dispatched 50 rivals in his career. Suddenly, the average kill count per drinker in the bar jumps to 5! But of course that doesn’t automatically make you an assassin.
- 
- 
-Charts may lie, then, because they display either the wrong information or too little information. However, a chart can show the right type and amount of information and lie anyway due to poor design or labeling.
-In July 2012, Fox News announced that President Barack Obama was planning to let President George W. Bush’s cuts to the top federal tax rate expire by the beginning of 2013. The very wealthy would see their tax bills increase. By how much? Please estimate the height of the second bar in comparison with the first one, which represents the top tax rate under President Bush. It’s a massive tax increase! 
-The chart that Fox displayed for a few seconds contained the figures, but they were quite tiny and hard to read. Notice that the tax increase was roughly five percentage points, but the bars were grossly misshapen to exaggerate it:
-I like taxes as little as anyone else, but I dislike arguments defended with dubious charts even more, regardless of their creators’ political leanings. Whoever designed this chart broke an elementary principle of chart design: if your numbers are represented by the length or height of objects— bars, in this case— the length or height should be proportional to those numbers. Therefore, it’s advisable to put the baseline of the chart at zero:
-Starting a bar chart at a baseline different from zero is the most conspicuous trick in the book to distort your perception of numbers. But fudging with scales is just one of the many strategies used by swindlers and liars from all ideological denominations. There are many others that are far less easy to spot, as we’ll soon see.
- 
-Even if a chart is correctly designed, it may still deceive us because we don’t know how to read it correctly— we can’t grasp its symbols and grammar, so to speak— or we misinterpret its meaning, or both. Contrary to what many people believe, most good charts aren’t simple, pretty illustrations that can be understood easily and intuitively.
+富裕層は税金の負担が増えることになります。どれくらい？ 第二の棒の高さを、ブッシュ政権下での最高税率を表す第一の棒と比較してください。大増税ではないですか！
+数秒間表示されたチャートには数字が記されていましたが、小さくて読みにくいものでした。増税幅は約５％でしたが、チャートの棒は不格好なほど誇張されていました。
+私は税金が嫌いなことにかけては誰にも負けませんが、疑わしいチャートによる議論は、作者の政治的傾向に関わらずさらに受け付けられません。
+こんなチャートを作った人は、チャートの基本原則を無視しています。数値がオブジェクト（この場合は棒）の高さで表される場合、その高さは数値に比例しなければなりません。したがって、グラフのベースラインは０にすることが望ましいのです。
+0以外のベースラインで棒グラフを開始するのは、数字の認識をゆがめる最もありふれたトリックです。規模のごまかしはイデオローグや詐欺師の手段の一つに過ぎず、これから見ていくようにはるかに見つけにくいものは他にもたくさんあります。
 
-On September 10, 2015, the Pew Research Center published a survey testing U.S. citizens’ knowledge of basic science.11 One of the questions asked participants to decode the following chart. Try to read it and don’t worry if you get it wrong:
-In case you’ve never seen a chart like this, it’s called a scatter plot. Each dot is a country; we don’t need to know which one. The position of each dot on the horizontal axis corresponds to the daily sugar consumption per person. In other words, the farther to the right a dot is, the more sugar people consume in that country, on average.
-The position of a dot on the vertical axis corresponds to the number of decayed teeth per person. Therefore, the higher up a dot is, the more bad teeth people in that country have, on average.
-You’ve probably detected a pattern: in general, and with some exceptions, the farther to the right a dot is, the higher up it tends to be as well. This is called a positive correlation between two metrics: sugar intake is positively correlated with worrisome dental health at the country level. (This chart on its own does not prove that more sugar leads to more decayed teeth, but we’ll get to that soon.) Correlations can also be negative; for instance, the more educated countries are, the smaller the percentage of poor people they usually have.
-The scatter plot is a kind of chart that is almost as old as those we all learn to read in elementary school, such as the bar graph, the line graph, and the pie chart. Still, roughly 4 out of 10 people in the survey (37%) couldn’t interpret it correctly. This may have to do in part with how the questions in the survey were posed or some other factors, but it still suggests to me that a large portion of the population struggles to read charts that are commonplace in science and that are also becoming common in the news media.
-And it’s not just scatter plots. It also happens with charts that, at least at first glance, look easy to read. A group of researchers from Columbia University showed the following pictorial chart to more than 100 people:12
-The chart reveals that “Victor,” an imaginary fellow, is consuming more fruit servings per week than other men of his age, but fewer than the recommended 14 servings per week.
-What the chart is intended to say is: “Victor is currently eating 12 servings of any kind of fruit every week. He’s eating more than the average man in his age group, but 12 servings aren’t enough. He should be eating 14.”
-Many participants read the chart too literally. They thought that Victor needed to eat the exact same amount and kinds of fruits portrayed in the chart 14 times every week! A participant even complained, “But a whole pineapple?” The results were similar if the icon used to represent “fruit serving” was a single apple. In that case, one participant complained about the “monotony” of eating the same fruit every day.
- 
-Charts are still seductive and persuasive, whether or not many people are able to read them correctly. In 2014, a team of researchers from New York University conducted several experiments to measure how persuasive charts are in comparison with textual information.13 They wanted to see whether three charts— about the corporate income tax, incarceration rates, and the reasons children play video games— modified people’s opinions. For instance, in the case of video games, the goal was to show participants that, contrary to some messages in the media, children don’t play video games because they enjoy violence, but because they want to relax, let their imaginations fly, or socialize with friends.
-Many participants’ minds changed because of the charts, particularly if they didn’t have strong preexisting opinions about the charts’ topics. The authors conjectured that this happened “partially due to the increased sense of objectivity” that “evidence supported by numbers carries.”
+また、チャートが正しく設計されていても、正しい読み方が分からない（つまりシンボルや規則が把握できない）ので、意味を誤解する可能性があります。
+一般的な通念とは逆に、優れたチャートのほとんどは、簡単に直感的に理解できる、シンプルで美しいイラストではありません。
+ピュー・リサーチ・センターは2015年9月10日、米国民の基礎科学知識を検証する調査結果を発表しました。11の質問の一つは以下の表を解読するよう参加者に求めるものです。間違っていても心配しないで。
+これは散布図で、点はそれぞれの国、横軸は１人当たりの１日の砂糖消費量に相当します。つまり、点が右側にあるほど、その国で消費される砂糖の平均量は多いということです。
+縦軸の点の位置は一人あたりの虫歯の数に相当します。だから、平均して点が高い位置にあるほど、その国の人は虫歯が多いことになります。
+あなたはおそらくこんな規則性を見つけるでしょう。
+一部の例外を除き、点が右に行くほど高い位置になる―これは二つの指標間に正の相関があるといえます。相関は負の場合もあります。例えば教育水準の高い国ほど貧困率は低くなっています。
+散布図は、棒グラフ、折れ線グラフ、円グラフなど、小学校で習うものとほぼ同じくらい基本的なグラフですが、調査対象の10人に4人(37%)が正しく理解できませんでした。これは、調査の質問がどのように提示されたか、または他の要因と関係しているかもしれませんが、それでも私には、多くの人が科学でも、ニュースでも一般的なチャートを読解するのに苦労していることを示唆しているように思われます。
+散布図だけではなく、一見見やすそうなグラフにも同じことが言えます。コロンビア大学の研究者グループは、100人以上の被験者に次のような図を見せました。
+グラフを見ると、架空の男性「ビクター」は、毎週同年代より多くの果物を摂取しているが、推奨されている週14皿よりは少ないことがわかります。
+このチャートが言いたいのは、「ビクターはあらゆる種類の果物を毎週12皿食べている。同世代の平均的な男性より多く食べているが、12皿では足りない。14皿食べるべきだ」ということです。
+ところが、多くの参加者はチャートを過剰なほどそのまま解釈しました。彼らは、ビクターはチャートに描かれた通りの量と種類の果物を毎週14回食べる必要があると考えたのです!
+ある参加者は「パイナップルを毎週１個？」と不満を言いました。果実食を表すアイコンを一つのリンゴにしたら、同じようなことが起きました。参加者の一人は毎日同じ果物を食べる「単調さ」に不満を訴えたのでした。
+多くの人が正しく読み取れるかどうかにかかわらず、チャートは魅力的で説得力があります。2014年、ニューヨーク大学の研究チームは、文字情報と比較してグラフがいかに説得力があるかを測定するためにいくつかの実験を行いました。
+彼らは、法人所得税、投獄率、子どもたちがビデオゲームをする理由に関する三つのチャートが人々の意見を変えたかどうかを調べました。
+例えば、ビデオゲームの場合は、メディアの一部のメッセージとは異なり、参加者に子どもたちは暴力を楽しむためではなく、リラックスし、想像を膨らませ、友達と交流するためにビデオゲームすることを示すことでした。
+チャートを見て考えを変えた参加者は、そのトピックに強い信念を持っていない人でした。論文の著者らは「数字で裏付けされた証拠があれば部分的に客観性が増加する」と推測しています。
 Studies like this have limitations, as their authors themselves acknowledged. For instance, it’s hard to tell what exactly participants found persuasive: Was it the visual representation of the numbers or the numbers themselves? As the saying goes, more research is needed, but the tentative evidence we have suggests that many of us are cajoled by the mere presence of numbers and charts in the media we consume, no matter whether we can interpret them well.
 The persuasiveness of charts has consequences. Very often, charts lie to us because we are prone to lying to ourselves. We humans employ numbers and charts to reinforce our opinions and prejudices, a psychological propensity called the confirmation bias.14
 Republican congressman Steve King, a strong proponent of strict limits to immigration, posted on Twitter in February 2018:
