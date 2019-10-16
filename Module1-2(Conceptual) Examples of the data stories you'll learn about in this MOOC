@@ -2,33 +2,20 @@
 
 こんにちは、私はヤン･ディエムです。データジャーナリズムサイト｢The Pudding｣のジャーナリスト兼エンジニアです。
 私たちは6～8人のジャーナリストやエンジニアからなる小さな集団で、ビジュアル･ストーリーを発表しています。
-今日は良いデータ･ストーリーとは何か、どのように見えるのか、この二つの要素を組み合わせてデータ･ストーリーを作る過程についてお話しします。
-
-First let's look at kind of what is Data storytelling. And right at the top of the putting site we
-say that we're a digital publication that explains ideas debated in culture with visual
-essays. Still, that's a pretty open-ended statement. And whenever I try to explain what it is
-I do to people always end up pulling out my phone and just showing them instead. But it's
-important to keep that definition of what we do, and kind of what data storytelling is a bit
-vague. After all, it's still evolving. Sometimes it's almost easier to describe what other types
-of data visualizations exist out there in order to define what data storytelling is.
-First, there's data academia and data science. We're thinking, you know, those black and
-white bar graphs that you see stuck inside of scientific papers. These are often really
-complex and hard to decipher. The average public just doesn't really connect with them.
-Historically, that's because scientists had to pay per figure in their paper, so they would
-cram in as much information as they could, and that would make these things really really
-complex.
-On the other side, there's data art. This is something that's on the opposite end of the
-spectrum. Here the data often doesn't look like a traditional chart or graphic at all. Instead
-it's something that looks like it belongs in a museum. It's engaging and it's captivating.
-Here we're looking at Nadieh Bremer's constellation of the royal family, where you can see
-kind of the familial connections between all of these royalty. Another great example of this
-data art is Giorgia Lupi's La Lettura project. And it's another project that is rooted in data
-but presents more as art.
-Data storytelling itself exists in the sweet spot between the two. It combines the function of
-academic and science data with the form of data art. It's sometimes described as
-edutainment because it both informs and delights. And what differentiates data storytelling
-is that your goal is to reach the broadest audience possible and to communicate a clear
-narrative and clear takeaways. Next, I'm gonna show you a quick video of some of the
-puddings work to give you an idea of what our data storytelling looks like. And I'll catch up
-with you guys in the next video where we'll run through a brief history lesson of how we got
-to where we are today.
+今日は良いデータ･ストーリーを形づくるのは何か、それはどのように見えるのか、この二つの要素を組み合わせてデータ･ストーリーを作る過程についてお話しします。
+まず、データ・ストーリーテリングとは何かからお話ししましょう。
+私たちのサイトの冒頭には「私たちは議論されたアイデアを視覚的なエッセイで説明するデジタル出版である」と記されています。
+これではいまいちよくわからないので、私が人に説明するときには（実物を見せるため）携帯電話を取り出すことにしています。 
+しかし、これでは私たちが何をしているかという定義を維持することが重要であり、データ・ストーリーテリングの定義はあいまいです。
+つまり、データ・ストーリーテリングは進化し続けているので、それを定義するためには、どんなデータ可視化の類型が存在するのかを説明する方が簡単なのです。
+最初の例は、データサイエンスです。科学論文の中の白と黒の棒グラフを思い浮かべてください。とても複雑で、解読困難な代物です。
+市井の人々には縁がありません。歴史的に、科学者は論文中の図にそれぞれお金を払わなければいけなかったので、情報をなるべく詰め込んで複雑なものになってしまったのです。
+これに対し、データ・アートがあります。これはスペクトラムに例えれば（データサイエンスの）反対側に位置します。
+ここでは、データは従来のチャートやグラフィックとは別物に見えます。博物館にあるような、魅力的なものです。
+ナディー・ブレマーの「王室の星座」を見てみましょう。王族同士の婚姻関係を見ることができます。
+もう一つの例はジョルジア・ルーピの（コリエーレ・デラ・セラ紙で展開した）La Letturaプロジェクトです。
+これはデータに根差した別のプロジェクトですが、アートの側面もあります。
+データ・ストーリーテリングは、データサイエンスとデータ・アートの間のスイート・スポットに存在します。啓蒙と面白さを兼ね備えていることからエデュテイメント (edutainment) と呼ばれることもあります。
+データ・ストーリーテリングの価値を決めるのは、可能な限り幅広い聴衆に、明確な物語と目標を伝えることです。
+次に、私たちのいくつかの作品のビデオを通して、私たちのデータストーリーテリングがどのようなものかをお見せします。
+次のビデオでは、私たちの沿革について簡単に説明します。
