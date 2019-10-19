@@ -1,7 +1,6 @@
 Finding & Getting Data - Google Sheet's import HTML
-In this video I'm gonna show you a neat trick in Google Sheets to import tables from other
-pages into the spreadsheet automatically. It's called import HTML.
-Let me give you an example. Take a look at the football tables at The Guardian page. We
+このビデオでは、Google Sheetsを使って表を他のページからスプレッドシートに自動的にインポートするための便利な方法を紹介します。importHTMLと呼ばれます。
+実演してみましょう。ガーディアン紙のサッカーの表です。We
 have multiple tables that are representing different championships, football championships
 around the world. If we wanted to import all of these tables to Google Sheets we might
 want to do some, maybe select all of the text and then do some copy and pasting. Or, we
