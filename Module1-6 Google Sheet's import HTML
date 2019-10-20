@@ -20,34 +20,19 @@ importHTMLを使用して特定のテーブルまたは複数のテーブルを�
 どうしてうまくいかなかったのか見てみましょう。番号を２に変えると、求めている表がロードされます。
 コード上は私たちが見ているテーブルの前に、別のテーブルがあります。テーブルらしくない構造なので、私たちにはテーブルに見えないのです。
 「1」から「2」に番号を変更し、適切なテーブルをロードするだけです。importHTMLの動作速度を確認するために、さらに別の例を示します。
-
-Those are all tables that are you know, small tables like 25 rows, 10 rows. What if we
-wanted to load a table that has you know, hundreds of rows. Right. Let me let, me show
-you an example. This is a web page that shows airport, airport codes in Europe. And see
-that there are hundreds of airports here, all airports in Europe. And this is actually a table.
-So what if we wanted to import this table automatically to importHTML? So we just copy
-here the address "Copy", then you come back here, "importHTML" and then we put the
-URL between quotes. Comma, "table", comma again, table between quotes. And then we
-put the position of the table on the HTML code and then we hit enter. See how fast it
-loads, we have actually more than over 200 airports in Europe and it loads very fast.
-And the good thing about importHTML is that if I leave this table here as is, with the
-importHTML function loaded, it'll actually update automatically the table here on the
-Google Sheet if any changes happen on the website. So, if there's any update here or any
-update here, or any update here my Google Sheet will be updated automatically as well
-because importHTML access the website from time to time automatically to load the latest
-results. Now, some considerations are important. ImportHTML will only import HTML
-tables, so you need to check out the code to make sure that what you're importing is
-actually a table. Right. So if we, for example, right click here and do some inspecting to
-see the HTML code, we will see that there is actually a table tag here on the HTML code
-that describes this table. Sometimes there are elements on a web page that looks like an
-HTML table but they are not a table. They might be a Div, they might use a different tag to
-represent what we see as a table but it's not actually an HTML table. So that's a caveat of
-importHTML.
-The other thing that we need to consider is that the importHTML will only return tables that
-are visible to Google Sheets. Right. So because Google Sheets will try to access the
-website, the answer that the website gives to Google Sheets needs to be the HTML code
-that you see here on your browser. Sometimes some websites will prevent automated
-access so Google Sheets is sort of an automated access to the website. So some Web
-sites will block or prevent the full HTML code to be loaded. So, you might want to pay
-attention to that too if you get mixed results. So there it is, this is importHTML and this is
-how we import tables automatically to Google Sheets.
+ここまで見てきたのは25行とか10行の小さなテーブルでした。何百行ものテーブルをロードするときはどうでしょう。そうですね、例を挙げましょう。
+これはヨーロッパの空港コードを表示するWebページです。ここには数百のヨーロッパ中の空港が並んでおり、テーブルになっています。
+これを自動的にインポートしたらどうでしょう。URLを引用符で囲んで、","、"table",再び","、そしてテーブルの位置をHTMLコードに書き込みます。
+何と速いことでしょう、もう200以上のヨーロッパの空港をロードできました。
+加えてimportHTMLの良いところは、関数をロードしたままにしておいても、Webサイトで何らかの変更が行われた場合に、Google Sheetのテーブルが自動的に更新されることです。
+importHTMLは自動的にウェブサイトにアクセスし、最新のものをロードします。
+ただ、いくつか留意事項があります。importHTMLはHTMLテーブルだけをロードするので、コードを調べて、インポートしようとしているものが本当にテーブルなのか確認する必要があります。
+例えば、ここを右クリックして次の項目を確認します。
+HTMLコードを見ると、このテーブルを説明するtableタグがここにあることがわかります。
+Webページ上に、HTMLテーブルのように見えてもテーブルではない要素があることもあります。
+Divの場合もあれば、別のタグを使用してテーブルとして表示される場合もありますが、実際にはHTMLテーブルではありません。ご注意を。
+もう一つ注意すべきなのは、importHTMLが返すのはGoogle Sheetsに表示可能なテーブルだけだということです。
+そうですね。Google SheetsがWebサイトにアクセスしたとき、そのサイトからGoogle Sheetsへの返答は、ブラウザのここにあるHTMLコードでなければなりません。
+サイトによっては自動アクセスができない場合がありますが、（importHTMLが書かれた）Google SheetsはWebサイトへ自動アクセスするようなものなのです。
+一部のサイトでは丸ごとHTMLコードをロードするのをブロックまたは禁止しています。ですから、期待と異なる結果が出たときにはこの点にも注意が必要です。
+これがimportHTMLで、このようにして自動的にテーブルをGoogle Sheetsにインポートするのです。
