@@ -9,42 +9,18 @@ importHTMLを使用して特定のテーブルまたは複数のテーブルを�
 それではガーディアン紙のサッカーのテーブルがあるページに戻りましょう。たとえばラ・リーガ、スペインのプロリーグを表す２番目のテーブルをインポートします。
 アドレスバーのURLを引用符を付けたうえでcontrol+Cかcommand+Cでコピー＆ペーストしてください。
 引用符の後には区切り記号が必要ですが、Googleアカウントの言語設定によっては、この区切り記号が異なる可能性があります。これを見てください。
-ここでは "," を入力して "table" と打ち込みます。 And then lastly the position of the table on the web
-page. Now going back to the example we see that the "La Liga" table is the second table
-that I see on the page. So, let's type, go back and type the number "2". So it's important
-that the number is actually not between quotes. The URL parameter is, and the query
-parameter is, but the position of the table on the web page isn't. So after that, we then
-close parenthesis and then we hit enter and voila, we have the table that represents the
-results of the second table on the page at The Guardian.
-So what if we wanted to load the the third table? We might just change the number here at
-the top to number "3", and then it loads the table automatically. Or we might go back to
-number "1" and then we can just copy the first cell here. So I'm copying it, right click,
-"Copy" and then I go down here on Row 7 and then I paste and then I change this to
-number "2". Now importHTML is importing actually two tables the first one and the second
-one. Notice that when I click on Row 1 A1, the number here is "1" which indicates that it is
-the first table on the web page. And then when I go to Row 7 it says table number 2. So
-that's one example. Let me remove this and give you another.
-This is the list of highest grossing Indian films. It's a Wikipedia article. See that there are
-multiple pages on this web page as well. And the web page makes us think that the first
-table that is showing the list of the highest grossing movies Indian movies is actually the
-first table here, right?, on the web. So let's, let's take a look at that. We copy the address
-here at the top "Copy". Then I go back here, empty cell 1, "=importHTML(". Then I quote
-the address, the URL needs to be between quotes, and then the second parameter, also
-between quotes, is a "table" and then "," again. And then, because this looks like the first
-table we're gonna use the number "1" here as well. And then we press enter, see what
-happens.
-It actually didn't load what it looks like to be the first table on the page. That's why H, that's
-that's because importHTML doesn't actually import the first table that we see. ImportHTML
-imports the HTML code of the page, and then it loads the first page, the first table that
-appears in the code. So we need to see actually if it doesn't work, in our case it didn't
-work. We might want to change a number here really quickly just to test, try and test to see
-if we can load the table that we're actually seeing. So if we change this to number "2", for
-the next table in the code then you'll see that it actually loads the table that we're seeing
-here. So there is a table here on the HTML code that comes before the table that we're
-seeing. There isn't a structure here that it was configured to be an HTML table but it's not
-appearing to be an HTML table for us. So you just, you just go there change the number
-from "1" to "2" and then you load the right table. Let me give you yet another example so
-that we see how fast importHTML works. Good.
+ここでは "," を入力して "table" と打ち込みます。 
+最後に、Webページ上のテーブルの位置を指定します。ラ・リーガは２番目のテーブルですから、２と入力します。このとき、引用符は必要ありません。
+括弧を閉じてエンターキーを押すとWebページの２番目の表が表示されます。３番目の表は「３」、１番目は「１」と変更するだけで、テーブルが自動的にロードされます。
+最初のセルをコピーして７列目にペーストし、（テーブルの位置を示す数字を）２に変えます。
+さて、これを削除して別の例をやってみましょう。これはインド映画の最高興行収入のリストです。これはWikipediaのページで、このページの中にも複数のテーブルがあります。
+ページを見ると、インド映画の最高興行収入を並べたリストが最初のテーブルに見えますよね？
+同じ手順で進めて、番号を「１」とし、何が起こるか見てみましょう。
+最初のテーブルと同じように見えるものはロードできません。ImportHTMLは、ページのHTMLコードをインポートし、コード内の最初のテーブルをロードします。
+どうしてうまくいかなかったのか見てみましょう。番号を２に変えると、求めている表がロードされます。
+コード上は私たちが見ているテーブルの前に、別のテーブルがあります。テーブルらしくない構造なので、私たちにはテーブルに見えないのです。
+「1」から「2」に番号を変更し、適切なテーブルをロードするだけです。importHTMLの動作速度を確認するために、さらに別の例を示します。
+
 Those are all tables that are you know, small tables like 25 rows, 10 rows. What if we
 wanted to load a table that has you know, hundreds of rows. Right. Let me let, me show
 you an example. This is a web page that shows airport, airport codes in Europe. And see
