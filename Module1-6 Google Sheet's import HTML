@@ -1,30 +1,15 @@
 Finding & Getting Data - Google Sheet's import HTML
 このビデオでは、Google Sheetsを使って表を他のページからスプレッドシートに自動的にインポートするための便利な方法を紹介します。importHTMLと呼ばれます。
-実演してみましょう。ガーディアン紙のサッカーの表です。We
-have multiple tables that are representing different championships, football championships
-around the world. If we wanted to import all of these tables to Google Sheets we might
-want to do some, maybe select all of the text and then do some copy and pasting. Or, we
-might want to do automatically the import of a specific table or multiple tables from this
-page directly to a Google Sheet and we can do just that with importHTML.
-Let me show you how it works. So you go to any empty cell and then you type
-"=importHTML" and then "(". See that "importHTML(" takes three parameters. The first one
-is the URL of the web page where your table is. The second one is a query, what they call
-a query. It could be either a table or a list of items. In our case it's going to be a table and it
-has to be an HTML table. And the last parameter is the position of the table on the web
-page. So let's go back to the football tables page at The Guardian.
-So we have several tables here. And if we wanted to import for example the second table
-here that represents "La Liga", the Spanish Championship we might want to do this. So we
-copy the URL that's in the address bar. We can right click and copy or do, control+C, or
-command+C and then we come back to the Google Sheet and then we need to do quotes.
-So every time you type in the URL parameter and importHTML, it has to be between
-quotes and then we do command+C to paste the address and then another quotes and
-then we use the separator. Notice that the separator is indicated on the two tip that Google
-Sheets presents to you. Depending on the language settings of your Google account in
-Google Sheets, this separator could be a different character so if your importHTML
-malfunction is not working it might be that you're using a different separator as I am. So
-take a look at that.
-So I'm gonna put "," here, and then I'm gonna put the word "table" between quotes
-because that's what we're importing. And then lastly the position of the table on the web
+実演してみましょう。ガーディアン紙のサッカーのテーブルです。世界中のさまざまなサッカー選手権のテーブルがあります。
+これらのテーブルを一括してGoogle Sheetsにインポートするには、すべてのテキストを選択してから、コピー&ペーストします。
+importHTMLを使用して特定のテーブルまたは複数のテーブルをこのページから直接Google Sheetに自動的にインポートすることもできます。
+まずやってみましょう。空白のセルに移動して「=importHTML (HTML形式)」と入力し、次に「(」と入力します。「importHTML (」には三つのパラメータが必要です。
+最初はテーブルがあるWebページのURLです。二つ目はクエリと呼ばれており、テーブルかリストかを選択できます。
+ここではテーブルを選択するので、HTMLテーブルでなくてはいけません。最後のパラメータは、Webページ上のテーブルの位置を指定します。
+それではガーディアン紙のサッカーのテーブルがあるページに戻りましょう。たとえばラ・リーガ、スペインのプロリーグを表す２番目のテーブルをインポートします。
+アドレスバーのURLを引用符を付けたうえでcontrol+Cかcommand+Cでコピー＆ペーストしてください。
+引用符の後には区切り記号が必要ですが、Googleアカウントの言語設定によっては、この区切り記号が異なる可能性があります。これを見てください。
+ここでは "," を入力して "table" と打ち込みます。 And then lastly the position of the table on the web
 page. Now going back to the example we see that the "La Liga" table is the second table
 that I see on the page. So, let's type, go back and type the number "2". So it's important
 that the number is actually not between quotes. The URL parameter is, and the query
