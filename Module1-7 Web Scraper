@@ -1,29 +1,15 @@
 Finding & Getting Data - Web Scraper
 このビデオでは、Google ChromeのWeb Scraperというとても便利な拡張機能を使う方法をお見せします。
 Chrome　Webストアから検索してダウンロードしてください。こんな感じのページです。
+Web Scraperを使用すると、Webサイトから情報をスクレイピングして、独自のデータセットを作成することができます。例えば、Billboard200のウェブページを見てみると、毎週のトップ曲がリストされています。
+このデータセットを取得するにはコピー＆ペーストする必要がありますが、全てをコピー＆ペーストすることはできないので、（このままでは）全ての情報を手で入力するしかないのです。
+テーブルではないので、importHTMLは機能しません。私たちの目標は、全ての情報をテーブルに取り込み、このようにすることです。
+この情報をスクレイピングした時点でのアーティスト、順位、URL、さらにはスクレイピングした週までもが列に入っています。
+これを実現するために必要なのは特定のパターンを見つけて情報を収集し、データセットにすることです。
+Webページを見てみましょう。白いボックスが見えますよね。パターンを見つけて情報を集めるにはどうしたらいいのでしょうか。
+このボックスは200個あって、必要な情報はこの中に納められています。曲の名前はここ、アーティスト名はここ、順位はここにあって、そうそう、アルバムの画像もここにあります。週の情報もここにありました。
+ここでは、Web Scraperを使用してこれらの情報をすべて収集します。
 
-Web Scraper allows you to scrape information out of websites so that you can start
-building your own data sets. So for example, take a look at the Billboard 200 web page
-which lists the top songs in any given week, the 200 top songs for Billboard. And if you
-wanted to get the data set out of this you probably would have to copy and paste all of the
-information here. You can't really copy all of this, and then paste somewhere else. You
-probably have to manually put all the information here. And this is not actually a table. So,
-importHTML on Google Sheets will not work here. So what we want to try to do is then
-capture all of the information that is here to making to a table with columns so that in the
-end it will look something like this. Have a song in a column, the artist, the position, you
-know, the URL for the image and even the week for the particular day that we scraped this
-information.
-So coming back here what we want to do is to find patterns that we can identify so that we
-can scrape this information into, this information into a data set. And what we're going to
-do is just take a look at the web page and see that there are boxes right there like, white
-boxes here and scraping information is always trying to find patterns. So how you can find
-these patterns and then transform this into the data that the data set that you need. So in
-this case there are all of these white boxes. There are two hundred of them. They have all
-of the information that we need. And if we take a look at you know like the variables, like
-the name of the columns that we want they're all in here. The name of the song is here,
-the name of the artist. The position is here and also in the album, right, the image of the
-album. Right. And even the information about the week is here. So we're going to scrape
-all of this information using Web Scraper.
 So you do that by accessing the Web Inspector menu. So right click anywhere on the web
 page and then click on "Inspect", and see here that on the rightmost part of the tab there is
 a new option called Web Scraper. Now if you, if you had your tab on the right side just click
