@@ -9,17 +9,11 @@ Web Scraperを使用すると、Webサイトから情報をスクレイピング
 Webページを見てみましょう。白いボックスが見えますよね。パターンを見つけて情報を集めるにはどうしたらいいのでしょうか。
 このボックスは200個あって、必要な情報はこの中に納められています。曲の名前はここ、アーティスト名はここ、順位はここにあって、そうそう、アルバムの画像もここにあります。週の情報もここにありました。
 ここでは、Web Scraperを使用してこれらの情報をすべて収集します。
+まず、Webインスペクタメニューにアクセスします。任意の場所を右クリックし、「検証」を選ぶとタブ右端にWeb Scraperという新しいオプションが表示されます。
+ここにある三つの点から"Dock to bottom"を選択すると画面下部にWeb scraperが展開されます。上部には三つの選択肢があり、これがsitemapです。
+これはスクレイピングを開始するロボットとルーチンです。「新しいサイトマップの作成」または「新しいサイトマップのインポート」というオプションがあります。
+「サイトマップの作成」を選択し、Billboard200という名前を付けて、URLを入力します。
 
-So you do that by accessing the Web Inspector menu. So right click anywhere on the web
-page and then click on "Inspect", and see here that on the rightmost part of the tab there is
-a new option called Web Scraper. Now if you, if you had your tab on the right side just click
-here on this. The three dots here and select here this option, "Dock to bottom", and then
-you can see Web Scraper here. Now Web Scraper starts here as blank. You have three
-options at the top, Sitemaps, that's how they call the robots that will start scraping and the
-routines that will start scraping things for you. We have a Sitemaps options and then here
-to "Create a new sitemap" or "Import a new sitemap". We're going to go ahead and select
-"Create sitemap" going to give a name, Billboard 200, and then the URL. Is this URL right
-here. And then we click on "Create sitemap".
 And now what we're going to do is to add a new selector. Selector are, you know, the
 information that we can identify elements on the web page. So just click here and the blue
 button and we want to tell Web Scraper where these white boxes are. Right. We want to
@@ -41,7 +35,8 @@ about this. Web Scraper automatically selects, identify the selector for you. Ju
 on "Done selecting!" And notice that this will come here. And then once you do that this is
 the right signal so you can even preview this data. There's no data here that we're
 scraping but it can also do an "Element preview" and you see that all of the the boxes are
-selected. So we save this, and now we have the box. Now we have the routine to capture
+selected. So we save this, and now we have the box.
+Now we have the routine to capture
 the box, but we need the routine to capture information in all of the 200 boxes.
 So if you, if you hover your mouse here you see that it highlights in gray the box row here.
 And if you click on the box, notice that we're now inside of this like generic boxes that we
