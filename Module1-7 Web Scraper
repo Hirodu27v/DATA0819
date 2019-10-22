@@ -13,29 +13,20 @@ Webページを見てみましょう。白いボックスが見えますよね�
 ここにある三つの点から"Dock to bottom"を選択すると画面下部にWeb scraperが展開されます。上部には三つの選択肢があり、これがsitemapです。
 これはスクレイピングを開始するロボットとルーチンです。「新しいサイトマップの作成」または「新しいサイトマップのインポート」というオプションがあります。
 「サイトマップの作成」を選択し、Billboard200という名前を付けて、URLを入力します。
+次に、新しいSelectorを追加します。Selectorは、Webページ上の要素を識別できる情報です。
+ここをクリックして青いボタンをクリックするだけで、この白いボックスがどこにあるのかWeb Scraperに指示できます。そうですね。
+Web Scraperに「Web Scraper、このページで200個のボックスを検索」と指示し、ボックスのどこに情報があるかを伝えスクレイピングできるようにします。
+ここではこれをBOXと名付けましょう。これはWebページの要素なので、ここでのタイプはElementです。
+「Select」をクリックすると、 「multiple」のボックスが表示されます。このチェックボックスをオンにします。
+マウスを動かし始めると、Webページの要素がすべて表示され、どの部分を選択できるかが示されます。
+右下の隅にカーソルを合わせるとボックス全体が緑になります。クリックすると赤になります。
+次のボックスも同じようにして選択すると、Web scraperは他のボックスがどこにあるかを推測しようとします。
+でも21個目で止まってしまいます。21個目のボックスも選択すると、ページ内の200個のボックスが全て識別されていますね。
+ここに、これらのすべてのボックスを記述するselectorが入っていることがわかります。
+気にしなくても、自動的にselectorは入力されます。 "Done selecting!" をクリックします。データをプレビューすることもできます。
+まだスクレイピングしたデータはありませんが、要素のプレビューも可能です。ボックスの全てが選択されていることが確認できます。
+保存してBOX（というselector）ができました。
 
-And now what we're going to do is to add a new selector. Selector are, you know, the
-information that we can identify elements on the web page. So just click here and the blue
-button and we want to tell Web Scraper where these white boxes are. Right. We want to
-tell Web Scraper, "Web Scraper find 200 boxes on this page", and then after that we're
-going to tell Web Scraper where the information is in all of these boxes so that it can
-scrape it. But for now let's just call this "box" and it's an element on the web page. Right.
-So the type here is "Element". We click here on "Select", and this is, this is going to be
-multiple boxes. So we check this box here called multiple. And look when you start
-hovering your mouse around you see that Web Scraper interact with the webpage showing
-all of these elements and how clickable they are and how selectable they are.
-So what we want to do is to find a spot here in the right lower corner that highlights in
-green the full box at the top. We're going to click here and then it will become red, as soon
-as we click. And then we're going to do the same for the next one and see that Web
-Scraper tries to guess where all of the other boxes are. But then it stops at the 21st. So
-we're gonna do that again for the 21st, and see that it identified all of the 200 boxes here
-on the page. So this is where we want to be, right. We do this, and now notice that here,
-there is selector that identifies that describes all of these boxes you don't have to worry
-about this. Web Scraper automatically selects, identify the selector for you. Just click here
-on "Done selecting!" And notice that this will come here. And then once you do that this is
-the right signal so you can even preview this data. There's no data here that we're
-scraping but it can also do an "Element preview" and you see that all of the the boxes are
-selected. So we save this, and now we have the box.
 Now we have the routine to capture
 the box, but we need the routine to capture information in all of the 200 boxes.
 So if you, if you hover your mouse here you see that it highlights in gray the box row here.
