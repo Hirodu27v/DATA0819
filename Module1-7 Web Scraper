@@ -26,16 +26,10 @@ Web Scraperに「Web Scraper、このページで200個のボックスを検索�
 気にしなくても、自動的にselectorは入力されます。 "Done selecting!" をクリックします。データをプレビューすることもできます。
 まだスクレイピングしたデータはありませんが、要素のプレビューも可能です。ボックスの全てが選択されていることが確認できます。
 保存してBOX（というselector）ができました。
+ボックスをキャプチャするルーチンができましたが、次に200個のボックスの中の全ての情報をキャプチャするルーチンが必要です。
+マウスをここに置くとボックスが灰色で強調表示されます。ボックスをクリックするとここで選択した一般的なボックスが表示されます。
+Web Scraperに「ボックスの場所は教えたから、次はそれぞれのボックスの中の情報をキャプチャしてデータセットを作るように」と指示します。
 
-Now we have the routine to capture
-the box, but we need the routine to capture information in all of the 200 boxes.
-So if you, if you hover your mouse here you see that it highlights in gray the box row here.
-And if you click on the box, notice that we're now inside of this like generic boxes that we
-selected here. We can come back to "_root" and we're going to come back there in a
-second, but then we would click on the box and now we're in this box that we just
-described and we want to tell Web Scraper, "look you know the location of the two
-hundred boxes, but now I want you to capture information in every single box and do the
-data set for me".
 So, we're going to capture the name of the song, the name of the artist, the position, and
 the URL of the image of the album, and let's do that. So, you "Add new selector",
 remember inside here of the box. So we add a new selector, let's call this selector "song".
