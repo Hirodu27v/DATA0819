@@ -29,31 +29,18 @@ Web Scraperに「Web Scraper、このページで200個のボックスを検索�
 ボックスをキャプチャするルーチンができましたが、次に200個のボックスの中の全ての情報をキャプチャするルーチンが必要です。
 マウスをここに置くとボックスが灰色で強調表示されます。ボックスをクリックするとここで選択した一般的なボックスが表示されます。
 Web Scraperに「ボックスの場所は教えたから、次はそれぞれのボックスの中の情報をキャプチャしてデータセットを作るように」と指示します。
+それでは、曲名とアーティスト名、順位とアルバム画像のURLを取得します。"Add new selector"はBOXの中で行うことに注意してください。
+新しいselectorを選択し、これを「song」と名付けます。「選択」をクリックし、曲名を選択します。
+曲名が識別されたら、"Done selecting!"をクリックします。データをプレビューすると、全ての曲名がここに入っているので問題ありません。
+selectorを保存します。新しいものを追加します。青のボタンをクリック。アーティスト名です。これはテキストなのでtypeはテキストを選びます。
+selectorは「a」です。"Done selecting!" 。ここにはキャプチャされた全てのアーティスト名が表示されます。「保存する」をクリックします。
+次は順位です。これもテキストです。"Select"をクリックし、順位をクリックします。そしてまた"Done selecting!"。ここで疑問に思われるかもしれませんが、「multiple」をオンにするとどうなるでしょう。
+そうですね。先ほどは複数のボックスをキャプチャするために使いました。ここでは順位は黄色のボックスの中に一つしかありません。
+複数のエレメントを選択する場合のみmultipleを選択します。この場合は順位も曲名もアーティスト名も一つしかないので、その必要はありません。さて、またselectorを保存します。
+次はアルバム画像です。これはイメージなのでselector名も「image」としましょう。アルバム画像を選択し、"Done selecting!"をクリックしてから保存します。
+ "_root"に戻って（「BOX」の）データをプレビューすると、必要なものがほぼ全てそろっているのが分かります。
+曲名、アーティスト名、順位と画像のURLを手に入れました。しかしもう一つ、日付が必要だと思いませんか？日付はこのトップのところにあります。
 
-So, we're going to capture the name of the song, the name of the artist, the position, and
-the URL of the image of the album, and let's do that. So, you "Add new selector",
-remember inside here of the box. So we add a new selector, let's call this selector "song".
-And then, we click here on "Select", and then we select the name of the song, it identifies
-which selector it is and then click on "Done selecting!". We can do a data preview. So it
-captures all of the name of the songs here so it looks fine, and then we save the selector.
-Now we add a new one. Click on the blue button. This will be, this will be the artist.
-This is also a text type because it's text here on the page. So we click here, this is the
-artist. It's an "a" selector. We click on "Done selecting!" And then we can do a data
-preview. Here it shows all the names of the artists that it captured on this page. We save
-the selector. Now we're going to add the position. Now this is also a text element. So we
-click here on "Select" and here's the position and then then "Done selecting!".
-Now you might be asking, why not check the box multiple? Right. Because we check that
-for the multiple boxes that we were capturing. Since we're capturing only one position
-here, there are not multiple positions inside of this yellow box, we're not going to check the
-multiple boxes. Only when there are occasions that you have to select multiple elements
-that repeat in positions or in different cases, that you would select multiple. But in this case
-is just one position, one name of song, one artist, so you don't check the multiple box.
-All right. So we save the selector too. Now we're going to add the image, right. So this is
-an image, and then we'll call this "image". We select here, the image of the album and
-then "Done selecting!", and then we save. Now if we go back to "_root" and do "Data
-preview" here, you will see that it already almost has everything that we need right.
-We have the song, the artist, the position and then the URL of the song. But it's not quite
-everything that we want, because we also want the date, right? And date is here at the top.
 So what we want to do is to apply this date for every single row here. And to do that, we go
 back to "_root" where we are. So we were in a box, now we go back to "_root" and then we
 add a new selector for the date. And this is also a text selector, and then we're going to
