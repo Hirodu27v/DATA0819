@@ -41,25 +41,15 @@ selectorは「a」です。"Done selecting!" 。ここにはキャプチャさ�
  "_root"に戻って（「BOX」の）データをプレビューすると、必要なものがほぼ全てそろっているのが分かります。
 曲名、アーティスト名、順位と画像のURLを手に入れました。しかしもう一つ、日付が必要だと思いませんか？日付はこのトップのところにあります。
 次にやるべきは各列に日付をつけることです。
-"_root" に戻りましょう。So we were in a box, now we go back to "_root" and then we
-add a new selector for the date. And this is also a text selector, and then we're going to
-highlight here all of this, and then we're gonna do "Done selecting!" But notice when you
-preview this, it gets all of this information here that I don't want, I just want this "August
-31st" and then 2019. So how do how do you can extract just this?
-I'm not gonna go into details because I'm going to use regular expressions to do that. Feel
-free to google regular expressions or great tutorials, great classes about regular
-expression. They're very powerful, especially in programming. But thankfully the Web
-Scraper also has a "Regex" or a regular expression field here that you can apply regular
-expressions. So what we're gonna do is just I'm going to get all of this, and I want to find a
-pattern to extract just this part here. This "August 31st, 2019" and I'm gonna do it in a way
-that it extracts every time there is a text here that shows a word in a number comma, a
-year it's going to extract just that.
-So, I'm going to go here to this online regular expression tester, and see that I already
-have here my string. So the week of August 31st, 2019 and then last week, next week,
-current week, date search. What I'm doing here is using regular expression and I have
-three elements. The first one is a "\w+" and it means this backslash is like a standard when
-you want to use like in something of a token, that's called this "w" here. So "w" means any
-word character. So any a, b, c, d, or any number. So it matches anything that happens
+今はBOXの中にいるので"_root" に戻りましょう。そして新たに日付のselectorを作ります。
+これもテキストのselectorです。ハイライト表示された部分を選んで "Done selecting!"
+しかし、余計な情報も含まれています。必要なのは "August 31st"と2019だけです。どうやって抽出すればいいのでしょうか？
+ここで正規表現を使いますが、詳細には触れません。「正規表現とは」とか優れたチュートリアル、よくできたクラスをぜひGoogleで検索してみてください。
+特にプログラミングでは非常に強力な概念です。ありがたいことにWeb Scraperには"Regex"という正規表現を適用するフィールドがあります。
+ここでは、日付だけを抽出するためのパターンを見つけたいと思います。"August 31st, 2019" といったような数字とコンマから構成されるテキストを抽出するようにします。
+では、このオンラインの正規表現テスターを見てみましょう。8月31日の週とその前後の週、日付検索のストリングがあります。正規表現には三つの要素があります。7
+最初は "\w+"で、バックスラッシュはトークンのようなものです。ｗは任意の文字で、a, b, c, dでも任意の数字でもかまいません。
+So it matches anything that happens
 here and the "+" means any character to just one character, or an infinite number of
 characters until it hits the space. But it's not only a space, it's a space that comes before
 like a "\d" which means digits. Right. So it matches a digit equals to 0-9, and the plus
