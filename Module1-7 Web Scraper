@@ -40,9 +40,8 @@ selectorは「a」です。"Done selecting!" 。ここにはキャプチャさ�
 次はアルバム画像です。これはイメージなのでselector名も「image」としましょう。アルバム画像を選択し、"Done selecting!"をクリックしてから保存します。
  "_root"に戻って（「BOX」の）データをプレビューすると、必要なものがほぼ全てそろっているのが分かります。
 曲名、アーティスト名、順位と画像のURLを手に入れました。しかしもう一つ、日付が必要だと思いませんか？日付はこのトップのところにあります。
-
-So what we want to do is to apply this date for every single row here. And to do that, we go
-back to "_root" where we are. So we were in a box, now we go back to "_root" and then we
+次にやるべきは各列に日付をつけることです。
+"_root" に戻りましょう。So we were in a box, now we go back to "_root" and then we
 add a new selector for the date. And this is also a text selector, and then we're going to
 highlight here all of this, and then we're gonna do "Done selecting!" But notice when you
 preview this, it gets all of this information here that I don't want, I just want this "August
