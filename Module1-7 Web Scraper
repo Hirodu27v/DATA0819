@@ -49,46 +49,24 @@ selectorは「a」です。"Done selecting!" 。ここにはキャプチャさ�
 ここでは、日付だけを抽出するためのパターンを見つけたいと思います。"August 31st, 2019" といったような数字とコンマから構成されるテキストを抽出するようにします。
 では、このオンラインの正規表現テスターを見てみましょう。8月31日の週とその前後の週、日付検索のストリングがあります。正規表現には三つの要素があります。7
 最初は "\w+"で、バックスラッシュはトークンのようなものです。ｗは任意の文字で、a, b, c, dでも任意の数字でもかまいません。
-So it matches anything that happens
-here and the "+" means any character to just one character, or an infinite number of
-characters until it hits the space. But it's not only a space, it's a space that comes before
-like a "\d" which means digits. Right. So it matches a digit equals to 0-9, and the plus
-means matches between 1 and unlimited time, so any number of digits. So, it's a word with
-any number of characters, a space that comes before any number of digits, and then there
-is a comma, and then a space, and then four digits. That's what this means here.
-And if you copy this here to the regular expression field in a web scraper and you do a
-data preview you see that it extracts everything out and then it relieves only the August
-31st, 2019. And that's exactly what we want. I'm gonna save this selector here and then
-we're all done. So we're gonna go here. Here you can select other options, you can see
-the selector graph where you see the "_root" and then all of the other selectors and then
-the relation between them.
-It can get fairly complicated depending on the complexity of the page. You can edit the
-metadata, the name of the site, or the URL. You can also scrape. You can browse the
-scrape data and you can even export this site map. So this is like a Jason that you can
-string, that you can export and use in other computers, or send to a friend that will load the
-same scraping routine in other computers. Or you can tweak it a bit to change the website.
-So there is a way to export.
-And then you can import as well and then you can export the data that you scraped as
-"CSV". So we're gonna go ahead and scrape here on this option. So it gives you two, two
-options. The "request interval" which is like the amount of time that you will wait until it
-does a request to the website. And two ms, which is two seconds is good practice. So you
-don't wanna be hammering the site with requests, so we might look suspicious. The
-webmaster might think that you're trying to take this website, down so we don't want it
-dead. You want to use this option responsibly.
-And then there's the page load delay. The page load delay is the amount of time that web
-scraper waits for the page to load and then to scrape the data. So you might want to give
-the Web site some time to load the data and then to scrape it to finish, so that you can
-guarantee that all elements load before you start capturing information with that.
-So two and two seconds are good numbers to start but you might tweak it depending on
-your case. So you click here on "start scraping", it opens a window. It waits two seconds to
-load the page and then you wait two seconds to do the request, and then it scrapes the
-data. And if you click here on "refresh" it will load all of the data that it just scraped, and
-voila, we have here the same metadata that Web Scraper adds. This is the web scraper
-I.D. for each one of the records, you have to start URL. Here we have the data that we
-really want to scrape which song, the artist, the position, the image URL, and also the date
-that was applied to every record here.
-So now we can go ahead and click here and export this site at CSV. And when you click
-here you're going to download the CSV file to your computer, and then you can import the
-CSV file to any other spreadsheet application to start analyzing or cleaning, or editing, or
-building your dataset. So that's it for Web Scraper. So, go to the Chrome Web Store,
-download the extension and start scraping.
+どんな任意の文字でも入力でき、それに続く「＋」はスペースに達するまでどんな文字数でも許容することを示しています。
+ただ、これは単なるスペースではなく、数字を意味する「\d」の前にあるスペースです。
+つまり、任意の文字数の文字と、任意の数の前にスペースがあり、その後にコンマ、スペース、4桁の数字がある単語、これがこの正規表現の意味するところです。
+Web scraperの正規表現のフィールド（Regex）にこれをコピーしてプレビューしてみると、「2019年８月31日」だけが表示されます。
+これこそ私たちが望んでいた結果です。selectorを保存して終了します。ここに行きましょう。
+ここでは、他のオプションを選択できます。セレクタ・グラフには"_root"と他の全てのselectorの関係が表示されます。これはページによってはかなり複雑になります。
+メタデータ、サイト名またはURLを編集したり、スクレイピングすることもできます。スクレイピングしたデータを見たり、サイトマップをエクスポートしたりすることもできます。
+これはJSONのようなもので紐づけたり、他のコンピュータで使用したり、友人に送信して別のコンピュータでスクレイピングルーチンを読み込んだりすることができます。
+サイトを変更するために調整することも可能です。というわけでエクスポートする方法もあるのです。
+また、読み込んだデータをCSVファイルとして書き出すこともできます。このオプションについて見てみましょう。
+二つの選択肢があります。リクエスト間隔とはWebサイトにリクエストをする間の待機時間です。2000ミリ秒、つまり２秒は妥当なところです。
+サイトに負荷をかけられるのはみんな嫌なので、過度に頻繁なリクエストは怪しまれるでしょう。サイトの管理者はあなたがサイトをダウンさせようとしていると考えるかもしれません。
+このオプションは責任をもって管理してください。
+もう一つは「遅延読み込み」です。これはweb scraperがページを読み込んでからデータをスクレイピングするまでの時間（をとること）です。
+Webサイトに少しデータを読み込むための時間を与えて、スクレイピングするのですが、このとき情報をキャプチャする前に全てのデータが読み込まれていることを確かめてください。
+最初は2000ミリ秒がいいでしょう。後で調整するかもしれません。
+"start scraping"をクリックすると別ウィンドウが開きます。ページを読み込むのに２秒、リクエストを実行するのにさらに２秒かかります。
+"refresh"を実行するとWeb scraperが追加するのと同じ情報が表示されます。まず初めにあるのはIDとURLです。そしてここにデータがあります。
+曲名、アーティスト、順位、画像のURL、データが適用された日付がそろっている必要があります。
+次に、ここをクリックして、CSV形式でエクスポートします。ここをクリックすると、CSVファイルがコンピュータにダウンロードされます。
+これでCSVファイルを他の表計算アプリケーションにインポートして、分析、クリーニング、編集、またはデータセットの構築を開始できるようになりました。
