@@ -24,15 +24,9 @@ Preparing Data - Data Integrity
 １行目はたいてい、先ほどお話ししたようにここにあるデータは何かを説明する変数名です。合計値から手を付けて、空港名と州の略称を分割し、遅延と欠航の数値も分離することにしましょう。
 繰り返しになりますが、データのタイプごとに一つの列を割り当てる必要があります。これは加除、平均、最大値を求めるなどの計算を行う際に列内に競合するデータを置かないためです。
 もちろん重複した行を削除しなければなりません。誤字、脱字にも気を付けて。コンピュータにとっては「door」と「Door」は別物です。
-
-So, it's really important that we maintain the same kind of typing for all of the values that
-we have on our data set. So, if we want to do all caps or all lowercase but we need a
-standard that we apply for all of the values. The same for this one which has an empty
-space before " Door" so empty spaces that are trailing or after the words, before the
-words, those are also counted as different entities in a column. So, we need to, we need to
-make sure that we have a standard typing for all of the values in the data set. So that's
-why it's important in the cleaning phase to remove all of the spaces or fix the typos so that
-the data in the column it has integrity. And like I mentioned as well the first row, usually
+データセットに含まれるすべての値に対して表記を統一することが大切です。全て大文字にするのであれ、小文字にするのであれ、基準を適用しなければならないのです。
+" Door"のように文字の前に空白があったら、それは別物として認識されます。データをクリーニングする段階では全てのスペースを削除するとともに入力ミスを修正することが必要です。
+And like I mentioned as well the first row, usually
 has the name of the columns and usually we avoid including aggregated data like totals in
 the raw data source. That's because we're going to use software that will process the data,
 say apply formulas that will add so we don't need the total to be adding or being on top of
