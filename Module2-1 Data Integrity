@@ -33,26 +33,11 @@ Preparing Data - Data Integrity
 CSVはコンマで区切られた値を表します。他の区切り記号を使ったものにはTSVもあります。いずれにせよとても簡単に作成できます。
 区切り文字には、コンマ、セミコロン、パイプと呼ばれるこのような文字、タブなどがあります。
 Tabキーを押してスペースを入力したとき、通常、TSVファイルという名前を付けることになっています。
-
-So you just type in, you could create, you know in a text editor you just typing the names
-and then you put a comma. And usually what happens is this this first row here, this will be
-the columns row and when you create a new line, the new line will be the new row on our
-data set, on our database. And then we have the value here, the first value will be for the
-first column, the second one for the second one, and so on and so forth.
-So really look at what we're doing here with this is creating something like this. So this
-code here the CSV code here, will actually create when we visualize in a spreadsheet
-program like Google Sheets, will actually see the first row here and then the next row here
-with the values for each one of the columns. That's why it's super important for CSV files
-to have the same amount of elements in every single line. So it doesn't get mixed up,
-right? So it doesn't have, if you have a file that has seven columns like this one, the
-second line needs to have seven values as well. Even if it's an empty value it needs a
-comma there indicating that's an empty value. The most common delimiters are, like I
-mentioned comma, semicolon, pipe and also the tab when you press the tab on your
-keyboard. So when you create CSV files, fortunately you don't have to type all of the the
-values yourself on on a text editor. Most applications will export the CSV files for us. So
-just pay attention to the delimiter that is being used to generate the CSV file. Sometimes
-you trying to import a CSV file and then if something goes wrong it didn't recognize the
-delimiter depending on the country where you are. There is a convention on the kind of
-delimiter that you use, for example in the United States it's a comma. But in Brazil the
-standard it's the semicolon. So, that creates some confusion sometimes so you might want
-to check that out too if doesn't work in your case.
+テキストエディタで名前を入力してコンマを入力するだけです。最初の行はふつう列見出しです。
+そして新しい行はそのままデータセットやデータベースに反映されます。最初の値は最初のカラム、２番目の値は次のカラムに入力していきます。
+そうしていくとこんな感じのものが出来上がります。このCSVコードはGoogleシートのような表計算ソフトで読み込むとそのまま表示されます。
+そのため、CSVファイルでは１行ごとの要素の数をそろえることが大切です。このように七つの値をもつファイルなら、２行目にも七つの値が必要です。
+値がなくても、空白であることを示すコンマを入れましょう。一般的な区切り文字はコンマ、セミコロン、パイプやタブです。
+CSVファイルを作成するにあたって、全ての値をテキスト・エディタで入力する必要はありません。たいていのアプリケーションはCSVファイル形式でエクスポートしてくれるからです。
+ただ、CSVファイルの区切り記号には注意してください。国によっては区切り記号が認識されないことがあります。たとえば米国ではコンマが一般的ですが、ブラジルではセミコロンが標準です。
+あなたのケースでうまくいかなかったら、これもチェックしてみてください。
