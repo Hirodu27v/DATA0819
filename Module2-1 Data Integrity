@@ -26,24 +26,13 @@ Preparing Data - Data Integrity
 もちろん重複した行を削除しなければなりません。誤字、脱字にも気を付けて。コンピュータにとっては「door」と「Door」は別物です。
 データセットに含まれるすべての値に対して表記を統一することが大切です。全て大文字にするのであれ、小文字にするのであれ、基準を適用しなければならないのです。
 " Door"のように文字の前に空白があったら、それは別物として認識されます。データをクリーニングする段階では全てのスペースを削除するとともに入力ミスを修正することが必要です。
-And like I mentioned as well the first row, usually
-has the name of the columns and usually we avoid including aggregated data like totals in
-the raw data source. That's because we're going to use software that will process the data,
-say apply formulas that will add so we don't need the total to be adding or being on top of
-the data, the granular data, the raw data that we have. So what we do usually is to remove
-all of the totals, and I'm gonna show you examples on the data cleaning class of how we
-can make sure that those values are removed so that we have a clean data set to make
-calculations later.
-And what is the most common format? Usually when we talk about databases we're really
-talking about CSV files most of the time. Or we want to have a CSV file because it's an
-open format, it's plaintext, it's compatible with almost all if not all of the processing, data
-processing applications. And CSV stands for comma-separated values or even
-characters-separated values. To create a CSV, they also call it TSV if it's a different
-separator, you can create it really easily. A CSV file is just values that are actually
-separated by a delimiter. And the delimiter, it could be a comma, or it could be a
-semicolon, or it could be this character that's called a pipe, or even could be the tab. So
-when you press tab and it gives that space, it could even be that character creating your
-CSV or if it's a tab usually you have a convention that you're going to name it a TSV file.
+１行目はたいてい列見出しになっています。生データに合計値などの集計データを含めることは避けた方がいいでしょう。これは、データを処理するソフトウェアを使えるようにするためです。
+後から必要な計算式を適用することができるので、未加工のデータに混在させる必要がないのです。ふつうは合計値は全て削除します。
+次にお見せするのは、データクリーニングの例です。これらの値を削除し、分析を行うためのクリーンなデータセットを作成する方法をお話しします。
+最も一般的な（データセットの）形式は何でしょう。ほとんどの場合、それはCSVです。CSVはオープンフォーマットで、プレーンテキストであり、ほとんど全てのデータ処理アプリと互換性があります。
+CSVはコンマで区切られた値を表します。他の区切り記号を使ったものにはTSVもあります。いずれにせよとても簡単に作成できます。
+区切り文字には、コンマ、セミコロン、パイプと呼ばれるこのような文字、タブなどがあります。
+Tabキーを押してスペースを入力したとき、通常、TSVファイルという名前を付けることになっています。
 
 So you just type in, you could create, you know in a text editor you just typing the names
 and then you put a comma. And usually what happens is this this first row here, this will be
