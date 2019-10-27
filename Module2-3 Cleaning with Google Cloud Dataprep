@@ -1,27 +1,15 @@
 Preparing Data - Cleaning with Google Cloud Dataprep
-I'm gonna show you how to use some techniques to clean a data set that's very dirty. I'm
-gonna be using a great example that was put together by Sarah Cohen. And she was still
-at the New York Times, she's now at the Arizona State University. It was a great example.
-It was a class that I watched her give during the computer assisted conference, computer
-assisted reporting conference in 2016 in Denver.
-It is a great example because this is a data set that has everything in it. It has typos, it has
-blank spaces, it has everything. So, this is a data set that is compiled from Medicaid
-long-term managed care reports from the New York State. And it looks like this. So, it's
-very messy, it has on one place here like the name of the plans. You have the counties in
-New York State and then have the total enrollment. Here you have kind of the date of the
-month and then the year. But then you have different patterns for that, and it really is
-messy and cheap. Every sheet on the spreadsheet was for a month in a given year and
-then she built like a full spreadsheet only one sheet with all of the information that we
-need, right?
-So we want to come from this, to something like this. It's much tidier. So we have the plan
-names in one column, we have the county in another one, we have the number of
-enrollments, the month and the year. So each variable has its own column, every column
-has only one type of data and we have everything together here. We also are eliminating
-like the totals, right? Because we don't need those. We can calculate later so we don't
-have, we don't need something here that will tell us about total because we're gonna be
-using the processing application to do that. So the application that I'm gonna be using
-today, so she gave a class on OpenRefine and I'm going to teach you how to clean the
-same data set using OpenRefine in another video.
+
+乱雑なデータをクリーニングするいくつかの方法をご紹介します。サラ・コーエンの作った素晴らしい例を使いましょう。彼女はNYタイムズにいましたが、現在はアリゾナ大に籍を置いています。
+それは2016年に開催されたコンピュータ支援報道の講義で発表されたものです。これは全てが含まれている優れた例です。
+タイプミスや空白が含まれています。このデータはニューヨーク州の高齢者向け医療保険の長期管理ケア報告書から集められました。
+ここにニューヨーク州の郡、次に総登録数、月と年の日付もありますが、さまざまな表記があって実に乱雑かつ質が低いものです。
+それぞれのシートは月ごとに分けられていますが、彼女は全ての情報を一つのスプレッドシートにまとめました。
+私たちはこのシートを加工して、このような見た目に仕上げたいと思います。
+ある列にはプラン名、別の列には郡、登録数、月、年が表示されます。
+各変数にはそれぞれの列が割り当てられています。合計値は必要ないので消去しています。
+このビデオではGoogle data prepを使い、別のビデオではOpen refineで同じデータセットをクリーンアップする方法を説明します。
+
 But the tool that I'm gonna be using for this one is called Dataprep. DataPrep by Trifacta is
 a tool that is part of the Google Cloud suite of tools to help you analyze process and clean
 data. Dataprep is really tailored to massive data sets, but it's also a very interesting
