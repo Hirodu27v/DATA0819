@@ -9,49 +9,24 @@ Preparing Data - Cleaning with Google Cloud Dataprep
 ある列にはプラン名、別の列には郡、登録数、月、年が表示されます。
 各変数にはそれぞれの列が割り当てられています。合計値は必要ないので消去しています。
 このビデオではGoogle data prepを使い、別のビデオではOpen refineで同じデータセットをクリーンアップする方法を説明します。
+DataPrep by Trifactaは、Google Cloud Suiteの一部としてデータ分析やクリーニングを支援するツールです。
+Dataprepは大量のデータセットを処理するのに適していますが、それだけでなく、データセットを素早く視覚化したり、クリーニングしたりするのに役立つアプリケーションでもあります。
+何百万行ものデータセットにクリーニングルーチンを適用するときに大きな力を発揮します。しかし、サラの作った小さなデータセットにも使うことができます。
+これは約6000行しかないので、それほど大きくありません。
+さて、cloud.google.com/dataprepからコンソールに移動しましょう。アカウントを作成するよう促すメッセージに従ってアカウントを作ると、すぐこのようにアプリケーションをロードする画面に移動し、Dataprepを使い始めることができます。
+ここで、データをインポートするためにファイルを選択します。このExcelファイルはフォーラムからダウンロードできるのでご心配なく。
+ここをクリックすると起動し、アップロードが始まります。できましたか？自動的にExcelファイルであることを認識し、ファイルの中の特定のシートを読み込むことが表示されます。
+"Import & Wrangle"をクリックするとすぐにファイルの処理を始めます。インターフェースはかなり直感的です。
+このように複雑なデータセットの場合、ここにある多くのオプションを気にする必要はありませんが、気になりますよね。
+上にある柱のようなものはカラムがないとか、値が一致しないということを通知してくれます。
+クリックするだけで、列２に4000の欠損値があることが分かります。また、列４に一致しない値があることも見て取れます。さっきの完成形を見てみましょう。
+プランの欄と、郡の欄と、それから登録、月、年の欄です。同じ順番でなくてもいいんです。まずすることはデータの抽出です。
+年を取り出して、別の列を作りたいのです。ここでは2009を選択します。Dataprepは自動的に右側のメニューで、いくつかの操作を提案してくれます。
+やりたいことは（年を表す）４桁の値を抽出することで、単に「2009」という数字を取り出すことではありません。
+これで、抽出することができるようになりました。元の列は青、黄の列はこれから作成する列のプレビュー表示です。
+2008、09、10、11、12、13、および14年の値が入ったカラムが作成されます。値の数も2008は12個、全体の18％などと表示されます。よければ"add"をクリックします。
 
-But the tool that I'm gonna be using for this one is called Dataprep. DataPrep by Trifacta is
-a tool that is part of the Google Cloud suite of tools to help you analyze process and clean
-data. Dataprep is really tailored to massive data sets, but it's also a very interesting
-application to explore and to do like quick visualization and quick cleaning of data sets. But
-it's really powerful when you're using Dataprep for really, really massive big data sets for
-like millions and millions of rows and you want to do like perform cleaning routines that are
-the same. But we can also use for this small data set that Sarah put together.
-This is a small data set is that it has only six thousand, about six thousand almost seven
-thousand rows, so it's not that big. But let me show you, so as soon as you enter on
-cloud.google.com/dataprep you can go to console. It will ask you to create an account and
-then as soon as you create an account you go to a screen like this where it loads the
-application and then you can start using Dataprep. So to do that, we're going to import
-data here and to import data we're going to choose a file. Here's the Excel file, we're
-gonna put this to download on the forums, don't worry about it. You just click here and then
-it'll start, it'll start uploading for the tool.
-Right? So it automatically recognizes that it's an Excel file. And then it tells me that there is
-one sheet in the file and I want to load this specific sheet. And I'm just going to click
-"Import & Wrangle" so they can start working on the file right away. As soon as I do that
-Dataprep greets me with its interface and it's fairly intuitive. You don't have to worry about
-a lot of the options that are here for this complexity of data set that we want, but some
-things are worth noting. The first one is like this visual representation of the columns here
-at the top. Dataprep will always tell you if there are missing columns or mismatch values
-so you can always find this at a click. So right now it tells me that column 2 here has over
-four thousand missing values here. So those are all these blank rows and it tells me right
-away here that those are missing. It also tells me on column 4 there are mismatched
-values. Those are values that are not of the same data type. It helps me find those values.
-So what I want to do here first is just remember that this is what I want. I want a column
-with the plans, I want another column with the counties, and then enrollment, month and
-year. Doesn't have to be in the same order but this is what we want, right? So getting back
-here to Dataprep. What I'm gonna do first is to extract that. You're right. So I want a
-column with the year. So I want to take this year out and create a column out of this. So,
-I'm just going to select here 2009 and Dataprep will automatically here on the right suggest
-a few actions that I might want to do. So what I want here is to extract the values, right? So
-I want to extract values that are matching digit four, so four digits here.
-Not like explicitly or literally 2009, I want four digits because then I get all of the years that
-are here in this data set. So this is correct, this is the thing that I wanted too. And see that
-in blue it highlights my original column, in yellow it previews the column that's going to
-create. And it's going to create a column that has values 2008, '09, '10, '11, '12, '13 and
-also '14. It even gives me like how many values so, twelve 2018, that's point eighteen
-percent of this column and twelve 2009, so on and so forth. So I want to, I'm going to go
-ahead and click on "add".
-[00:07:30] So it added a column here. I'm not going to worry about the names, I'm going to
+ So it added a column here. I'm not going to worry about the names, I'm going to
 rename all of the columns later. But now I want to extract the month, right? And to extract
 a month I, I'm going to I'm going to go and just select a month here. But it's not gonna be
 that easy, right? So with the year it was fairly easy but with a month here what we're going
