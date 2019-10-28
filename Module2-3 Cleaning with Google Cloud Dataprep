@@ -25,63 +25,25 @@ Dataprepは大量のデータセットを処理するのに適していますが
 やりたいことは（年を表す）４桁の値を抽出することで、単に「2009」という数字を取り出すことではありません。
 これで、抽出することができるようになりました。元の列は青、黄の列はこれから作成する列のプレビュー表示です。
 2008、09、10、11、12、13、および14年の値が入ったカラムが作成されます。値の数も2008は12個、全体の18％などと表示されます。よければ"add"をクリックします。
+新しい列を追加しました。後から全ての列の名前を変更するのでここでは気にしません。次は月を抽出したいのですが、年のときほど簡単にはいきません。
+列２から抽出します。ここではカスタムテキストパターンのようにします。
+月はいつも（ニューヨーク州を表す）NYSの後、４桁の数字の前にあります。４桁の数字を抽出したときのことを思い出してください。
+ここには、４桁の数字（を表す正規表現）を入力します。数字、４桁ですね。できました。
+周囲のスペースとカンマまで一緒に抽出してしまいました。後で対処しましょう。
+月の列を作成しましょう。この空白を見てください。Dataprepが既に置換を提案しています。
+「１月」の前後に空白があります。この空白を削除するには、これを選択してaddをクリックします。同じようにコンマも削除します。
+これで、月と年の列ができました。１月がここにあり、スクロールダウンしていくと別の年の１月、さらにスクロールダウンするとまた別の年の１月が出てきます。
+この間を2009で埋めます。2011が出てくるまでは2010で空白を埋めます。これはFill Downと呼ばれ、新しいステップを使用するだけでDataprepで自動的に実行できます。
+ "new step"をクリックし、"window"と入力してください。そして"fill"と入れて、括弧の後に"column5"とタイプします。列５は現在加工している列です。
+次に、ここにソースファイルの行番号であるソース番号を入力します。これを入力すると、ソースである青の列が、この黄色の列になっています。
+こうして、２月という別の値が見つかるまで１月という値が空白を埋め、同じようにデータセットの最後まで値が自動的に入力されます。
+年の列も月と同じようにnew stepからwindowに進み、fillを入力する手順を踏んで、addをクリックします。
+ここに登録数、ここに月、年、そしてプランがあります。良くなってきましたが、まだやることがあります。
+全ての列の名前を変更します。まず医療保険の列を変えましょう。この下向きの矢印をクリックして「名前変更」を選択し、"plan"と入力します。
+そして、不要な列を削除します。この列も必要ありません。そして”country”、"enrollments","month"そしてこれが"year"とします。
+では次に、上の（柱状の）図を見てみましょう。欠損値と、不一致の全ての値を検出できます。合計の削除から始めましょう。強調表示して、一致する全ての「合計」を削除するようDataprepに指示します。
 
- So it added a column here. I'm not going to worry about the names, I'm going to
-rename all of the columns later. But now I want to extract the month, right? And to extract
-a month I, I'm going to I'm going to go and just select a month here. But it's not gonna be
-that easy, right? So with the year it was fairly easy but with a month here what we're going
-to do is really to select the extract here but we're going to edit what's going on, and you
-can select any of the actions.
-So the column to extract from it is really column 2. And we're going to do, like a custom
-text pattern. So I'm going to delete this and then I'm gonna say that's gonna start
-extracting from "NYS", right? So there's always a NYS here before the month, and then it's
-gonna be always before these four digits. Remember when we extracted the four digits so
-we're gonna type here just the way they're indicating here. So digit and then four. All right.
-So here it shows that it's extracting everything that I need actually more than I need
-because it's extracting as well the spaces here that are around it and then the comma. But
-we're gonna deal with that soon.
-So I'm gonna add, and then it creates another column with the months. And I'm going to
-do with this empty space here, I'm just going to select this empty space. And see how
-Dataprep already suggests that we replace the values here, even this space before
-January and after January with nothing. So we're just going to delete those empty spaces
-for me. So I'm gonna select this one, now I'm going to click add. And then you see that
-removed all of that. Now I'm going to remove the comma too, just find a comma and
-replace with nothing, so you're gonna delete the comma. All right, so we have like a
-column for months and a column for years.
-But now see that we have the values here. So January is here and then we scroll down
-January is here again with a different year. Then we'll keep scrolling down, we see
-January again. So we want to, we want to make sure that all of these values here are filled
-with January and all these values here are filled with 2009, until they get to 2010 and then
-they get filled down again until they find the other year 2011. So on and so forth. This is
-called a Fill Down and we can do this automatically in Dataprep just by using a new step.
-So we're going to click on "new step" and then we're going to type here "window". And
-then there is a former called "fill", and then we open parenthesis and then we select a
-column. So we're gonna do first in the column 5, which is the column at the moment that
-we're using for months. So I'm just going to type "fill" and then "column5". And then I'm
-going to type here source number which is the row number in the original source file here.
-So you type this and see that the blue column here which is the source becomes this
-yellow column here. So January gets filled down until it finds a different value which is
-February. So if I keep scrolling down until we find a different month it finds February then
-until the end of the data set.
-So I'm just going to add this here and then it will create another column here for us. This
-will be our month column and I'm going to do the same with the year column so "new
-step", "window", and then I'm gonna put "fill", and that's the column 1. Here I don't need
-that, "column1" and then source number here, "sourcerownumber". And then, yes it
-creates here another column for me that will be my year column. Now click "add". All right,
-I have the county here, the enrollment here, the month, and the year, and the plan.
-So it's starting to look like this thing that we want, but we still need to do a few things. So
-the first thing that we're going to do after we created those columns we might want now to
-rename all of them. So I'm going to rename this one, health plan. So, again I just clicked
-on here on this arrow pointing downwards. Click "rename", and then I'm going to rename
-just to "plan". I might want to do another thing with this one too, but I'm just gonna rename
-that to plan. Same thing. This one actually I'm going to remove because I don't need it. I'm
-also going to remove this one, "delete". Rename this to "county". This one rename to
-"enrollments". All right. And this one to "month", and this one to "year".
-All right, so now look at the visual representation here at the top. We can find the missing
-values too and all of the mismatched values. But we're going to remove, start removing
-like things like the total, right? We don't need this total, so we're just going to highlight it
-and ask Dataprep to delete all of the rows that are matching "total" because we don't need
-that.
+
 Now we might want to do the same here with the health care plans, with the Medicaid
 plans to fill down, right? Because we want this to be about the same plan that is here,
 because if you take a look at the original table the group that Medicaid plans together and
