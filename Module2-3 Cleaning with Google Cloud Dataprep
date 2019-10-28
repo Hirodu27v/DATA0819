@@ -42,12 +42,9 @@ Dataprepは大量のデータセットを処理するのに適していますが
 全ての列の名前を変更します。まず医療保険の列を変えましょう。この下向きの矢印をクリックして「名前変更」を選択し、"plan"と入力します。
 そして、不要な列を削除します。この列も必要ありません。そして”country”、"enrollments","month"そしてこれが"year"とします。
 では次に、上の（柱状の）図を見てみましょう。欠損値と、不一致の全ての値を検出できます。合計の削除から始めましょう。強調表示して、一致する全ての「合計」を削除するようDataprepに指示します。
+医療保険の列にも同じくfill downをやってみたいと思いませんか？元の表では高齢者向け医療保険のグループが一緒の場合、空白になっています。
 
-
-Now we might want to do the same here with the health care plans, with the Medicaid
-plans to fill down, right? Because we want this to be about the same plan that is here,
-because if you take a look at the original table the group that Medicaid plans together and
-have empty spaces to indicate they are the same. So we need to make sure that those are
+ So we need to make sure that those are
 filled down with the names of the plans too. So we're gonna go ahead and do that. And if
 you remember, this is a new step. "Window", the formula is "fill", and then we go to "plan"
 which is the name of the column now, and then "sourcerownumber". And then it creates a
