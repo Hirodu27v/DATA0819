@@ -43,30 +43,14 @@ Dataprepは大量のデータセットを処理するのに適していますが
 そして、不要な列を削除します。この列も必要ありません。そして”country”、"enrollments","month"そしてこれが"year"とします。
 では次に、上の（柱状の）図を見てみましょう。欠損値と、不一致の全ての値を検出できます。合計の削除から始めましょう。強調表示して、一致する全ての「合計」を削除するようDataprepに指示します。
 医療保険の列にも同じくfill downをやってみたいと思いませんか？元の表では高齢者向け医療保険のグループが一緒の場合、空白になっています。
-
- So we need to make sure that those are
-filled down with the names of the plans too. So we're gonna go ahead and do that. And if
-you remember, this is a new step. "Window", the formula is "fill", and then we go to "plan"
-which is the name of the column now, and then "sourcerownumber". And then it creates a
-new column here that has all of the values filled down.
-I'm wanting, I want to delete this too and then move this one to the beginning. I'm going to
-add and rename this one to "plan" again. All right, now I want to remove like all of the
-missing values here because they, I mean they either have totals or they're about rows
-that are not part of my data set, my final data sets. I'm just going to remove them. I'm also
-going to take a look at mismatched values here, those mismatched values are those that
-are not numbers. So I'm going to remove the mismatched values too, and there are
-missing values here too that I want to remove.
-So this is this is looking much more like the data set that we have here, and we completed
-this in only twenty one steps. So this is, this is the final clean data set. So now what you
-should do is, if you want to export this to a CSV file you actually select this option here to
-"run job". So Dataprep will use its cloud infrastructure to get this recipe that you just
-created and then apply it to the data sets that you imported. That's why it's so much more
-powerful when you're dealing with massive data sets, but it can also do this with the small
-one. You click on "run job", and then you check if everything is ok.
-There are options here that you might want to select, for example I want to select that it
-will create a CSV file and I have more options here that "include headers as first row on
-creation" and then I update this. I'm going to select a location where it's going to save on
-my cloud account. I select the regions and then I run the job. And as soon as the job is
-done you will get a file a CSV file that is like this, I have it here with me as well. So here is
-a CSV file that you might want to load. So this is it for the Dataprep. Go ahead and go to
-cloud.google.dataprep and try it out.
+planも全てのカラムを埋める必要があります。そろそろ覚えたと思いますが"new step","Window",式は"fill"です。さきほど列の名前は「plan」にしました。
+そして"sourcerownumber"。全ての値が入った列が作成されました。今までの列を削除して、これを先頭にもっていきます。
+そして列の名前を再度「plan」に変更します。それから、全ての欠損値がある行を除去します。合計値や、データセットの一部ではない行が含まれているので取り除きましょう。
+数字ではないものが入っている行も削除します。
+これで、目標としていたデータセットによく似たものができました。ここまでにたった21ステップです。
+これが最終的な、クリーンなデータセットです。これをCSVファイルにエクスポートするにはこのオプションを"run job"に設定します。
+Dataprepはクラウドインフラストラクチャを使用して、作成したレシピを取得し、読み込んだデータセットに適用します。
+大規模なデータセットにも、小規模なものにも大きな力を発揮します。"run job"をクリックして問題がないか確かめましょう。
+オプションも選択できるので、例えば「作成時に最初の行としてヘッダーを含める」を選択して更新します。
+クラウドアカウントに保存する場所と地域を選択して実行してください。作業が終わり次第このようなCSVファイルができるので、これをロードします。
+これがDataprepです。cloud.google.dataprepから試してみてください。
