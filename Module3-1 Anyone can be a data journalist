@@ -13,23 +13,16 @@ Google NewsラボはGoogle社のグローバルチームの一つで、報道各
 リチャード・スカーリーの本に出てくる記者はかっこいいだけではなく、大きなニンジン型のペンを持ってあちこち駆け回っていました。
 でも、（彼の本の）大きな魅力は説明の仕方にあります。これは船の絵です。漫画風で、見ていて楽しいイラストですが、これを見れば船がどのように動くのか、エンジンがどのようにして働いているのかのかわかるでしょう。
 漫画風のイラストには100％の精度は望めませんが、子どもの私にも、いや理解したいと思う誰にでも分かりやすく物事を説明する方法でした。
-
-So this kind of led into me, certainly writing and working with designers on children's
-books. And when I first did these books, I thought, well, this is kind of interesting. But now I
-realised actually for a lot of children, really understanding the world visually is a way of
-understanding it better because the world is gray and difficult to comprehend. And actually
-using numbers can help make that more accessible to help make that easier to
-comprehend. Certainly when you're when you're young, because we are engaged by
-pictures long before we learn to read. We understand visuals way better than we
-understand words and way better than we understand raw numbers. And that can really
-help you to kind of comprehend how data can be used to tell stories in better ways.
-So part of that is really how we're at a stage now where anybody can do data journalism,
-anybody can get into it and able you can begin. Doesn't necessarily mean there's going to
-be great. It doesn't matter. It's the fact that anybody can get into this field now. This is a
-fanzine from 1976 called Dire Sideburns was a punk fanzine. And this is the sideburns
-theory of punk, which here's a chord. Here's another. This is the third. Now former band.
-And there is believe it or not a data journalism version of that, which is this the date set.
-Here's another date set. Here are some free tools. Now become a data journalist.
+こうして私は、デザイナーとともに子ども向けの本を執筆する仕事につきました。初めて本を刊行したとき、「これは面白いぞ」と感じました。
+いまや私は、子どもたちがこの灰色で理解しがたい世界を理解するには、視覚化が適していることに気づいたのです。
+そして、数字は世界を包括的に理解しやすくするのに役立つ存在です。私たちが字を読めないほど幼い時でも、絵は理解できます。
+（同じように）言葉よりビジュアルの方が、生の数字をそのまま見るより分かりやすくするのに役立ちます。
+誰もがデータ・ジャーナリズムを実践することができるようになりました。必ずしも素晴らしいものができるとは限りませんが、それでも構いません。
+誰もがこの分野に参入できる事実が重要なのです。これは1976年刊行のDire Sideburnsというパンク同人誌です。これが論説でこれがコードです。これも、これも。
+これはデータ・ジャーナリズムのようなものだという人もいます。これは別の巻です。ここに無料のツールがありますから、データ・ジャーナリストになってみましょう。
+私たちは手軽にデータ・ジャーナリストになることができるし、そうすべき理由もあります。これは世界で共通した流れで、データ・ジャーナリズムは主流となりました。
+報道機関の編集局の60％以上にデータ・ジャーナリストが在籍しています。データ・ジャーナリズム・アワードには何百もの応募がありました。その半分以上は小規模な会社からのものでした。
+57か国からの応募を私たちは審査しました。受賞したのはウォール・ストリート・ジャーナルの記者です。
 We're really at a stage where that is possible and there are lots of reasons for that
 happening. And we've seen this around the world now. Data journalism has truly become
 mainstream. We did a survey of newsrooms and we found over half of all newsrooms have
@@ -46,6 +39,7 @@ these kind of charts to showcase a story. This is something that was made using 
 called Carto. It shows sun rising around the world whilst people are tweeting about it. Very,
 very simple, but unimaginable a few years ago that anybody could just make that without
 being a hard core developer.
+
 This map shows the Earth's wind patterns. Really worth checking out. But the person who
 did this taught themselves how to code, taught themselves how to build that design. And
 that's an incredibly powerful strength that we have. It's like a superpower. You have the
