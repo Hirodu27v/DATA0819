@@ -24,33 +24,18 @@ Google NewsラボはGoogle社のグローバルチームの一つで、報道各
 報道機関の編集局の60％以上にデータ・ジャーナリストが在籍しています。データ・ジャーナリズム・アワードには何百もの応募がありました。その半分以上は小規模な会社からのものでした。
 57か国からの応募を私たちは審査しました。優勝はウォール・ストリート・ジャーナルの記者です。ほかにセルビア、ブラジル、コロンビア、ドイツ、ロシア、ウクライナから受賞者が出ました。
 このように世界的な潮流となったのは、必要なツールが入手しやすくなったからです。そしてこれらのツールはどんどん改良されています。
+このように、私たちは長い道のりを歩んできました。原則として、私たちはストーリーを説明するためのチャートを作ることに専念します。
+これはCartoというツールを使って作りました。地球のどこが昼になっているかを示しながら、人々がツイートしている状況も見て取ることができます。
+とてもシンプルなものですが、数年前にはバリバリの開発者でもないのに作成することができるとは想像もできませんでした。
+このマップは地球上の風が作り出すパターンを示しています。ぜひご覧ください。これを作った人は独学でコーディングとデザインを習得しました。信じがたいことです。
+あなたもデータジャーナリズムを作り出す強大な力を手中にしました。ジョン・バード・マードックはFinancial Timesのビジュアルジャーナリストで、洗練された複雑なビジュアルをデザインする方法を独学で学びました。
+しかし、データ・ジャーナリストとしての歩みは孤独なものであることが多いです。多くの場合、割り当てられた専門的な職場で一人で仕事をすることになります。
+データ・ジャーナリストにはキャリアパスがありません。そして、データ・ジャーナリストがいなくなったら誰を連れてきたらいいのか知っている人はいません。
+ですから、孤独感を感じにくい環境づくりが必要です。データ・ジャーナリスト同士で協力することの重要性が身に染みました。そんな時、役立つものがあります。
+データ・ジャーナリズム・ハンドブックです。最新版が公開されたばかりで、世界の最良の事例と、データジャーナリズムを生み出す最良の方法をまとめてあります。
+このやり方を参考にすれば、一人ぼっちでどうしたらいいのか困ることはなくなるでしょう。
+そして今では、コーダーである必要はありません。その技能は確かに助けになりますが、必須ではなくなりました。このコースで学ぶFlourishのようなツールは開発者やデザイナーやプログラマーでなくてもビジュアルを作成することができ、様々なテンプレートを選択して、興味深くエキサイティングな手法でストーリーを伝えることができます。
 
-We've come a long way since things like this. Where essentially you could only make
-these kind of charts to showcase a story. This is something that was made using a tool
-called Carto. It shows sun rising around the world whilst people are tweeting about it. Very,
-very simple, but unimaginable a few years ago that anybody could just make that without
-being a hard core developer.
-
-This map shows the Earth's wind patterns. Really worth checking out. But the person who
-did this taught themselves how to code, taught themselves how to build that design. And
-that's an incredibly powerful strength that we have. It's like a superpower. You have the
-superpower now to create data journalism and we can see people doing that. John
-Bird-Murdoch is visual journalist at the Financial Times, who taught himself how to design
-sophisticated and complicated visuals. From a journalism background that would never
-have been possible a few years ago.
-But life as a data journalist can be isolating. Often people are working on their own in a
-sole practitioner places. There's no career path often for the data journalist. When the data
-journalist leaves, no two really knows how to replace them. So not feeling isolated is really
-important. And I think that has led to a feeling among data journalists of the importance
-and power of working together. And there are certainly things to help you do that. There's
-the Data Journalism Handbook. Just been published in a brand new edition, which really
-brings together the world's best practice and the best ways to produce data journalism
-today. And the way we work now, so we don't have to feel on your own.
-And really, it's not about being a coder anymore. It can help. But it's not just about doing
-that. We have tools like Flourish, which you can learn about on this course elsewhere and
-Flourish is an amazing tool for creating visuals without being a developer or a designer or
-a coder and allows you to select different templates and really tell a story in interesting and
-exciting visual ways.
 Things like tile grams, which is just a Github tool which allows anybody to make these kind
 of maps where you're really showing our geography in different ways. Sort of thing that
 would have been very tricky before now is freely and openly available to interactive for
