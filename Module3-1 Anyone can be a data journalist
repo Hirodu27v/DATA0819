@@ -35,16 +35,11 @@ Google NewsラボはGoogle社のグローバルチームの一つで、報道各
 データ・ジャーナリズム・ハンドブックです。最新版が公開されたばかりで、世界の最良の事例と、データジャーナリズムを生み出す最良の方法をまとめてあります。
 このやり方を参考にすれば、一人ぼっちでどうしたらいいのか困ることはなくなるでしょう。
 そして今では、コーダーである必要はありません。その技能は確かに助けになりますが、必須ではなくなりました。このコースで学ぶFlourishのようなツールは開発者やデザイナーやプログラマーでなくてもビジュアルを作成することができ、様々なテンプレートを選択して、興味深くエキサイティングな手法でストーリーを伝えることができます。
-
-Things like tile grams, which is just a Github tool which allows anybody to make these kind
-of maps where you're really showing our geography in different ways. Sort of thing that
-would have been very tricky before now is freely and openly available to interactive for
-yourself. Now I work a lot with new data sets. You know, a few years ago, we didn't have
-access to, say, Twitter data or Google data, which is what I work with. So I really can talk a
-little bit now about that data and how it can tell stories in interesting ways and read doing
-that as a way to kind of illustrate the accessibility of data now.
-First thing to say about Google data is there is a lot of it. It's very, very big. There are
-billions of searches every single day. And I made this map actually using Carto. Where I
+これはタイル地図の一種で、Githubのツールを使えば誰でもさまざまな地図を作成することができます。
+今まではとてもできなかったようなことが、自由に、オープンに、インタラクティブにできるようになりました。多くの新しいデータセットが使えるようにもなってきています。
+数年前、Twitter社やGoogle社のデータにアクセスすることはできませんでした。そうしたデータについて、そしてそのデータがどんな興味深いストーリーを呼び覚ますのかお話ししたいと思います。
+Googleのデータについてまず言えるのは、とんでもなく巨大だということです。日々数十億の検索が行われています。このマップはCartoで作りました。
+ Where I
 geographically posted every single city around the world where you can see Google data,
 where you can actually learn about Google data. It doesn't go below city level, but it goes
 from national, global, regional down to down city level. And I removed the map in the
