@@ -39,21 +39,13 @@ Google NewsラボはGoogle社のグローバルチームの一つで、報道各
 今まではとてもできなかったようなことが、自由に、オープンに、インタラクティブにできるようになりました。多くの新しいデータセットが使えるようにもなってきています。
 数年前、Twitter社やGoogle社のデータにアクセスすることはできませんでした。そうしたデータについて、そしてそのデータがどんな興味深いストーリーを呼び覚ますのかお話ししたいと思います。
 Googleのデータについてまず言えるのは、とんでもなく巨大だということです。日々数十億の検索が行われています。このマップはCartoで作りました。
- Where I
-geographically posted every single city around the world where you can see Google data,
-where you can actually learn about Google data. It doesn't go below city level, but it goes
-from national, global, regional down to down city level. And I removed the map in the
-background. So really it's just a set of dots which are kind of like the world's brain that tells
-us where we are. And our natural kind of light guide to the world. Certainly is beyond the
-kind of echo chamber of social media. I would say and really gives you an idea, very kind
-granular level of what people care about, what people are interested about. It's incredibly
-honest.
-This is a data set that I pulled last year showing on average where people are searching
-for gun shot versus gun control, people for buying guns vs. controlling them. And you can
-see how some states are are colored up in different ways there. Because you're never as
-honest as you are with your search engine. But after one particular shootings in
-Philadelphia, the map changed. It shifted straight away. And that honesty is really
-interesting to see.
+Googleを使うことが出来る世界中の都市を表しています。都市レベルより細かくは出来ませんが、国、世界、地域から都市に至るまで、お好みのレベルで表示できます。
+背景の地図を取り除きました。この点は私たちが今どこにいるかを示す「世界の頭脳」のようなものです。この輝きが世界を導いています。
+これはソーシャルメディアのエコー･チェンバー現象などではなく、人々が何に興味を持っているのかを詳細に、驚くほど率直に示しています。
+これは昨年、私が集めたデータセットで、「銃撃」を探す人は銃規制に反対しているのか、銃を購入する人は銃規制に反発しているのかを示しています。
+州によって色の違いがあります。検索エンジンを使っているときほど正直ではないのです。しかし、（2019年８月に発生した）フィラデルフィアの事件の後、マップは大きく変わりました。
+その正直さは興味深いものです。
+
 We did this project with The Washington Post, where we looked at the top searches that
 were put in by people looking for same sex marriage in 2004 and 2015. And you can see
 how people's attitudes towards same sex marriage changed over time as the country kind
