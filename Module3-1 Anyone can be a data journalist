@@ -45,33 +45,17 @@ Googleを使うことが出来る世界中の都市を表しています。都�
 これは昨年、私が集めたデータセットで、銃を購入する人と銃規制派のどちらが多いのかを示しています。
 州によって色が違います。検索エンジンを使っているときほど正直とはいえません。しかし、（2019年８月に発生した）フィラデルフィアの事件の後、マップは大きく変わりました。
 この真実を露わにする力は興味深いものです。
+ワシントン･ポスト紙と共同で2004年と2015年に同性婚についてのトップの検索結果を調べました。同性婚に対する人々の態度が時間とともに変化し、国全体でより寛容になってきています。
+2019年の現在、2004年当時の人々が何を検索していたのか想像することすら難しいでしょう。私たちは時代とともに態度を変えているのですから。
+あなた自身がこうしたトレンドをtrends.google.comで見つけることが出来ます。このサイトではとても簡単に過去の人々が特定の問題やトピックをどう検索していたのか知ることが出来ます。
+堅苦しい話題に限りません。これはドーナツとクロワッサンの検索の（どちらが多いかを）世界地図で示したものです。時間がたつにつれ、色がどう変わるのか見てみましょう。
+Google Trendではこうした疑問をたちどころに、簡単に解消できます。これは2015年のパリ同時多発テロ後の検索を視覚化したものです。
+事件後数分で、世界中で事件についての検索が始まっています。また、Googleにはほかのデータセットもあります。
+全国のさまざまな種類のレストランの人気を時系列で示した地図です。ピザ、コーヒー、メキシコ料理、イタリア料理、サンドイッチ、シーフードをめぐる人々の関心を見てみましょう。
+これこそ、私たちがデータをよりアクセスしやすくして、やろうとしていることなのです。
+データ･ジャーナリズムで真に重要なことは、それがオープンであることです。何かを可視化したものの、他の人に使わせないためにオープンにしないのは安直です。
+私は常に、他の人が再現できる方法でデータを作成し、そのデータを使って他の人がより良い方法でストーリーを伝えることができるようにしたいと思ってきました。データに可能な限りアクセスできるようにすることが非常に重要です。
 
-We did this project with The Washington Post, where we looked at the top searches that
-were put in by people looking for same sex marriage in 2004 and 2015. And you can see
-how people's attitudes towards same sex marriage changed over time as the country kind
-of chilled out about it and became less of a huge deal. And right now, in 2019, it's hard to
-imagine some of the things that people were searching in 2004, because you know our
-attitudes change over time.
-You can find a lot of this stuff yourself trends.google.com. It's really a site where it's very,
-very easy to go and search for yourself and really see how people are searching for
-particular issues and topics over time. They don't have to all be heavy and difficult
-subjects. This is a map showing searches for donuts versus searches for cuissant around
-the world. Let's see if you can guess which color is which over time.
-And those kind of issues are very, very easy to do with Google Trends. And theres an
-immediacy to it, which is really interesting. This was a visualization we put together after
-the Paris attacks in 2015. You could see how people were starting to search for this story
-around the globe within minutes of it happening.
-We also try and surface other data sets within Google. Some of them are more available
-than others. This is a map that shows visits to different kinds of restaurants over time and
-across the country. See where people care about pizza or coffee or Mexican food or Italian
-food or sandwiches or seafood.
-And this is really about us trying to make that data more accessible and easier to get at.
-And there is really a thing with data journalism, which is very important was the vital
-necessity of being open. It's very easy to just produce something and do something clever
-and produce a visualization and then not make it necessarily open for other people to to
-use. I've always wanted to produce data in a way that's reproducible by others that they
-could take that data and tell a story perhaps in a better way. And that is very, very
-important then to be open and make that data as accessible as possible.
 And you can see that now around the world where people are taking public data sets and
 then making them accessible and making them open, like IndiaSpend, which takes public
 data within India and then produces really interesting websites, allowing people to explore
