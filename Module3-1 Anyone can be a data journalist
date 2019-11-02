@@ -56,54 +56,22 @@ Google Trendではこうした疑問をたちどころに、簡単に解消で�
 データ･ジャーナリズムで真に重要なことは、それがオープンであることです。何かを可視化したものの、他の人に使わせないためにオープンにしないのは安直です。
 私は常に、他の人が再現できる方法でデータを作成し、そのデータを使って他の人がより良い方法でストーリーを伝えることができるようにしたいと思ってきました。データに可能な限りアクセスできるようにすることが非常に重要です。
 今では公共のデータセットにアクセスしやすくする活動が行われています。例えばIndiaSpendでは、そのままでは使いにくいインド国内の公共データを取り出して興味深いサイトを運営しています。
-
-
-And you can see now that every mainstream data journalism publication will have an open
-data site where you can go and get that data for yourself and then go and play with it for
-yourself. And you might be able to tell our story in a more interesting way than the upshot
-or having the posters done, because you'll come to that data with your own set of
-preconceptions, but also your own set of interests about what might tell a story in an
-interesting way.
-I'm going to talk a little bit now about process, because for me, this is how I work. Certainly
-when I was at The Guardian, but it's also how we work now. And working with data can be
-tricky. So this is really how it works for me. Often we begin with the data itself. Might that
-data may have come from Google Trends or it may be you may be in send that data, there
-may be a recurring event. Something as interesting. It might be a theory that you want to
-explore. And often data journalism really is not necessarily a very sophisticated statistical
-operation. Often what you're doing is telling stories. You may be saying this thing is big on
-that thing or this thing has changed over time or this is how one place compares to
-another. So that work doesn't necessarily have to be super complex at this point. But
-knowing roughly what you want to do with the data can be really important. Do you want to
-compare or show change? What does the data mean? What other data sets can you mash
-up and bring together with it? And often two data sets are almost always better than one.
-Where you have to bring things together. There can always be a better way to tell story.
-And often then you have this whole process where you really have to kind of get rid of the
-messiness of the data and process it and work with and often a lot of the work that data
-journalists spend a lot of time doing is that backhand mashing data sets up getting data
-sets to work together, removing the merge cells or the unnecessary columns of data that
-people put into often make spreadsheets look prettier.
-But at the end of that, you can perform those calculations and that really leads to output.
-And output is a weird term. It sounds a bit like a kind of engineering, programing term. In a
-way that's what you're doing because there is no set way to tell a story with data
-journalism. You might produce a video, you might produce an animation, you might
-produce just a story of just publishing on social media. The fact that you discover that this
-thing is bigger than that thing might be enough. I might be all you need that to do that day.
-Or it might be a complex interactive. It's that variety of storytelling methods that makes
-data journalism so compelling and so interesting and so powerful right now.
-I'm going to show you this link, too, because this is often how you start. You need to begin
-with data, right? So we actually publish all the data that we work with on a Github page
-and you can see it there. And that's really where you could begin. You could go there, find
-some data that we've already worked with. It's already being kind of processed and begin
-there. Begin with that storytelling process.
-I always am with James Cameron, who is British journalist in the 50s and 60s, partly
-because he's an amazing journalist. I'm a really big fan of his work. Both sides kind of think
-this. This quote from him is very apposite, that "The new world be a place of answers and
-no questions, because the only questions left will be asked by computers, because only
-computers will know what to ask." And I take that to mean that we're at a stage now where
-we can ask questions of data and do stuff with data we never could before because of the
-access to technology that we have now. That's an incredibly powerful place to be. But
-what that means is that you can kind of get carried away and produce things that are over
-compacts or just because they're pretty and they don't really do anything. So there's a kind
-of simple thing that's really important to remember that what we're doing is all about telling
-stories in the best way possible. But it's about that raw journalistic exercise of telling
-stories and making that data as accessible as possible. Thank you. Now onto the course.
+主要なデータ･ジャーナリズムの成果の一つにオープン･データのサイトがあります。興味が赴くままデータを入手して使ってみることが出来ます。
+私たちの作ったものやポスターよりいいものができるかもしれません。それは、先入観だけではなく、ストーリーを興味深い方法で伝えうるものへの興味を持ってデータにアクセスするからです。
+仕事のやり方についても少しお話しします。ガーディアン紙時代も現在も、私のやり方は変わっていません。データを扱うのは難しい面があります。データそのものから出発することも多いです。
+そのデータはGoogle Trendからかもしれないし、誰かから送られてきたのかもしれないし、継続観測されたものかもしれない。
+データ・ジャーナリズムは必ずしも高度な統計操作ではありません。あなたがしているのはストーリーを伝えることです。内容は因果関係や経時変化、場所による違いなどさまざまでしょう。
+厳格な精密さは求められていませんが、データをどのように処理したいのか大まかな道筋を付けることは必要です。変化を比較するのか、どう示すのか。データは何を意味しているのか。
+他にどういうデータを組み合わせられるのか。大概、データは一つより二つの方が優れています。そしてこれらをまとめます。これがストーリーを伝えるためのよりよい方法です。
+データ･ジャーナリストはデータ･セットを組み合わせたり、結合したりし、不要なデータを削除することでスプレッドシートをきれいにすることに多くの時間を割きます。
+そして最後に、計算を実行することでアウトプットを手にすることが出来るのです。アウトプットというのは耳慣れない言葉です。プログラミング用語のようです。
+これはデータ･ジャーナリズムにまだストーリーを伝える方法が確立されていないからです。ビデオやアニメーションを作ったり、SNSに投稿するだけかもしれません。
+しかし、何かが何かより大きいということを発見したという事実があれば十分ではないでしょうか。その日、それを必要としているのが私一人だけだったとしても。
+データ･ジャーナリズムにはそれより複雑で、インタラクティブなものもあります。データ・ジャーナリズムを魅力的で興味深く強力なものにしているのは、さまざまなストーリーテリングの手法です。
+このリンクを見てください。あなたがデータ･ジャーナリズムを始める手助けになるかもしれません。私たちは全ての記事に使ったデータをGithubに公開しています。ここから始めましょう。
+すでに処理が施されているデータがあるので、これを使ってストーリーテリングを始めてみませんか。私は1950～60年代に活躍したイギリスのジャーナリスト、ジェームズ・キャメロンに私淑しています。
+「これからの世界は答えがあって問いのない場所になる。なぜなら何を質問すべきか知っているのはコンピューターだけになるからだ」という彼の言葉は（現状を）言い当てているからです。
+私たちは、技術の力によって、かつて不可能であったような（膨大な）データの処理ができるようになりました。それは信じがたいほどです。
+しかし、単に大規模なデータを処理しただけであったり、見た目がよくても役に立たないものを作ったりすることに夢中になってしまう危険性もあります。
+私たちが取り組むのは、ストーリーをできるだけ最善の方法で伝えることなのです。それはストーリーを伝え、そのデータに可能な限りアクセスできるようにするという、ジャーナリズム的なトレーニングによって可能になるのです。
+ありがとう、ではコースを始めましょう。
