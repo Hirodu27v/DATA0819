@@ -1,34 +1,12 @@
 Introduction to Data Studio
-こんにちは、ミナズ・カジです。Hi everyone, my name is Minhaz Kazi. I'm a developer advocate at Google. Data
-visualization has been a lifelong passion for me. I've worked as a graphic designer, a
-financial analyst and a front end developer but now in a part of the Data Studio team. Data
-Studio is a freely available data visualization and reporting tools from Google. As a
-developer advocate, I help developers and users like you to get the most out of the tool
-and to use it properly.
-This week's lecture is about finding stories with data and that is a process that takes a lot
-of steps. You have to first have some idea about the topic that you're going to discuss. You
-have to have some domain knowledge, and then find out what are all that data sets that
-are out there that you might be able to use. Explore the data sets a little bit and then find
-out and which one might be more relevant to you, filter down to one or two. Then bring
-those datasets into the tool that you're going to use. Start exploring the data. Find out all
-the variables that are there. See the relationships between them. See if there are any
-exceptions or any trends, and then from there you can get some insights.
-But the insights on themselves are not that useful. You have to figure out how the insights
-relate to each other, how the insights fit into the entire narrative. Then you can start laying
-out your own data story. You can take all these insights, build your own report or
-dashboard, or an infographic and then share with everyone.
-This week's lecture is about finding stories with data. To build your own story with data,
-you have to follow a few steps. First you have to have some domain knowledge about the
-topic that you are going to explore. See all the data sets that are out there, maybe filter
-down to one or two that are relevant to you and start exploring them. You can bring in
-those data sets into the tool that you're using and look at all the variables that are there.
-Find out the relationships between different variables, look at exceptions look at
-anomalies, and then from there you can get some insights.
-But those insights on their own are not enough. You have to sort of take those insights and
-see how they fit into the whole narrative, how they relate to each other. And once you have
-that down you can start building your own report or dashboard or infographic. And once
-that's built you can take that and share it with others.
-In this week's lecture we'll tell you how to tell your own data story using Data Studio. We'll
-show you what Data Studio is all about how it works how you can bring in different data
-sources and analyze them. How we can build beautiful and interactive visualizations and
-publish them. Let's get started.
+こんにちは、ミナズ・カジです。私はGoogle社のdeveloper advocateです。データ可視化に生涯をかけて取り組んでいます。
+以前グラフィックデザイナー、フィナンシャルアナリスト、フロントエンド開発者として働いていたこともありますが、現在はData Studio teamの一員です。
+Data StudioはGoogleが提供する無料のデータビジュアライゼーションと報道用のツールです。
+Developer advocateとして、皆さんのような開発者やユーザーがツールを最大限に活用し、適切に使用できるように支援します。
+今週は、データからストーリーを見つけ出す方法について講義しますが、これはたくさんのステップから構成されています。
+あなたが取り扱おうとしている話題についての予備知識が必要ですし、使用できる可能性のあるデータセットを調べなくてはいけません。関連性の高いデータセットを一つか二つに絞り込み、使用するツールにそれを取り込みます。
+データの探索を開始します。全ての変数の間の関係を調べます。例外や傾向から洞察を得ることができます。しかし、洞察そのものだけではあまり役に立ちません。
+得られた洞察同士がどのように関係しているのか、ストーリーの中でどう位置づけられるのかを理解しなければなりません。そうしておいて初めて、データストーリーのレイアウトに着手できるのです。
+これらの洞察を利用して、独自のレポート、ダッシュボード、またはインフォグラフィックを作成し、共有することが可能になります。
+今週の講義では、Data Studioを使用して独自のデータストーリーを表現する方法を説明します。さまざまなデータソースを取り込み分析する方法など、Data Studioの概要を説明します。
+どうしたら美しく、インタラクティブなビジュアライゼーションを構築し、公開することができるのでしょうか。早速やってみましょう。
