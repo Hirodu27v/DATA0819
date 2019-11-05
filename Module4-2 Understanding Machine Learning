@@ -2,15 +2,14 @@ Understanding Machine Learning
 機械学習とは何か？Google検索してみると、訳が分からなくなってきます。データサイエンス、統計、AIなど、機械学習が何であるかについて多くの議論があるからです。
 これらはどれも似通ったテーマを取り扱っていて、機械学習の完全な定義はまだできていません。
 機械学習とは単に自動化であると考える人々もいます。実際、MLのアプリケーションの多くは自動化のためのようなものなので、これも理にかなった見解です。
-例えば、人ではなくコンピューターを使ってインタビューを書き起こすこともあるし、Google翻訳のようなものを使って、従来は人間がやってきた翻訳をすることもあります。
+例えば、人の代わりにコンピューターを使ってインタビューを書き起こすこともあるし、Google翻訳のようなものを使って、従来は人間がやってきた翻訳をすることもあります。
+実際には、プログラミングが出現してこのかた、プログラマーは物事を自動化してきました。ルンバのような床掃除ロボットがいますが、機械学習は必要ありません。
+電源がオンになったら床を掃除するコードを書けばいいのです。機械学習は単なる自動化以上のことが出来ます。人間には不可能な、例えば過去の履歴に基づいて本を推薦したり、気候やビットコインの価格を予測することが出来ます。
+このようなクレイジーアートがあります。残りの部分を機械学習に任せたらどんな模様になるでしょうか。
+私が機械学習の特徴として挙げたいのは、データからパターンを発見し、そのパターンに従って目に見えないデータを予測することです。これはプログラミングにおける一種のパラダイムシフトといえるでしょう。
+それは何を意味するのでしょうか。
 
-But actually for as long as programing has existed, programmers have been automating things. So, for example, maybe you have a floor-cleaning robot like a Roomba. Well, you
-don't actually need machine learning to make that thing work. You could just write some code that says that when the power buttons turned on, then have the thing sweep the
-floor. That is not machine learning. Furthermore, machine learning can do more than just automate. For example, it can do things that humans can't do, like, for example, make a recommendation for what a reader
-might want to read based on what they've read in the past. Or forecast, I don't know, climate trends, or the price of bitcoin. Or make crazy artwork like this. How does that fit in
-with the pattern of what the rest of machine learning is?
-Well, the way that I like to find ML is that it's just finding patterns in data, and usually using those patterns to make predictions about unseen data. You can think of it as sort of a new
-programing paradigm. So what does that mean? Well, let's take a look at classification. That's one of the types of tax people use machine learning for. One of the most common,
+Well, let's take a look at classification. That's one of the types of tax people use machine learning for. One of the most common,
 so let's talk about classification. Classification is just labeling things. So maybe you have pictures of dogs and cats, and you want to build an algorithm that given new pictures, can automatically label those dogs
 and cats for you. The way that we would do this traditionally with programing, before machine learning, is that a programmer would sit down and think what makes a cat a cat
 and a dog a dog, and they would come up with a bunch of different rules in their head. And then they would put this into their algorithms, so if an animal has a long tail and likes fish
