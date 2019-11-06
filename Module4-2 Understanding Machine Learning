@@ -7,9 +7,9 @@ Understanding Machine Learning
 電源がオンになったら床を掃除するコードを書けばいいのです。機械学習は単なる自動化以上のことが出来ます。人間には不可能な、例えば過去の履歴に基づいて本を推薦したり、気候やビットコインの価格を予測することが出来ます。
 このようなクレイジーアートがあります。残りの部分を機械学習に任せたらどんな模様になるでしょうか。
 私が機械学習の特徴として挙げたいのは、データからパターンを発見し、そのパターンに従って目に見えないデータを予測することです。これはプログラミングにおける一種のパラダイムシフトといえるでしょう。
-それは何を意味するのでしょうか。
+それは何を意味するのでしょうか。分類について見てみましょう。それは機械学習を利用する目的の一つです。
 
-Well, let's take a look at classification. That's one of the types of tax people use machine learning for. One of the most common,
+
 so let's talk about classification. Classification is just labeling things. So maybe you have pictures of dogs and cats, and you want to build an algorithm that given new pictures, can automatically label those dogs
 and cats for you. The way that we would do this traditionally with programing, before machine learning, is that a programmer would sit down and think what makes a cat a cat
 and a dog a dog, and they would come up with a bunch of different rules in their head. And then they would put this into their algorithms, so if an animal has a long tail and likes fish
