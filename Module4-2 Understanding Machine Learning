@@ -8,12 +8,10 @@ Understanding Machine Learning
 このようなクレイジーアートがあります。残りの部分を機械学習に任せたらどんな模様になるでしょうか。
 私が機械学習の特徴として挙げたいのは、データからパターンを発見し、そのパターンに従って目に見えないデータを予測することです。これはプログラミングにおける一種のパラダイムシフトといえるでしょう。
 それは何を意味するのでしょうか。分類について見てみましょう。それは機械学習を利用する目的の一つです。
+分類とはものにラベルを付けることです。犬や猫の写真が手元にあり、新しい写真に自動的にラベリングする作るとします。機械学習以前はプログラマーが猫や犬を決めるのに役立つ特徴とは何かを座って考え、さまざまなルールを作り出さなければいけませんでした。
+それをアルゴリズムに入力して、尾が長く、魚が好きで大勢の人を嫌うなら猫で、そうでなければ犬だということにします。これが従来のプログラミングの手法です。
 
 
-so let's talk about classification. Classification is just labeling things. So maybe you have pictures of dogs and cats, and you want to build an algorithm that given new pictures, can automatically label those dogs
-and cats for you. The way that we would do this traditionally with programing, before machine learning, is that a programmer would sit down and think what makes a cat a cat
-and a dog a dog, and they would come up with a bunch of different rules in their head. And then they would put this into their algorithms, so if an animal has a long tail and likes fish
-and doesn't like people, then it's a cat. Otherwise, it's a dog. That's the traditional programing approach.
 What's different with machine learning is rather than a programmer coming up with rules, a machine learning algorithm learns by examples and comes up with rules itself. The way
 that this happens is that we build a machinery model. So first we have to collect lots of label training data, so hundreds or thousands of pictures of cats labeled cats and dogs
 labeled dogs. And hopefully many different breeds, and from different angles, and with different lighting. We show this labeled data to a machine learning algorithm, which then
