@@ -2,19 +2,22 @@ ML in the Newsroom
 それでは、機械学習を使って対処できるさまざまな問題を、データのタイプ別に見ていきましょう。画像、テキスト、音声などの機械学習に分類できます。
 まずは写真の機械学習です。先ほどのセクションで犬と猫の写真を分類してラベルを貼る分類方法を紹介しました。これは非常に便利なツールで、画像分類モデルといいます。
 医療業界では広く用いられており、肺のX線画像をみて肺炎か否かを確かめることができます。あらゆる病気や医療スキャンにおいて、機械学習モデルは専門的な訓練を受けた人間の医師よりも正確な判断ができる場合が多いことが分かっています。医療業界ではとても人気があります。
-And of course, also useful in data journalism. So let's talk about some common machine learning mission tasks. One thing you might want to do is identify what's in an image, in general. So here's a picture of Luna Park, which is an amusement park, and we've used a vision API to identify what's in this picture.
-So we get these labels: landmark, 96 percent. That means the model is 96 percent confident that this is a picture of a landmark. It also thinks it's a place of worship, which is not quite right, but it sort of understands that this is some grand, temple-like structure.
-Maybe it's a tourist attraction.
-By the way, these labels come from this tool called the Cool Cloud Vision API. I'll talk about it much later in the Tool Section, but this is just a common sort of type of task you might want to do with a vision model.
-You might also want to identify faces. And if there are faces, see if there's any emotion within those faces. So this model doesn't find any emotion. This face, it says it finds headwear. But you can imagine maybe using this. Suppose somebody is giving a rally.
-And you get a nice big swooping shot of an audience, and you want to know what percentage of the audience is happy, versus angry, versus sad, or whatever.
-Of course, no machine learning model is perfect, so you have to make sure you double check and make sure you're OK with errors. But emotion detection is a pretty common task.
-And OCR. This is just a text extraction. So maybe you have signs, as in this photo. Or maybe you have scans of PDF's, or forms, or handwritten notes. You can use machine learning to extract those images of text into actual text.
-So how do people actually use these tools for images in the newsroom? Well, one interesting project was a recent collaboration that Google did with The New York Times.
+もちろん、データジャーナリズムにも役立ちます。一般に、機械学習は画像に何が含まれているのかを識別することができます。これはルナ・パークという遊園地の写真で、（Google Cloudの）vision APIを使って何が映っているのかを特定しました。
+「ランドマーク：96％」というラベルがあります。つまりモデルはこれがランドマークの写真であると96％の確率で判断しているということです。
+信仰の場かもしれないとも判断しているようです。これは間違いですが、寺院のように壮大な構造物だと理解している（ためこうした判断が行われた）のです。観光地かもしれません。
+これらのラベルはGoogle Cloud のVision APIというツールから取得しました。後でツールのセクションで詳しく説明しますが、これは視覚モデルの一般的なタスクです。
+顔を特定することもできます。顔を見つけたら、どんな表情をしているか見てみましょう。このモデルは何の感情も発見できませんでした。帽子があると書いてあります。帽子（のようなもの）があるのは分かりますよね。
+さて、誰かが集会を催しているとします。あなたには聴衆の大歓声が聞こえていますが、聴衆の何割が満足し、何割が怒り、何割が悲しんでいるのかを知りたいと考えています。
+完璧な機械学習モデルはありません。しかし、感情の検出はごく一般的な課題です。
+そして、テキスト抽出であるOCRです。この写真のように標識があります。あるいはPDF、書類、手書きのメモがあるかもしれません。
+機械学習を使って、画像からテキストを抽出することができます。
+報道機関の編集局ではこれらのツールをどのように使っているのでしょうか？Googleとニューヨークタイムズ紙が共同で行った興味深いプロジェクトがあります。
+
 So The New York Times has existed long before the digitalization of photos. So they had this enormous archive of physical pictures, as you can see, here. And on the back of these pictures would be all these sorts of notes from editors, and the photographer, and the reporter, explaining where the photos should go and what it is about. But it was very hard for New York Times to deal with all these photos because they were all physical. How are you going to sort through them?
 So with Google, they scanned their photos and then used our vision tools to identify, for example, what was in the pictures, in order to extract the text, and then to ultimately make this sort of searchable digital archive. So machine learning is really very good for organizing this sort of unstructured photo text data into something that's more manageable.
 The New York Times also worked on this sort of other fun project. They used facial recognition to build a bot where you could text a picture of a member of Congress, and it would tell you who it thought the person was and with what confidence. So the idea is that there are so many members of the House of Representatives. How are you gonna  remember them all? Well, if you see someone you think you might recognize walking down the street, you take a picture, and The New York Times tells you if it thinks its a member of Congress. This is a facial recognition tool.
 And finally, another interesting project that used machine-learning provision was a piece by a Texty. So they wanted to identify illegal amber mining, which was destroying environments. People illegally mining in order to sell. So they collected all of these satellite pictures of different regions, where they knew contained and didn't contain illegal amber mines. And they used experts to identify which ones were the illegal mines and so forth.
+
 And they used all these pictures to train a machine-learning model to look at new satellite images and to try to automatically classify whether the site contained illegal mining. And as a result, they were able to make this interactive map, where they could point out where they thought all legal mining was occurring.
 So that's an overview of machine learning with images. What about machine learning for audio data? You probably have a lot of audio data in the form of interviews. And wouldn't it be nice if a computer could come along and transcribe your interviews for you? That's certainly a great intersection of machine learning and journalism. I think it's something that we've worked with newsrooms to try to make happen. To try to help with the entry transcription.
 But you can also use speech-to-text transcription for lots of investigative reporting. So, for example, if you have hours and hours of videos or voice footage and you want to analyze it, well, it's not really useful in those formats. Wouldn't it be so much faster if you could have that data in text format like transcriptions?
