@@ -10,14 +10,9 @@ Understanding Machine Learning
 それは何を意味するのでしょうか。分類について見てみましょう。それは機械学習を利用する目的の一つです。
 分類とはものにラベルを付けることです。犬や猫の写真が手元にあり、新しい写真に自動的にラベリングする作るとします。機械学習以前はプログラマーが猫や犬を決めるのに役立つ特徴とは何かを座って考え、さまざまなルールを作り出さなければいけませんでした。
 それをアルゴリズムに入力して、尾が長く、魚が好きで大勢の人を嫌うなら猫で、そうでなければ犬だということにします。これが従来のプログラミングの手法です。
-
-
-What's different with machine learning is rather than a programmer coming up with rules, a machine learning algorithm learns by examples and comes up with rules itself. The way
-that this happens is that we build a machinery model. So first we have to collect lots of label training data, so hundreds or thousands of pictures of cats labeled cats and dogs
-labeled dogs. And hopefully many different breeds, and from different angles, and with different lighting. We show this labeled data to a machine learning algorithm, which then
-spits out a model.
-So if your algorithm has done a good job, then when the model sees a new picture of a dog, it can label it as a dog. So this in a nutshell is what machine learning is. Or, at least
-that's what a classification algorithm is, which I told you is a big part of machine learning.
-But again, it's sort of hard to really conceptualize all of the different ways that ML could be applied, so what I want to do is in the next few sections, is show you a bunch of different
-applications for machine learning used by newsrooms on all different sorts of data. And then hopefully you, like a machine-learning algorithm, can learn by example what's
-covered by this field.
+一方、機械学習はプログラマーがルールを考えるのではなく、機械学習アルゴリズムが事例を学習し、ルール自体を考え出すのです。これには、機械学習のモデルを構築することが必要です。
+ラベル付けのトレーニングをするために数百枚から数千枚の、ラベル付けされた犬や猫の写真を集めます。異なる品種、異なる角度、異なる照明の写真ならなおよいでしょう。
+これらのデータを機械学習アルゴリズムに読み込ませると、モデルが作成されます。アルゴリズムが適切に機能していれば、モデルが新しい犬の画像を認識したときに、それを犬としてラベル付けができます。
+これが機械学習です。少なくとも、分類アルゴリズムは機械学習の主たる部分を占めています。
+しかし、繰り返しになりますが、機械学習のさまざまな手法を厳密に数え上げるのは難しいので、これからのセクションでは、さまざまなデータを扱う編集局で使用される多彩なアプリケーションを紹介します。
+あなたも機械学習アルゴリズムのように、実例からこの分野を学んでいきましょう。
