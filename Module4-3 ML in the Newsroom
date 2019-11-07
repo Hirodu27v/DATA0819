@@ -1,6 +1,7 @@
 ML in the Newsroom
-OK, so now let's try to understand machine learning by the different types of problems that it can solve. I'm going to arrange this by data type, so machine learning for images, versus text, versus audio, and so on.
-So let's start with talking about machine learning for photos. So in the last section, we talked about how we might want to do this with classification, classifying photos of cats and dogs and labeling them as dogs or cats. This is a super useful tool, actually, vision classification models. And for example, it's really popular in the medical industry, where maybe we have X-Ray scans of lungs, and we want to identify pneumonia or not. For all different types of diseases and medical scans, it turns out that, often times, machine learning models are more accurate than trained practitioners. So very popular in medicine.
+それでは、機械学習を使って対処できるさまざまな問題を、データのタイプ別に見ていきましょう。画像、テキスト、音声などの機械学習に分類できます。
+まずは写真の機械学習です。先ほどのセクションで犬と猫の写真を分類してラベルを貼る分類方法を紹介しました。これは非常に便利なツールで、画像分類モデルといいます。
+医療業界では広く用いられており、肺のX線画像をみて肺炎か否かを確かめることができます。あらゆる病気や医療スキャンにおいて、機械学習モデルは専門的な訓練を受けた人間の医師よりも正確な判断ができる場合が多いことが分かっています。医療業界ではとても人気があります。
 And of course, also useful in data journalism. So let's talk about some common machine learning mission tasks. One thing you might want to do is identify what's in an image, in general. So here's a picture of Luna Park, which is an amusement park, and we've used a vision API to identify what's in this picture.
 So we get these labels: landmark, 96 percent. That means the model is 96 percent confident that this is a picture of a landmark. It also thinks it's a place of worship, which is not quite right, but it sort of understands that this is some grand, temple-like structure.
 Maybe it's a tourist attraction.
