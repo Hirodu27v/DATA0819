@@ -12,11 +12,18 @@ ML in the Newsroom
 そして、テキスト抽出であるOCRです。この写真のように標識があります。あるいはPDF、書類、手書きのメモがあるかもしれません。
 機械学習を使って、画像からテキストを抽出することができます。
 報道機関の編集局ではこれらのツールをどのように使っているのでしょうか？Googleとニューヨークタイムズ紙が共同で行った興味深いプロジェクトがあります。
-同紙は写真のデジタル化に長いこと取り組んで来ました。
-So they had this enormous archive of physical pictures, as you can see, here. And on the back of these pictures would be all these sorts of notes from editors, and the photographer, and the reporter, explaining where the photos should go and what it is about. But it was very hard for New York Times to deal with all these photos because they were all physical. How are you going to sort through them?
-So with Google, they scanned their photos and then used our vision tools to identify, for example, what was in the pictures, in order to extract the text, and then to ultimately make this sort of searchable digital archive. So machine learning is really very good for organizing this sort of unstructured photo text data into something that's more manageable.
-The New York Times also worked on this sort of other fun project. They used facial recognition to build a bot where you could text a picture of a member of Congress, and it would tell you who it thought the person was and with what confidence. So the idea is that there are so many members of the House of Representatives. How are you gonna  remember them all? Well, if you see someone you think you might recognize walking down the street, you take a picture, and The New York Times tells you if it thinks its a member of Congress. This is a facial recognition tool.
-And finally, another interesting project that used machine-learning provision was a piece by a Texty. So they wanted to identify illegal amber mining, which was destroying environments. People illegally mining in order to sell. So they collected all of these satellite pictures of different regions, where they knew contained and didn't contain illegal amber mines. And they used experts to identify which ones were the illegal mines and so forth.
+同紙は写真のデジタル化に長いこと取り組んで来ました。ご覧のように膨大な写真のアーカイブズがあります。写真の裏には編集者、写真記者、記者たちによる、その写真を説明するメモが記されています。
+しかし、こうした写真を物理的に整理するのは同紙にとって非常に困難なことでした。どう分類したらいいでしょうか。
+彼らはGoogleで写真をスキャンし、vision toolを使って写真に何が映っているのかを特定し、テキストを抽出した上で検索可能なデジタルアーカイブを構築しました。
+機械学習はこのように構造化されていない写真のテキストデータを扱いやすいものにするのに非常に役立っています。
+また、他にも面白いプロジェクトがあります。顔認識技術を利用してbotをつくり、議員の写真をそれに送ると、誰なのかを教えてくれます。
+合衆国下院には非常に多くの議員がいます。とても全員を覚えることはできません。しかし、誰かが通りを歩いていて、それを写真にとるとニューヨークタイムズが議員かどうかを教えてくれます。これが顔認識ツールです。
+最後にもう一つ、TEXTYによる興味深いプロジェクトを紹介します。彼らは環境を破壊する違法な琥珀採掘を特定しようと考えました。人々は琥珀を売るために違法な採掘に手を染めます。
+彼らは衛星写真を集めましたが、そのうちのどれが違法なものなのか特定できませんでした。そこで、専門家に（いくつか）特定してもらいました。
+それから、これらの写真を使って機械学習モデルを訓練し、新しい衛星写真に違法採掘の場面が含まれているのか自動的に分類しようとしたのです。
+その結果、インタラクティブな地図を作成し、どれが合法的な採掘か示すことができました。これが画像の機械学習の概要です。
+では、音声はどうでしょうか？インタビュー形式のオーディオデータがたくさんあるでしょう。
+
 
 And they used all these pictures to train a machine-learning model to look at new satellite images and to try to automatically classify whether the site contained illegal mining. And as a result, they were able to make this interactive map, where they could point out where they thought all legal mining was occurring.
 So that's an overview of machine learning with images. What about machine learning for audio data? You probably have a lot of audio data in the form of interviews. And wouldn't it be nice if a computer could come along and transcribe your interviews for you? That's certainly a great intersection of machine learning and journalism. I think it's something that we've worked with newsrooms to try to make happen. To try to help with the entry transcription.
