@@ -22,15 +22,20 @@ ML in the Newsroom
 彼らは衛星写真を集めましたが、そのうちのどれが違法なものなのか特定できませんでした。そこで、専門家に（いくつか）特定してもらいました。
 それから、これらの写真を使って機械学習モデルを訓練し、新しい衛星写真に違法採掘の場面が含まれているのか自動的に分類しようとしたのです。
 その結果、インタラクティブな地図を作成し、どれが合法的な採掘か示すことができました。これが画像の機械学習の概要です。
-では、音声はどうでしょうか？インタビュー形式のオーディオデータがたくさんあるでしょう。
-And wouldn't it be nice if a computer could come along and transcribe your interviews for you? That's certainly a great intersection of machine learning and journalism. I think it's something that we've worked with newsrooms to try to make happen. To try to help with the entry transcription.
-But you can also use speech-to-text transcription for lots of investigative reporting. So, for example, if you have hours and hours of videos or voice footage and you want to analyze it, well, it's not really useful in those formats. Wouldn't it be so much faster if you could have that data in text format like transcriptions?
-So, for example, there's a lot of work done by Kalev Leetaru. He's a reporter that's published a lot in Forbes. And he's used transcription and different vision AI tools to analyze television, weeks and weeks of television, and wrote a bunch of pieces for Forbes on it. I've included them in the extended reading section.
-So, for example, this isn't audio. This is vision. But he looked at film from all these different news stations ABC, CBS, NBC, and so on. And he identified all the faces using our vision tool and tried to calculate how many were expressing joy. He found that ABC was the happiest, and PBS was the saddest. He also used this to identify what a new station was showing a Trump tweet. It was able to tell that CNN showed the most Trump tweets, and PBS unsurprisingly showed the fewest Trump tweets.
-So, again, a lot of different things that you can do when instead of having a video or audio file, you instead have text that you can analyze. Speaking of text that you can analyze, let's talk about machine learning for text data.
-Before we talked about classifying photos of cats or dogs, but of course we could also classify blocks of text. So, for example, sentiment classification. That's whether a text is saying something positive or negative. Maybe we want to know what's the best airline. So we go online, and we scrape all these tweets mentioning different airlines. Jet Green and Ulta. And we label a bunch of them ourselves, and then we can build a machine learning model that automatically identifies positive and negative tweets.
+では、音声はどうでしょうか？インタビュー形式のオーディオデータをたくさんお持ちでしょう。コンピュータがインタビューを書き起こしてくれればいいと思いませんか？
+これは機械学習とジャーナリズムの交差点です。これまで、報道機関の編集局とは文字起こしの実現を目指して協力してきました。
+音声からテキストへの変換を活用して多くの記事が発表されています。何時間にもわたるビデオや音声記録を分析したいとき、そのままのフォーマットではあまり役に立ちません。
+データを書き起こしてテキスト形式にすれば素早い分析ができるようになります。フォーブズの記者であるカレブ・リータルーの仕事は多岐にわたります。
+彼は文字起こしといくつかのヴィジョンAIツールを使って何週間分ものテレビ映像を分析し、フォーブス誌に記事を書いてきました。これらの記事は参考文献のセクションに置いてあります。
+例えばこれは音声ではなく、視覚的（な分析）です。ABC、CBS、NBCなど様々なテレビ局の映像に出てくる全ての顔を、Google社のvision toolを使って特定し、どれだけの人が喜びの表情を浮かべているのかを分析しました。
+ABCが一番幸せそうな表情が多く、PBSが一番悲しそうであることが分かりました。彼は同様に、トランプ氏のツイートを表示している局を特定しました。CNNは最も多くツイートを表示し、最も少なく表示したのは当然ながらPBSでした。
+映像や音声ファイルの代わりに、分析できるテキストファイルがあればさまざまなことができます。そうそう、テキストデータの機械学習もお話ししましょう。
+さっき、犬や猫の写真の分類について話しましたが、テキストのブロックについても同じように分類できます。例えば、テキストが肯定的なことを言及しているのか否定的な内容なのか分類することが可能です。
+
+So we go online, and we scrape all these tweets mentioning different airlines. Jet Green and Ulta. And we label a bunch of them ourselves, and then we can build a machine learning model that automatically identifies positive and negative tweets.
 Or maybe we have a bunch of articles that we want to automatically categorize, so we want to sort the electronics articles from the politics articles, from the cooking articles, say.
 You can also, of course, do investigative reporting with text classification.
+
 So one of the most impactful and interesting pieces I've seen is from the L.A. Times back in 2014. They wanted to see if they could identify crimes that had been misclassified. So,for example, when a crime occurs, the LAPD classifies it as being a violent crime or not a violent crime, and I guess The L.A. Times wanted to double check. So they collected a bunch of descriptions of crimes, and they had human beings label them as being violent or nonviolent. And they trained a model then that could take a description of a crime and predict: was it a violent or nonviolent crime? Then they looked at thousands of. LAPD's descriptions of crimes, and found that actually a lot of violent crimes involving stabbings, whatever, were being mislabeled as nonviolent. And so in a way, artificially deflating the violent crime rate in L.A. So this awesome peace used machine learning to sort of uncover that.
 Now, finally, let's talk about machine learning for tabular data. This is just the sort of data that you would find in a spreadsheet or a database. Numbers, categories, things like this.
 So BuzzFeed wrote a piece analyzing tabular data a couple of years ago. It was a really interesting piece, where they wanted to be able to identify hidden spy planes. So they used data from a site called Flight Radar 24, which has all sorts of information on all flights that occur like a flight's altitude, and how long it lasts, and the positions, and stuff like this.
