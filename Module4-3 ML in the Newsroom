@@ -30,16 +30,20 @@ ML in the Newsroom
 例えばこれは音声ではなく、視覚的（な分析）です。ABC、CBS、NBCなど様々なテレビ局の映像に出てくる全ての顔を、Google社のvision toolを使って特定し、どれだけの人が喜びの表情を浮かべているのかを分析しました。
 ABCが一番幸せそうな表情が多く、PBSが一番悲しそうであることが分かりました。彼は同様に、トランプ氏のツイートを表示している局を特定しました。CNNは最も多くツイートを表示し、最も少なく表示したのは当然ながらPBSでした。
 映像や音声ファイルの代わりに、分析できるテキストファイルがあればさまざまなことができます。そうそう、テキストデータの機械学習もお話ししましょう。
-さっき、犬や猫の写真の分類について話しましたが、テキストのブロックについても同じように分類できます。例えば、テキストが肯定的なことを言及しているのか否定的な内容なのか分類することが可能です。
-
-So we go online, and we scrape all these tweets mentioning different airlines. Jet Green and Ulta. And we label a bunch of them ourselves, and then we can build a machine learning model that automatically identifies positive and negative tweets.
-Or maybe we have a bunch of articles that we want to automatically categorize, so we want to sort the electronics articles from the politics articles, from the cooking articles, say.
-You can also, of course, do investigative reporting with text classification.
-
+さっき、犬や猫の写真の分類について話しましたが、テキストのブロックについても同じように分類できます。
+例えば、テキストが肯定的なことを言及しているのか否定的な内容なのか分類することが可能です。どの航空会社が一番いいでしょう。オンラインでさまざまな航空会社に関するツイートを集めてきました。
+（架空の会社である）ジェットグリーンとアルタです。まず自分でラベルを付け、肯定的なつぶやきと否定的なものを自動的に識別する機械学習モデルを構築することが出来ます。
+あるいは、たくさんの電子版の記事を政治や料理といったように分類することもできます。もちろんこのテキスト分類を利用して調査報道をすることも可能です。
+私が知る限り最も衝撃的な記事の一つはＬＡタイムズの2014年の記事です。ロサンゼルス市警は事件を暴力犯罪とその他の犯罪に分けており、ＬＡタイムズはこれを検証しました。
+犯行事例を集め、人間に暴力犯罪か、非暴力的な犯罪化のラベルを付けた上で暴力犯罪を識別するようにモデルを訓練しました。数千件を分類したところ、市警は刺傷を含む多くの犯罪が非暴力的と誤認されていたのです。
+つまり、ロサンゼルスの暴力犯罪率は人為的に抑制されたものだったのです。機械学習はこの驚くべき「平和」の実態を暴いたのでした。
+最後に、表形式データの機械学習について説明します。これはスプレッドシートやデータベースにあるようなデータです。
+BuzzFeedは数年前、表形式のデータを分析する記事を書きました。実に興味深い作品で、彼らは秘匿された偵察機の識別を試みました。Flight Radar24という飛行機の位置や高度
 So one of the most impactful and interesting pieces I've seen is from the L.A. Times back in 2014. They wanted to see if they could identify crimes that had been misclassified. So,for example, when a crime occurs, the LAPD classifies it as being a violent crime or not a violent crime, and I guess The L.A. Times wanted to double check. So they collected a bunch of descriptions of crimes, and they had human beings label them as being violent or nonviolent. And they trained a model then that could take a description of a crime and predict: was it a violent or nonviolent crime? Then they looked at thousands of. LAPD's descriptions of crimes, and found that actually a lot of violent crimes involving stabbings, whatever, were being mislabeled as nonviolent. And so in a way, artificially deflating the violent crime rate in L.A. So this awesome peace used machine learning to sort of uncover that.
 Now, finally, let's talk about machine learning for tabular data. This is just the sort of data that you would find in a spreadsheet or a database. Numbers, categories, things like this.
 So BuzzFeed wrote a piece analyzing tabular data a couple of years ago. It was a really interesting piece, where they wanted to be able to identify hidden spy planes. So they used data from a site called Flight Radar 24, which has all sorts of information on all flights that occur like a flight's altitude, and how long it lasts, and the positions, and stuff like this.
 All this information about flights. And BuzzFeed knew that certain flights were spy plane flights and some weren't. And they used this to build a model that, given all of this data about a flight, could predict whether it was a spy plane or not.
+
 What they found was really fascinating. They found, for example, that there were some planes that were supposed to be tracking terrorism in Africa, but there were actually flying over U.S. cities. And they found, for example, planes that were tracking drug cartels on the border. And lots of things that work were sort of unexplained to them when they wrote the piece. They were able to to learn more about them.
 So the model would say this is a spy plane, and then the reporters would try to verify.
 However, the model made mistakes a lot. For example, it consistently recognized skydiving planes as spy planes because they also have these weird, loopy trajectories. So there's a great lesson to be learned here, which is that all machine learning models make errors, and sometimes they make them consistently, like consistently misclassifying skydiving planes.
