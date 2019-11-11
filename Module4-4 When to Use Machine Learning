@@ -9,10 +9,12 @@ When to Use Machine Learning
 そのためには、データを持っているか、データがどこにあるか知っているか、またはデータセットを作成するために投資するつもりがあるのか、このいずれかが必要になります。
 さらに次の質問は、「説明できること」です。ご存じだとは思いますが、機械学習モデル、特にニューラルネットワークが下した予測は、どのようにしてその結論になったのかを知ることができないことがあります。
 たとえば、ある犯罪が暴力犯罪に分類された場合、モデルはどの記述から暴力犯罪と判断したのでしょう。
-それは制作者であっても、常に把握できるものではありません。
-
-
- Sometimes it doesn't matter if you understand why a model came to a decision. Because like, for example, in the L.A. Times case, when we were trying to see whether or not a crime was misclassified as being violent, the reporters and the editors could go through and say, "OK, this model made this prediction, but let me just verify that it was correct." 
-So, you know, the model is just is helping you in a way, but the editor is always there verifying the results. But you have to consider whether when you're reporting your story, what the model did, if that matters, because it might be that you can't really get a satisfying explanation of why the model made a certain decision.
- And finally, and most importantly: Can you tolerate error? All machine learning models pretty much make errors. It's just inevitable. And the correct way to use machine learning is to account for those errors, to understand when they're really bad, to understand when they're acceptable, and to understand how to handle them. So what I've sort of been emphasizing is you really want to use machine learning with regular reporting complementarity.
- And I think of it as sort of using machine learning to find needles in haystacks or to find leads in tons of tons of data, where a model says you might want to investigate this plane or you might want to investigate whether this crime was violent or not. So you work with the model, but you know, that it will make errors. So just to account for that in your reporting process. I hope that is a good summary of when you should and shouldn't use machine learning.
+それは制作者であっても、常に把握できるものではありません。モデルがその決定に至った理由を理解していれば問題ない場合もあります。
+LAタイムズのケースでは、犯罪が暴力的なものであると誤って分類されていないか調べようとしたとき、記者や編集者は「モデルはこういう予測をしたけれども、正しいか確かめさせてほしい」ということができました。
+モデルは何かしら役に立ちますが、編集者は常に結果を検証しなければいけません。記事を書いているとき、モデルがなぜその決定をしたのか満足のいく説明ができない可能性を常に心にとめておくことが重要です。
+そして最後に、これが最も重要なことですが、エラーを許容できるかどうかということがあります。機械学習モデルがエラーを起こすことは避けられません。
+機械学習の正しい使い方は、そのエラーがどれだけ深刻か、許容できるものか、どう対処できるかを理解することに懸かっています。
+したがって、一定の時間ごとに補完的なレポートを行う機械学習を使いたいものです。
+機械学習は山のような干し草の中から針を見つけるのに似て、大量のデータから手がかりを見つけようとするものです。
+時には航空機を調べたり、また別の時には犯罪が暴力的であるかどうかを調べるのに使うため、モデルを操作すると、エラーも発生します。
+報道する際に、それを説明できればよいのです。機械学習を使う際のお役に立てれば幸いです。
