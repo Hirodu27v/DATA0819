@@ -8,8 +8,9 @@ Defining visualizations
 可視化は、眼鏡のようなものです。眼鏡を外すと視界がぼやけます。眼前にこの道具を装着することで、はっきり見えるようになります。
 データ・ビジュアライゼーションも同じです。それは複雑なデータをはっきり見えるようにします。ここまで見てきたようにデータ・ビジュアライゼーションはデータの探索に使うことができます。
 それだけでなく、データに基づいてアイデアを伝達することにも使えるのです。それについては、このモジュールで説明していきます。
-
-So visualization can be used for exploration and discovery, or it can be used for communication. Although in both of those cases, the idea is basically the same. The idea is that we human beings have a very hard time extracting patterns and trends from large amounts of data. For example, the data that you have on the screen right now is a very large data set of global temperatures from the year 1000 up to the year 2000, measured in Celsius degrees in comparison to an average. The average of the 20th century between 1961 and 1980. if I am not wrong. Right? So that's the reason why you will see negative value and positive values in this data set.
+ビジュアライゼーションはデータの探索や発見、コミュニケーションに使われます。基本的な考え方は共通しています。私たち人間は、大量のデータからパターンやトレンドを見出すのは苦手なのです。
+いま画面に表示しているのは西暦1000年から2000年までの世界の気温に関するとても大規模なデータセットです。摂氏表示で、平均気温と比較してあります。この平均気温とは20世紀の1961～1980年までの平均を算出したものです。
+したがって、このデータセットは正の値と負の値で構成されています。
 If I showed you this data said, if I give you, for example, the Excel spreadsheet, the data is put into, and I ask you questions based on this data, it will be very hard for you to answer those questions. For example, let's suppose that I show you this data, and I ask you, "Was the average global temperature in 2000, in the year 2000, higher or lower than it was in the year 1000?". 
 Well, if you want to answer that question based on the dataset, you will need to open the Excel spreadsheet. Go to the top of the spreadsheet. Take a look at the temperature of the year 1000. Then scroll down, all the way down, in the spreadsheet. Take a look at the last number on the data set, and then compare mentally – in your brain – one number to the other number and see which one of them is higher than the other. 
 Spoiler alert: The average temperature in 2000 was higher than the average temperature in 1000. Right? But the question is hard to answer. I'm forcing you to open the data set and then scroll up and down. Right? It's hard. 
