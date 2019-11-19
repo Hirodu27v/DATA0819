@@ -16,6 +16,9 @@ The elements of a visualization
 データに応じて変化するオブジェクトのプロパティなのです。データ・ビジュアライゼーションではさまざまなエンコーディング手法が用いられています。
 エンコーディングについて詳しく知りたければ、私の著書「The Truthful Art」（未邦訳）をご覧ください。エンコーディングにはさまざまな手法があります。
 高さはその一つです。棒が水平なら、長さも用いられます。
-他にも、例えば
-But there are other many encodings, for example, position. You could use as objects to represent your data, you can use little dots and then you can vary the relative position of those dots next to each other in proportion to the data that you have in your data set. In that case, you will say that the encoding is not the dots, the encoding is the position, encoding is position, right? You could use area, for example, when you create, say, maps in which you put bubbles on top to represent your data, unemployment rate in the United States and you have little bubbles that vary in size according to those numbers. The encoding in that case is not the bubble. The encoding in that case is the area, area is the encoding, right? 
-Encoding is, sorry, area is also the method of encoding used in a kind of graphic called the tree map. The tree might be sort of that rectangular shape that you have there on the right hand side of the image, right? You show a total, right? That's the big rectangle, and then the subdivisions of that rectangle shows you the, you know, the relative the relative size of the components of that total in that area. In that case, the area is also the encoding of that chart. You can also use angle, right? Like in pie charts the encoding is angle and as a consequence of that, the area of the segments of that pie chart are also, is also proportional to the data that you're trying to, that you're trying to represent. Line weight, for example, is another way to represent your data and then color, color, both color, hue, different colors or color shade, the intensity of those colors can be used to represent your data. But there are many other kinds of encoding, these are just the most common ones in data visualization.
+他にも、例えば「位置」があります。小さないくつかの点を使い、データセット内のデータに比例してそれらの点の相対的な位置を変化させることができます。
+この場合、エンコーディングは「位置」と言えますよね。「エリア」を使うこともできます。アメリカの地図の上にデータを表すためバブルを置くと、失業率の数値によって大きさの異なるバブルができます。
+この場合のエンコーディングはバブルではなく、その「エリア」であるといえます。
+ツリー・マップと呼ばれるグラフィックでも、エリアは使われます。画面の右側にある大きな長方形が合計を示しています。長方形の面積がコンポーネントの相対的なサイズになっています。
+「角度」も使えますよね。円グラフのエンコーディングは角度であり、その結果として、円グラフのセグメントの面積は表示しようとするデータに比例します。
+さらに、線の太さ、色相、色の濃淡を使用してデータを表すことができます。エンコーディングには他にも数多くの種類があり、これらはデータ・ビジュアライゼーションで一般的なものです。
