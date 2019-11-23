@@ -3,7 +3,15 @@ What is data storytelling?
 今日お話しするのはデータ・ストーリーについてです。どうすればよいデータ・ストーリーができるのでしょうか。それらがどのようなものか、また私たちはどう作っているのかを併せてお伝えします。
 Module６に入りました。まず、データ・ストーリーテリングとは何なのでしょうか。The Puddingのサイトトップで「我々は文化の中で議論されたアイデアをビジュアルで伝えるデジタル出版である」と宣言しています。
 これはかなりラフな定義です。人に説明するときには携帯電話を取り出してサイトを直に見てもらった方が早いのです。しかし、私たちがどんなデータ・ストーリーテリングをしているのか厳密に説明できなくてもいいのです。常にそれは進化し続けているのですから。
-Sometimes it's almost easier to describe what other types of data visualizations exist out there in order to define what data storytelling is. First, there's data academia and data science. We're thinking, you know, those black and white bar graphs that you see stuck inside of scientific papers. These are often really complex and hard to decipher. The average public just doesn't really connect with them. Historically, that's because scientists had to pay per figure in their paper so they would cram in as much information as they could. And that would make these things really, really complex. 
-On the other side, there's data art. This is something that's on the opposite end of the spectrum. Here the data often doesn't look like a traditional chart or graphic at all. Instead, it's something that looks like it belongs in a museum. It's engaging and it's captivating. Here we're looking at a constellation of the royal family, where you can see kind of the familial connections between all of these royalty. Another great example of this data art is Giorgia Lupi's Latour project, and it's another project that is rooted in data but presented more as art. 
-Data storytelling itself exists in the sweet spot between the two. It combines the function of academic and science data with the form of data art. It's sometimes described as edutainment because it both informs and delights. And what differentiates data storytelling is that your goal is to reach the broadest audience possible and to communicate a clear narrative and clear takeaways. 
-Next, I'm gonna show you a quick video of some of The Pudding's work to give you an idea of what our data storytelling looks like. And I'll catch up with you guys in the next video. We will run through a brief history lesson of how we got to where we are today.
+データ・ストーリーテリングとは何かを説明するには、別のタイプのデータ・ビジュアライゼーションを示した方がよい場合があります。
+最初の例は、データサイエンスです。科学論文の中の白と黒の棒グラフを思い浮かべてください。とても複雑で、解読困難な代物です。
+市井の人々には縁がありません。歴史的に、科学者は論文中の図にそれぞれお金を払わなければいけなかったので、情報をなるべく詰め込んで複雑なものになってしまったのです。
+これに対し、データ・アートがあります。これはスペクトラムに例えれば（データサイエンスの）反対側に位置します。
+ここでは、データは従来のチャートやグラフィックとは別物に見えます。博物館にあるような、魅力的なものです。
+ナディー・ブレマーの「王室の星座」を見てみましょう。王族同士の婚姻関係を見ることができます。
+もう一つの例はジョルジア・ルピの（コリエレ・デラ・セラ紙で展開した）La Letturaプロジェクトです。
+これはデータに根差した別のプロジェクトですが、アートの側面もあります。
+データ・ストーリーテリングは、データサイエンスとデータ・アートの間のスイート・スポットに存在します。啓蒙と面白さを兼ね備えていることからエデュテイメント (edutainment) と呼ばれることもあります。
+データ・ストーリーテリングの価値を決めるのは、可能な限り幅広い聴衆に、明確な物語と目標を伝えることです。
+次に、私たちのいくつかの作品のビデオを通して、私たちのデータストーリーテリングがどのようなものかをお見せします。
+次のビデオでは、私たちの沿革について簡単に説明します。
