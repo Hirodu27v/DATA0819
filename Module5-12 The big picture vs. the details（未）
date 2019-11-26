@@ -1,0 +1,45 @@
+The big picture vs. the details
+Some more guidance, though, in terms of choosing graphic forms. In general. In general.
+This is just a general rule. There are many exceptions to all these principles and rules. But
+in general, whenever you want people to get accurate or to make accurate judgments
+based on your graphics, it is usually appropriate or useful to use encoding such as length,
+height, or position measure over a common axis. Right?
+So whenever you want people to compare things accurately, or to see change over time
+very accurately, or see the association between two variables very accurately, and so on
+and so forth, try to use position, height, or length, measure over common axes to encode
+your data.
+Now, this doesn't mean that other encodings are not useful. Encoding such as, for
+example, area, or angle, or color, and so on and so forth. They are not that great if the
+purpose of your visualization is accurate estimates, but they can be incredibly helpful when
+the goal of your visualization is to provide sort of the big picture of the data, an overview of
+the data.
+Area, color, angle, etc. and other encodings that we saw in a previous portion of these
+videos, they may be useful in cases such as this one, for example. The purpose of these
+maps, these are graphics that were designed by the New York Times to show the results
+of a presidential election. As you can see, all these maps use area, color, shade, hue, etc.
+to represent the data. So they are not that great for comparisons, for example, to get
+accurate estimates or make accurate judgments based on the data. But that is not the
+purpose of these visualizations.
+The purpose of these visualizations is to give you the big picture of the data. How the
+country voted in general, whether, you know, certain regions voted more Democratic or
+more Republican. What matters here is not to be able to compare, you know, Florida with
+Illinois and Illinois to California or one city to another city or one county to another county.
+That doesn't really matter in this particular case. They care more about showing you the
+overall picture. The bird's eye view picture of the general overview of the data.
+If we wanted, for example, to rank or to compare counties to each other, then we should
+not use a map. We should use some sort of bar graph or something like that, which is
+much more appropriate to visualize rankings or to visualize comparisons. But in this
+particular case, it's just an overview of the data. Therefore, area, color shapes, color hues
+are actually quite good to give you an overall impression of the data.
+Now what happens though, when the purpose of the visualization is multiple? Or when you
+want both to sort of give an overview of the data, and also you want people to get an
+accurate judgment of the data? When you want to sort of, for example in a case like this,
+first show the entirety of the United States, more Democratic vote, more Republican vote.
+But then you want people to be able to rank and compare counties to each other.
+A single visualization will not do the trick. You will need more than one visualization. You
+will need one visualization to provide the big picture and then secondary visualizations to
+compare things. Right? You could begin with a map. You could begin with a series of
+maps such as these ones. And then you can give me several bar graphs, for example, and
+line charts to show their variation over time of Democratic vote and Republican vote.
+Those secondary graphics will give me a much more accurate picture of the data. You
+begin with a general and then you go to the specifics.
