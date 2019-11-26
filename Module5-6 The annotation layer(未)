@@ -1,0 +1,32 @@
+The annotation layer
+Now that we have learned about encodings, let's talk about the next layer in a data
+visualization, which is, I would say equally important to the encodings itself. It's what we
+usually call in the world of data visualization, the annotation layer, which is not a term that I
+invented. It's a term that I believe was invented in the graphics department of The New
+York Times.
+What is the annotation layer? Well, the annotation layer is those text elements that we add
+to visualizations to either clarify the data, to highlight the most important data points in your
+chart or to put the data in context somehow. And this is a very important layer in any data
+visualization if you want to communicate effectively with the public. Let's suppose that you
+do a line chart, right? With tons of little data points and stuff and suddenly there is a spike
+in your line chart. Well, you better add a little note to that spike telling people, well, this
+event or this phenomenon happen at this particular point in time, and this is the reason
+why we have this sudden spike in our line chart. That's the annotation layer, that little note
+that you're putting there, that's the annotation layer at work. The annotation layer is also
+the intros that we write to our visualizations, the headlines that we write for our
+visualization. Those elements are incredibly important in data visualization.
+As an example of how the annotation layer works, I would just like to show you this project
+by The Washington Post titled The Geography of Voting. It's basically a series of maps
+and graphs and charts showing county by county which counties have higher participation
+rates in elections or smaller participation rates in elections. The Washington Post
+designers could have limited themselves just to show you the data, right? Just to map the
+data, encode the data using colors and shapes and height and lengths and so on and so
+forth, but they did something else. On top of those charts, they added little notes here and
+there pointing out, you know, the counties with the highest rates, they counties with the
+lowest rates. "Hey, don't miss these data point, this is really, really important." Those little
+textural elements are crucial, are fundamental in data visualization. This is the annotation
+layer at work. Never, never miss the opportunity to explain something in your chart or in
+your graph, or in your map if you believe that that particular number, that particular point in
+time or that particular county on a map should not be missed by your readers. If you don't
+want them to miss it, just point it out and add a little bit of text next to it so people will focus
+their attention on that particular point.
