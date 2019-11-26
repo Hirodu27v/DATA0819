@@ -1,0 +1,105 @@
+The Survey Template and Layout Options
+In this video, I'm going to be talking in depth about the survey template, which is a unique
+template that Flourish has that doesn't really exist in any other visualization tool, so it
+definitely warrants an explanation.
+So here is the survey template. The survey template is designed for survey data. So that
+means that each response is one row in the data. And I think I should talk first in-depth
+about the data structure because that makes everything else make much more sense.
+So this is the data structure. It's a little bit confusing and a little bit daunting when you first
+look at it, but it's actually not so scary. So each row is one response to a survey data.
+Obviously, this doesn't just work with survey data. It also works with stuff like if you want to
+have a visualization of every single member of parliament, or every single member of
+Congress, or something like that, or every single country in the world.
+It's really powerful, and it's a good way to visualize things like that, which don't always
+warrant a more traditional visualization type. So this is what it looks like. So imagine if
+instead of Layla Harvey, this was, you know, some MP or some member of Congress or
+country or something like that. Or if you do have survey data, this will work perfectly as
+well.
+LIke in other Flourish templates, we have all of these data column settings here. I'm going
+to mainly be talking about this data sheet because these are all more advanced features
+that I won't have time to talk about.
+But, you have to understand the first data sheet before you can understand what these do.
+And most of the time you don't need to touch them, so I'm not really going to touch them
+right now. So the main thing to understand about the survey template is that you have
+categorical columns and continuous columns. And the categorical columns, if you imagine
+these are all of your rows, the categorical columns are the ones that you end up in this
+group by menu. So you can group by categorical columns like gender or favorite food. This
+was a survey. Or favorite animal.
+And then they also generally will end up also in the shade by column, so I can shade all
+those people by the gender. And so you can see like males are yellow, and females are
+blue. And they're all grouped by these columns as well. So those end up in the group by
+column and the shade by column, and then you're continuous columns are your numbers –
+so weight and height, in this example. I think those are the only two. Yes, indeed, weight
+and height. And that's what ends up in this size by column. So I can size by height, weight.
+So heavier, larger dot, so you can see heavier.
+And then there's also these geographic columns, which are somewhat important to know
+because we have this option to throw everything onto a map as well. So the geographic
+column is these two columns, so we're looking at Nigeria for home country and Guernsey
+for favorite country. Just a weird example of a country. We can change it between home
+country and favorite country if you want, so you can see those dots move. You're getting a
+little glimpse right now into why this is such an interesting template, and why it's so
+different because everything sort of flying around. And it's really interesting to watch.
+So that's the really basic data structure of the survey template. I do want to point
+something out really quickly, which is there's no real way to save any of this – so save any
+of these groupings, or colorings, or shavings, or whatever. So if I publish and embed and I
+go to the live preview, you can see that it's gone back to just one big blob of all the dots.
+And they're all the same color, and they're all the same size. In a later video, I talk about
+survey stories because the story editor and making a story is a way to save a view of this.
+It's a way to show favorite food and for that to be the view unload.
+So I'm not going to talk about that right now, but know that that is the elephant in the room,
+if you will, in terms of using the survey template. Because, you know, the best way to really
+use the survey template is to use it in a story.
+So some settings to be aware of. You can change the shape to square if you'd like, which
+is pretty cool. You can also put it in a more square view than in the circle view. You can
+also change to some sort of polygon. Hexagons look really nice, especially in the circle.
+Pretty cool. Colors will work the same as in other Flourish templates. It's quite nice to have
+a nice color palette because, you know, you get the different group bys and shade bys.
+There's options for group labels like if you want to put the labels around them, or on top of
+them, or above them, which makes the template really customizable. There's also options
+for pop ups and whether you want to show the pop up on hover or on click. So that's on
+hover. On click, you would actually have to click on it, but the default is hover.
+There's also some options for the map, like how visible the map is. You can make the map
+more visible. You can make it lighter. There's animation options and stuff like that. There's
+options for the legend. There's lots things you can do. And I don't want to go just straight
+into them because this is a really complicated template, and I'm probably just going to end
+up confusing you.
+But just know that this is what the data structure is like, and if you really want to make the
+most of this template, you should be using it as a story unless you're just doing some sort
+of data explorer. So, for example, just embedding this, so it will look like this. And sort of
+leaving this option right here and asking people to investigate it and discover it
+themselves. That's really a good way to do it. But if not, then you should be doing a story,
+and look out for a later video about survey stories.
+So welcome back. In this video, I'm going to talk about my layout, and the different layout
+options that you have in Flourish and adding things like headers and footers. So the main
+thing to know is that every Flourish template has basically the same layout settings.
+They're usually these bottom three settings here: layout, header and footer. Almost every
+single template has the same ones. There's only one, I believe, that doesn't actually have
+this layout option, but they're basically in every template.
+So all of them allow you to change the font, so that's the first setting here. The default font
+is always Sans Pro, but you can change it to, you know, a nice Serif font or some weird
+cursive-looking font.
+And there are other options in this layout setting. So you can turn the background color to
+something else. You can actually add an image as a background, as well, and there's
+some options about filling and fitting. And then there's also this layout order option.
+But I'm going to show you headers and footers first because it will make this make a bit
+more sense. So header and footer work as you normally think they would. In header,
+there's a title, subtitle and text, so like text below the subtitle options. So in this case, I'm
+going to add footer like, "Hello, I am a bar chart race." This is our nice, new bar chart race
+template. Watch it go. And a silly little subtitle as well. This really is a virtual race.
+And each of these is also styleable, so you can change the color of these as well. You can
+change the size. You can make it bigger.
+And then back in this layout tab, you also have a couple of different options for how the
+chart itself is laid out. So I chose the bar chart race because it has this control option,
+which is something you can move around with layout order setting. So this is the main one,
+where everything is kind of at the top. But you can also change it so the header and the
+control, this replay button, are both the bottom. You can change it so the controls at the
+bottom and the headers at the top, or the opposite. You can also change the amount of
+space in between these sections. You can also change the alignment of the header, and
+the control, and things like that.
+And then there's also footer options as well, where you can add a source name. So I'm not
+exactly sure where this data is from, but Source Bank, a World Bank. And then some URL,
+and that actually becomes clickable. There's also some notes. You can add notes at the
+bottom as well. You can change the alignment of that.
+And then for paying customers and newsrooms, we also allow them to upload their logo to
+the bottom right corner. Well, bottom right is the default, but you can also put it in the left
+corner. And you can change the alignment on that as well.
