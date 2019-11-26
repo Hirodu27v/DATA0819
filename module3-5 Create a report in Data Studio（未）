@@ -1,0 +1,60 @@
+Create a report in Data Studio
+To create our first report in Data Studio, we are using a data set from fueleconomy.gov.
+This data set has fuel efficiency information about different vehicles available in the year
+2020 in the US. We downloaded this data set and imported it into Google Sheets and from
+there we filtered out a few fields, and this is the final table that we'll be using. We'll be
+sharing a link to this spreadsheet, so you'll be able to use the same data set that we're
+using here, and you'll be able to follow with whatever steps we are doing and then create
+your own report.
+A little bit about this data set, it has information about different vehicles each row in this
+data set is a single vehicle. The fields include name of the manufacturer, the name of the
+division of the manufacturer, the car line for that specific vehicle. This column over here is
+unique for each row, it's the index number. We also have information about engine
+displacement, number of cylinders in the vehicle, the fuel efficiency information, the
+mileage, the combined mileage, the highway mileage and the city mileage. And then other
+fields that describe different aspects of the vehicle and its engine.
+There is also a release date, a fuel efficiency rating from one to ten, and dollar values
+about how much you save over five years by using this vehicle, or how much you end up
+spending over five years by using this vehicle. To use this data set we'll go back into Data
+Studio and try to create our first report. We'll go to this left hand side, click on the "create"
+button and then select "report". This creates a blank report in Data Studio. Now this blank
+report does not have any data source attached to it. On the right hand side you can see all
+the data sources that I already have access to on this account. If you have existing data
+sources you can attach them to any new report that you create, or you can select to create
+a new data source. We will click on this "create new data source" button and that will give
+us a list of all the connectors that are available in Data Studio. These can be the Google
+built connectors, the native connectors, or the partners connectors that are available, or
+any other connector that you have added in Data Studio.
+To select our data set, we will look for the Google Sheets connector and select this sheet's
+connector, and from there you can see a list of all the spreadsheets this account has
+access to. You can also add files by URL. So, for this specific file we'll be sharing the link
+with all of you and you can use this, that link over here to use that same file. Now we'll go
+to the "all items", we will select this file that we've created and we will select the "selected
+data" spreadsheet. As you can see this is the spreadsheet name, it is the worksheet name.
+And from there we'll click "connect". This lets Data Studio create a new data source based
+on the sheets' connector and the configuration that we have provided.
+This is now showing us the field screen, and over here we can see all the different fields
+that are available in the data. Here you can see the field names and the names are
+colored in blue and green. The blue ones are basically metrics and the green ones are
+dimensions and we'll go into details about what they mean. Over here you can see the
+different types of data, and as you click over here you can change that type of the data.
+Data Studio parses the data by itself and tries to guess the data type, but you can always
+go in and change that data type. And for numerical data types you can also change the
+default aggregation method for this data. Let's start to understand what are dimensions
+and metrics.
+This help page on the Data Studio support site talks about what dimensions and metrics
+are. So easy way to describe this are, is basically what dimensions describe and metrics
+measure. In this table "item name" and "colors" will be dimensions whereas "quantity sold"
+will be measure. Though not all numerical fields are metrics and we'll see an example of
+that in our data set. In this data set we had this index field which is a numerical field, but it
+doesn't really mean 18 numerically, it's just an ID that we are using to uniquely identify
+each vehicle. And we would like to treat this as a dimension. So we'll go back to our report
+and from here we can see index has been colored as blue and all the blue colored ones
+are metrics. So we will go in and change this into a text, and as we can get into a text this
+becomes a dimension from a metric. We won't change anything else here, we can see that
+the release date has been automatically identified as a date. We'll just go onto the right
+side and click on "add to report". As we click on "add to report" again, this is creating a
+new data source based on the Google Sheets' connector and the configuration that we
+provided and attaching that data source to our report. Now our data source and our report
+is ready and we have a blank canvas where we can create visualizations based on our
+data set.
