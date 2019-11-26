@@ -1,0 +1,58 @@
+How does Data Studio work
+Before we start using the tool, let's see how Data Studio works. This is the overall workflow
+when you're trying to use your data set in Data Studio. Let's say you have a data set in
+some source. First you'll have to connect with a data source, then you analyze and
+visualize that in Data Studio and then you share whatever you've created.
+The first step is connecting. To connect to your data, you use different connectors in Data
+Studio. There over 160 connectors available from Google and from other providers, and
+you can use these connectors to pull your data sets from more than 500 different sources.
+There are a lot of data sources over here and in this course we'll be focusing mostly on the
+file upload and Google Sheets connector. And we'll also try to talk a little bit about the
+BigQuery connector later on. Once you've connected to your data using those connectors,
+now your data is ready to be used in Data Studio. That's where you both analyze and
+visualize the data that you have connected.
+There are different tools and features available within Data Studio that helps you to
+analyze your data. There is the Explorer feature that lets you quickly do ad hoc analysis to
+get answers to questions. You can also use Data Blending to merge data from different
+sources. You can use Custom Functions to create your own fields and columns in your
+data. Charts and tables lets you visualize your data on your dashboards. You can bring
+External Content using iframes or images. And there's also Report Gallery available which
+work as templates which you can just use to create your own visualization from an already
+established template rather than starting from scratch.
+So let's say you've used all of these features and you've created a dashboard or a report
+that visualizes your data. The next step would be to share what you have, whatever you've
+created. There are different ways of sharing as well. You can share your dashboard
+directly by using a link or by email addresses. Normally when you create a dashboard you
+can only see it yourself, but you can then give a view access for the dashboard to other
+people using their e-mail addresses or you can share by link where you create a link and
+whoever you give that link to can access that and then view the dashboard. You can also
+give out edit permissions.
+You can take your dashboard and embed it in external websites using iframes or oEmbed.
+You can also create PDFs and send those out. You can generate scheduled emails where
+people can get a PDF copy of your report on a regular interval in their email addresses. So
+that's the broader floor for using Data Studio. Next we'll head into the tool and go through
+each of these steps one by one using a data set.
+To start using Data Studio, open up your browser and go to datastudio.google.com. If this
+is your first time using the application you probably will have to go to the workflow and
+provide necessary permissions to the application so that it can run on your account. Once
+you've completed the workflow this is the home place that we'll see. In this home page you
+can have a look at all the reports, data sources and explorer views that you have access
+to. And we'll going to all of these in detail. On the left side you have the list of recent items
+and also the items that have been shared with you and the "create" button will let you
+create new items like reports or data sources. Reports are basically your dashboards.
+These are the files that you create where you attach your data and then create charts
+visualizations, add images, text. And you'll be sharing these with your viewers who'll be
+able to then view and interact with them.
+Data sources are what let you bring in data into your report. A very simplistic way to think
+about data sources are data tables that you have access to in your report and that you can
+visualize. To create a new data source you'll basically click on the "create" button and
+select "data source" and from there you can select any of these connectors that are
+available in Data Studio and then provide the necessary configuration within them. For
+example, I can select the Google Sheets connector and then from there I can select a
+specific spreadsheet and then from there select a specific worksheet or arrange and then
+connect. Once I do that, Data Studio will create a new data source and this data source
+then can be attached to different reports and then that data from this specific worksheet
+will be able to you'll be able to access that data in your reports and then visualize that. One
+thing you should keep in mind is a same data source can be used across different reports
+and a single report can have one or more data sources attached to it. Next we'll create our
+first report in Data Studio.
