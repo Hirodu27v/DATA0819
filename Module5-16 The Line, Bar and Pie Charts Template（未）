@@ -1,0 +1,71 @@
+The Line, Bar and Pie Charts Template
+In this video, I'm going to be talking more in depth about our line, bar, and pie charts
+template. So let's get started. So here I am in the line, bar, and pie charts template. I
+currently have, click up there for a second, I currently have the stacked column chart
+selected. So the first thing to know is that this chart type settings block up here is where
+you change the type of chart. So because this chart can do so many different types, there
+are a couple of different, well there are a bunch of different types that you can choose
+from.
+So right now I'm here in stacked column chart, but I could also make this into a grouped
+column chart, which is pretty much the same. It's just that there are individual bars instead
+of them stacked on top of each other. I can also make it into a percentage one, which
+means that the template sort of reads each column by itself and then decides what
+percentage to give each of the sections. And then I can also do the same thing, but do it
+horizontally as a stacked bar or grouped bar and whatnot. I think it's important to sort of
+look a little bit more in depth about how this works because it's kind of important to know
+how the data is structured to be able to choose and get your data in the right way and
+choose the right chart type.
+So in this case, you can see each of these colors here is just one of these columns and
+then each of these bars is a row, and the same goes for when you choose a column type.
+They're just sort of rotated 90 degrees. When it comes to line charts, which this template
+can also do, it takes each of the columns in the data and makes that one line. So if I
+wanted to get rid of line four, this sort of pinky purple line, I would just get rid of the data in
+column 4. And there it's gone. Let's get that back. Whoops. There we go.
+So it's also worth pointing out that this chart can do pie charts as well. Unlike the line,
+column, and bar options, the pie kind of works in a different way, which is that it makes
+each of the rows. So in this case, these were years that were along our x axis, but now
+they're a segment in the pie chart. So that kind of changes the data structure a little bit for
+pie charts, but it's still pretty intuitive.
+I'm going to go back to column stacked, just to show you one more quick feature, which is
+that these charts can all be made into grids of charts instead. So if I click grid of charts, it
+will make each of the columns here into a different mini chart. So we have 2009 to 2017 in
+each of these. And you can kind of change how this works by giving this charts grid
+column setting a column, so I can change it to A which will give me a chart for each of the
+entries in this column, so in this case, each of the years. So that's pretty useful when
+you're trying to make small multiples, but let's go back to this normal view for now.
+Just because this is such a big template that does so many different things, there are a lot
+of different settings, and so I'm not going to be able to explain all of them, but I'm going to
+give it a go to explain the ones that are most useful and interesting and confusing. So the
+main one that I can think of now is this color, chart colors, different color modes setting. So
+it's pretty unique to this template, and I think it's semi-confusing because it has two
+different modes and they sometimes visually mean different things when you're selected
+on different templates or different chart types.
+So in this case, you can color by column or by row. So in this case, we actually are
+coloring by column because this is actually coloring by the column of data, not the column
+in the actual chart. So it looks like we're coloring by row, but we're actually coloring by
+column because this is the different columns in the data. If I click by row, each of these
+columns are going to become a different color. This is because, you know, now we're
+coloring by 2009, 2010, 2011 and sort of column one, two, three, four. This is really useful
+when you have a bar that you want to highlight.
+So I'm going to just make this a single column chart for now and say, for example, I
+wanted to highlight one of these columns. What I would do would be there's a couple of
+different ways to do this. So you can either take your color palette and delete most of the
+colors and then add other ones back. So they're all the same except for one of them. So
+now I'm highlighting this and the color palette is kind of showing this. You can also just do
+custom overrides. So if I wanted to do 2009 red, 2010 red, 2011 blue, I could do that as
+well. But if I click back to by column, this isn't going to work because we're coloring. This is
+one column and so it's all going to be the same color. So that's why it's important to
+understand how these work. And then by column then by row corresponds to the data and
+not to what you're seeing here in the preview.
+Some other things, you can turn on the legend, you can turn off the legend. Oftentimes
+turning off the legend makes it more sort of clear. There's this interesting add data colors
+to text option, which I will now show you. So basically what this does is automatically
+highlights color in the header text if you have the name of a column in there. So if I wrote
+this is the header for this chart with 2010 in it, you can see the 2010 is now being
+highlighted by the color that the column is, which is pretty cool. And then I did 2011 is in it
+too. Now it's being highlighted by that color. So this is a kind of legend that you can use as
+well.
+You can add a filter. There's a bunch, you can add data labels to each column or row,
+depending on what chart you're using. You can add annotations, which we have several
+videos on that as well. This is really a template that you can do a lot with, and I hope that
+this sort of explained some of the more confusing features for the line, bar, pie template.
