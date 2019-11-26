@@ -1,0 +1,75 @@
+Annotations and Colors
+In this video, I'm going to be talking about annotations in Flourish, and how annotations
+work. I think that this is something that's a little bit tricky because it's different than in other
+charting tools. But once you get your head around it, it's really quite straightforward, and
+it's quite powerful.
+So quite a few Flourish templates allow you to add notations to your charts to sort of call
+attention to different parts of the visualization. And the way things are done is either along
+the X axis or on the Y axis. So if you have X axis annotations, or sort of vertical
+annotations. If they're on the Y axis, they're sort of horizontal annotations.
+And I'm going to be showing you how they work along the X axis, but just know that it
+works pretty much exactly the same along the Y. So in a lot of templates, like here in the
+line bar and pie chart template, you'll have this annotations settings block under the
+settings panel, and you'll just have to click this to show all the options and turn them on.
+So in Flourish, there's two different types of annotations. There's line annotations, and
+there's a range annotations. And they work pretty similarly. But line is just adding a line,
+and then a range is just adding a range of values that are highlighted.
+So what you do is that you take the value along the axis. So whatever 2013, let's say, and
+you would say like annotation one text here. So whatever you wanted to put, or if you
+didn't want to put anything, you can just put a space. And then two semicolons and 2013.
+And it's going to add that right here.
+And you can change the color. You can change the width. If you just want the text and not
+the line, you can change with a zero. The default is a dash line, but if you want just a solid
+line, you can change the dash to zero as well.
+Range works really similarly. So if I wanted to put a range between 2014 and 2016, I
+would put range highlight text. One here. And then I would put two semicolons, and then
+2014, and then two of these 2016. Then that adds a range, which you can see here, the
+transparent box.
+You can change the opacity, so I can make it completely opaque. You could also put the
+highlight above or below the data behind it, the lines. I think that's basically it. It works the
+same on the X axis and Y axis. If you want to add those, you just go straight at it right
+there. And hopefully that sort of clears up how to add annotations. I know it's something
+that people ask a lot about because it's a little bit of a quirky feature, but once you get the
+hang of it, hopefully it will make a lot of sense.
+Hello, and welcome back. In this video, I'm going to talk about color and how to customize
+the color of things in a Flourish template. So the first thing you should know is that pretty
+much everything on this screen, the color of it can be changed using different settings over
+here on the right.
+The main color tool that we have in Flourish is this color paletting tool. So you can see now
+that this is selected as the color palette, and we have a whole different range of color
+palettes in here that are preset. So you can click through them, and it will change the
+colors. If you go down to edit color palette, you can also rearrange the order of the colors,
+so if you want them to be a different order or if you want to pull one from down up in, you
+can see it change behind there. You can also add your own colors, so if you want to add
+black on there. Or you can edit these, so if I wanted to make this first color on the bottom
+red instead of yellow.
+Then there's also this color overrides option, which lets you type in the name of an entity
+and then type in color after it, and it will override the color palette. So for example, if I
+wanted to recolor this United Kingdom category, I would type in United Kingdom, which is
+the name of the entity. And then just pink, and it will change this to pink.
+This can either be an HTML color name, like we have there, or also in RGB color or a hex
+code. Also know that everything else on this template should have a color settings for it.
+For example with the X axis, if I wanted to change the color of the lines, we can do that.
+And this is just a normal color picker. Same with the labels. This is hideous, but there you
+go.
+And then the second thing I wanted to talk about was coloring by category and to explain
+how to use the scatter template because it makes it pretty clear. Here we have a scatter
+plot, and it's showing literacy rate on one axis and GDP per capita on the other. Each of
+the dots are countries. And so this just shows, you know, that as the GDP goes up, the
+literacy rate goes up in countries, generally.
+But these are all obviously the same color. If I go through, it's just gonna pick this up.
+They're being colored by this default picker, actually. But if you go back to the data sheet,
+you'll notice that there's actually extra metadata here, which I could use to color the dots
+differently.
+In a lot of Flourish templates like the scatter, there's going to be this column setting called
+color here, which allows you to color the dots based on what's in a column. Usually it's a
+metadata column, but you can also use continuous columns. So the darker the color, the
+larger the continuous value.
+But in this case, we are going to use this B column, so I'm just going to enter this B column
+here. Once I press enter, watch this in the corner, and it's going to show that the dots are
+suddenly going to be colored by what's in this column. So if we go back, you can see that
+these hot pink dots are in Africa. And then the dark blue dots are Western Europe. The
+purple dots are Eastern Europe. And this just adds another dimension to your scatter plot.
+It helps you see how this trend is broken down by region.
+And yeah, I think that's about it. Thanks for listening, and I hope that helps you understand
+a little bit about how color works in Flourish.
