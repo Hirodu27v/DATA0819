@@ -1,0 +1,55 @@
+Intro to Flourish
+Hi, my name's Duncan Clark. I'm one of the co-founders of Flourish, which is a tool for
+data visualization and storytelling. In this module, we're going to be helping you use
+Flourish to get started making charts, maps, tables and other kinds of data driven content.
+It's going to start with a quick tour of the product, which I will give. And then my colleague
+Katie Riley, our in-house data journalist, has made a series of short videos just two to
+three minutes each focusing on different aspects of using Flourish, particular templates, for
+example, or using the flourish data tables. In the next module, we'll also be talking about
+how to use Flourish for storytelling, but we'll come back to that bit.
+So Flourish is a tool for visualizing data and telling stories with data. It lets you create
+interactive, attractive, mobile friendly graphics without needing to code. The way it works is
+you go to flourish.studio and register. You'll find yourself on your project home page where
+you can browse and search any projects you've made. Up here you can click to create a
+new visualization and that takes you to the Flourish template browser. Here you can pick a
+template and the general workflow is that you pick a template, replace the data with your
+own, configure the graphic and then you're ready to publish or export it.
+So let's have a look at the kinds of things you can make in Flourish. The templates include
+a basic chart. So this is our line bar pie chart template. They're all combined in one
+template which allows you to create cool animations between the different types of graphic
+and even animate between a single chart and a grid of charts. There are things like the bar
+chart race template, which creates cool play through animation showing changing values
+over time. There are flow diagram templates for things like chord diagrams and Sankey
+diagrams, and there are some things that are a little bit more Flourish specific like our
+survey template, for example, which enables you to plot every individual data point in the
+data set and then break them out to different groups and put them on a histogram or even
+on a map where you can still individually interrogate them.
+We also have other types of graphics in Flourish, such as tables where you can create a
+nice mobile-friendly table even with little charts, spark lines. And we have lots of map
+templates, so that includes things like the projection map where you can upload some
+regions or we use an existing example as a starting point and then shade in those regions
+by the values in your data.
+We also have 3D maps which have a base map behind which extends out to the whole
+world, and then you can visualize data on top of. So this is an example also of US counties
+data visualized on a 3D tile map. The other thing to say about Flourish that makes it really
+unique is that any of these visualizations can be used as the basis of a structured story. So
+if you open this visualization into the story editor, for example, we can quickly make a cool
+animated tour of this visualization to guide the audience through our dataset.
+So that's a quick overview of, you know, Flourish at the top level. Let's just quickly come
+back to the first template I had opened, just a look at the layout of the editor. So over on
+the left here we have the previews. Anything in this box is what will ultimately be
+published. This is your visualization. You can also change the size of that, see how it looks
+on different screen widths up here. Down the side, you have the settings. Now, these
+settings are typically part of the template, so you won't find the same settings in every
+template, which actually makes everything easier to use because there should be nothing
+irrelevant. But you will find some things like headers and footers in pretty well all the
+Flourish templates.
+Over here in the data area is where the actual values live, the spreadsheets. A Flourish
+template can have one or more sheet. And as you can see, when you open something
+from the template chooser, it loads with some sample data that you can look at and then
+you can replace this with your own data and we'll be looking at that in more depth soon.
+Over here, the final bit to mention is the column selection. So this is where you choose
+which columns are used for which element of the graphic. So that's a quick tour of
+Flourish. We're now going to dive into more depth on individual templates and individual
+aspects of the editor, and for that, I'm going to hand over to my colleague, Flourish's data
+journalist Katie Riley.
