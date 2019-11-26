@@ -1,0 +1,76 @@
+Flourish Basics: The Data Table, Importing Data, and Column Settings
+In this video, I'm going to be talking about the data table in Flourish and some of the basic
+data editing and cleaning that you can do once your data has already been put into
+Flourish. Most of this is going to be down here in the data tab, but just so you know, this is
+the chart that we're working with. It's a stacked column chart that's showing a fake data
+set, I believe, about UK universities and their students by home country and year. So here
+is the data tab and here's the data table. We should all sort of be familiar with what it looks
+like already, but if not, here it is.
+And the thing to keep in mind is that all the basic data editing and cleaning things that you
+can do in more advanced spreadsheet programs like Google Sheets and Excel, you can
+do in Flourish. So things like editing cells, you can see that changed over there, and
+dragging cells around, sorry, dragging columns around and deleting columns. So control
+click will give you this context menu which lets you remove or insert columns. Same with
+rows, so control click on the row and it'll give you remove row or insert row above or below.
+There's also a bunch of options for columns with this little carrot menu here. So if you click
+here, it opens up all of these options which include remove column and insert column, but
+also things like filter and sort A to Z and Z to A. Filter data option is an intense filter. It's
+going to filter out any row where the value is not in the range for that column, so you can't
+really undo it. So it's quite a permanent choice, so I would caution anyone about using
+that. But you can also swap rows and columns to transpose rows and columns, which is
+really useful if you're using a template which has a wide format and you have a sort of long
+- your data's sort of long when you insert it into Flourish. So you'd do that, click that, and
+you can see the preview change over here.
+The last thing I want to talk about is inserting and uploading images. So a lot of Flourish
+templates like, for example, the line chart race and the bar chart race have an image
+column setting which lets you add an image to your lines or your bars. And what it asks for
+is a URL, so if you don't already have an image that you want that is on the Internet at a
+URL, you can control click on a cell, the cell in the image column and click upload file and
+then it'll let you upload, for example, whatever this is to Flourish to our servers and it'll give
+it a URL which you can then use to display the image in Flourish in your chart. This is
+something that a lot of people don't know about but is really useful for anyone who's using
+Flourish.
+So I hope that that explained the basics of the data table and in further videos I'm going to
+be talking about other ways to use the data table. But this is definitely the basic stuff that
+you should know.
+So the first real step in making a Flourish visualization of your own is inputting your own
+data and getting your own data into Flourish. So that's what this video is going to be about.
+So when you first open a new visualization, there's always going to be something here in
+this preview tab. You're always going to see some sort of chart because there's always
+going to be a sample dataset imported, or preloaded rather, into the template. And for now
+we're going to be working back in this data tab, but just so you know, you can see here
+that there's already data imported in. And if you go to the data tab, you can see again in
+here, here are our X and Y values. So that's what's drawing this scatter plot, which we can
+see here in the corner.
+And to overwrite the sample data, all you have to do is click this big import your own data
+button. Flourish templates can take Excel files, CSV files, TSV files, and then also JSON
+and GeoJSON files for maps. In this case, I'm going to import this CSV file that I have
+locally on my computer. I'm going to click import again, and it also is always going to show
+you how many rows are imported. And if you're in a template that gets rid of rows, like
+throws rows out for any reason, it will also show you here how many rows have been
+thrown away.
+So now that I've imported my data, I have to tell Flourish which columns to use and in what
+way, and what column corresponds to what type of data. So this is all done using this
+select columns to visualize panel over here on the right, and it has all of these column
+settings. If you scroll down, you can see all of them. There's quite a lot in this template
+because the scatter template is quite complicated. And in this case, there's only two
+required ones, X and Y, for a basic scatter plot. And so let's say that this was actually on
+here. This makes a bit more sense. So you saw how this switched over here. Basically,
+these settings are how you tell the template what kind of data is over here.
+So in this case, we have each row as a neighborhood in the city of Chicago, and then each
+of these columns is a different type of hardship factor, like poverty and housing and
+unemployment rate. And what's being currently drawn on this map down on this plot down
+here is across the Y, across the X axis, we have this C column, households below the
+poverty line percentage, and then also a percentage across the Y axis we have crowded
+housing percentage, which corresponds over here. And in this case, we also have a name
+column so we can add this name column in here. But say, for example, I wanted to put the
+households below poverty line across the Y and credit housing across the X. All we would
+do is change these right here. You can see how it changes here in the preview.
+Basically, all you're doing is telling the template what to read and what column is what kind
+of data. If you scroll down, like I said, there's a bunch of other options, but in this case, if
+we go back to the preview, you can see that it's plotting crowded housing and households
+below the poverty line. And then each of these dots is also showing that it's the name of
+the neighborhood. And there's no need to fill these extra column settings in, if you're not
+going to use them you can just leave them blank. And yeah, this is one of the trickiest
+parts of Flourish, so once you sort of understand this, I think you're pretty much on your
+way.
