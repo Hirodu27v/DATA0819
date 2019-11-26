@@ -1,0 +1,118 @@
+The “me” layer
+Let's talk now about what I would say is my favorite part, or my favorite layer in data
+visualization, particularly in interactive data visualizations. It's sort of the interactive layer,
+but I prefer to call it sometimes the "me" layer. Why? Because I think that any visualization
+can be made more interesting or more engaging if we somehow tell people why they
+should care about the data that we are presenting or where they are in the data that we
+are presenting to them. Let me give you just an example. Let's suppose that you do sort of
+a graphic showing the distribution of wealth in the United States. On the horizontal axis,
+you put the wealth ranges or the income ranges, right? Zero dollars, 1,000 dollars, 2,000
+dollars and so on and so forth, up to a billion dollars a year, right? You do that on the
+horizontal axis, right? The wealth ranges.
+And then the y axis will be sort of the number of people, or the number of families within
+each one of those ranges of wealth, right? The end result will be sort of a histogram, a
+histogram of data, right? The higher the bar, the higher the number of people who have a
+particular wealth. Now, usually the distribution in many countries looks like this, right?. A
+lot of people on the lower end of the spectrum, most people in the United States make
+around between 0 dollars, 1000 dollars, very poor people, obviously, up to around 100,000
+dollars, that would be 120,000 dollars, that's sort of the middle class. Most people are like
+in that lower end of the spectrum. But then we have a very long tail, right? Much fewer
+people, many fewer families who make much, much less money, sorry, much more
+money. So we have sort of that long tail like that, poor people, middle class people, tons of
+people over here and then very rich people over here. Now, that's interesting per say,
+because that chart will show you sort of the income and wealth inequality that exists in
+most countries in the world. Most people are here, but then we also have very rich people
+on this upper end of the of the spectrum.
+But what about, that will be the encodings, right? Encoding the data, that's interesting per
+say. But what about if before we show people the chart, we ask people how much money
+do you make? How much do you make every year? Let's suppose that you're making
+60,000, 80,000, and you input that. "Well, I make around 80,000 dollars a year," and you
+input that in the chart. And then I show you the chart, I show you the distribution of families
+according to wealth. Remember that the height is the number of families and the horizontal
+axis is the wealth levels or the wealth ranges. So I show you that chart and then I add a
+little line, an annotation saying "you are here," that you are here, that's the "me" layer. The
+"me" layer is where you are in the data, and it could also add, for example, 70 percent of
+families make more money than you do, 30 percent of families make more money than
+you do. That's the "me" layer. I have to believe that when we add this layer to our
+visualizations, our visualizations become much more interesting and much more engaging
+because the data has been humanized. The data has been transformed into something
+almost physical, something that appeals to you, that talks about you, you in comparison to
+everybody else in the data.
+Let's take a look at several examples of how to make data visualizations more engaging
+and interesting by adding sort of these "me" component to them. One way to do this is to
+challenge people, to basically ask people questions. What do you think about this topic?
+Or what do you guess that the data will look like? And then you ask them to draw
+something or to do something and then you show them the reality, so they can compare
+their own guesses and intuitions, with what the reality released.
+The New York Times did this a while ago with a project titled You Draw It: What Got Better
+or Worse During Obama's Presidency?, and it's a series of line charts in which you can
+basically draw what you guess that, for example, the unemployment rate was during the
+Obama years. So, for instance, under President Obama, the unemployment rate was and
+you have here an empty space that you can draw on, I'm going to guess, basically trace a
+line. I would guess that unemployment went up very sharply. So I'm going to draw very,
+very sharply increasing line over here. And once I finish drawing, I'm going to click on
+show me how I did. Well, I didn't do that well. So, now I am comparing my own assumption
+and my own conjecture to the reality. And you get these sort of "oh, wow" effect. All right.
+I might guess what's wrong. I think that that "oh, wow" effect can really increase
+understanding. It increases engagement, and it basically tells you, by telling you that you
+are wrong or that you are right, it's putting you inside of the data that you are that you are
+presenting, right? It's that element of surprise that makes the graphics so engaging and so
+appealing. Under Obama, the number of immigrants convicted of crimes who were
+deported, did it increase or decrease? All right. So I say, I would say that it increased,
+show me how I did. Well, I didn't do as badly as before, right? So it's a very interesting
+example of how to add this layer to any visualization.
+Another one that I would like to show you was published recently. Sort of, it begins, it's a
+quiz. It begins with a quiz. Let us predict whether you are a Democrat or a Republican
+according to who you are, right? Let me guess whether you lean more Democrat or you
+lean more Republican, on the political spectrum. And if you scroll down this story, you will
+see that it contains tons of data visualizations and charts and graphs and maps, so you
+can read all these later on. But the first thing that they do is to ask about you. To ask about
+what you think or what you believe or who you are, etc.. Again, that is the "me" component
+of the story, right? So the questions are, for example, are you black, Hispanic or Asian?
+Well, I'm European, so I wouldn't say, I speak Spanish, obviously, but I would not call
+myself Hispanic. So I would say no. Is religion important in your life? Well, not that much.
+I'm going to click on no. Are you straight? Yes. Did you attend college? Yes. Are you
+Protestant? No. Are you Catholic? No. Are you female? No. Do you have a college
+degree? Well, yes. So people like you are democratic by a 48 percent margin. Is like a
+huge margin towards the Democrats, right? That's a very interesting way to percent data.
+And this sort of presentation prompts you to basically start over and try different things, to
+see how different demographic groups lean on the political spectrum, whether they lean to
+the right or the lean to the left. Another very compelling example of how to do it, because
+once you have showed all these on, you have let people play a little bit with these, then
+they can scroll down and read the entire story underneath and read all the details, the
+background information, how the data was put together and the main insights from the
+data. They are all presented in this story, and in the other visualizations of this project.
+The third strong example that I would like to show you how to use this sort of "me"
+component in visualization is a simulation. Simulations can also be really powerful in
+communication and particularly in visualization. So this is a simulation designed by
+FiveThirtyEight titled The Atlas Of Redistricting. So you probably know that in the US we
+have sort of a problem with a phenomenon called gerrymandering, which is basically that
+politicians in many places are allowed to draw electoral districts according to their needs to
+favor some candidates or to disfavor other candidates, and so on and so forth. So I'm not
+going to get into the details of all these. But what this project lets you do is to basically
+redraw all the electoral districts in different ways, either to favor the Democrats, or to favor
+the Republicans, or to try to balance out one party with the other, or to use a mathematical
+formula to create equal districts, or districts that are sort of correct quotation marks in there
+to let you see different possibilities. It's like we could call these "what if visualization," "what
+if this happened?" right? If this particular thing happened.
+It's a great example of that, I think. You may see when you scroll down, it lets you first see
+the entire, the entire United States or you can select a particular state, for example, I'm
+going to select here Florida. Let's gerrymander Florida. So we, right now we have seen the
+current district boundaries. So, first of all, I'm going to see what happens if I am a
+Republican and I want to redistrict Florida to favor Republicans so the map will get
+redrawn. And as you can see, I have, we have redrawn the map in a way that most of
+these districts probably will be won by Republican candidates. But we could also
+gerrymander, gerrymander these districts to favor Democrats, right? To give more space,
+for example, to South Florida, which tends to lean more towards the Democratic Party. But
+then you can have other goals and you can see what would happen if we did this, "match
+partisan breakdown of seats to electorate", try to "promote highly competitive elections," so
+candidates will be very close to each other, so they need to fight, fight very hard to win
+votes. So, most of these counties, this aren't counties, sorry, most of these districts would
+be very close to each other in terms of Democratic vote and Republican vote to maximize
+the number of majority minority districts, so many different options that you can play with.
+So this is sort of a simulation, right? Doesn't show you, it showed you first the reality,
+what's going on, what currently exists, but then it also lets you visualize what would
+happen if we did these, right? And it lets people play with all these options. It's sort of like
+most, something like a like a video game, right. You can choose sort of the options that
+most appeal to you or that you might find that you may find most interesting or that you
+may want to explore.
