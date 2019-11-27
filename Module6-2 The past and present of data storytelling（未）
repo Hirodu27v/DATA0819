@@ -1,0 +1,109 @@
+The past and present of data storytelling
+Hey, everyone, and welcome back to Module 6.
+This is video two. In the first video we gave in you an introduction to what data storytelling
+is and what we do at The Pudding and then how that fits into a larger kind of storytelling
+landscape. And in this video, we go through a brief history lesson, an accelerated timeline
+of data storytelling and get you caught up to the present day.
+First, let's take a step back. How did we get to where we are today? I'm going to show you
+some of the classics or the titans, the pioneers of data storytelling. First, there's John
+Snow's cholera map where we mapped out incidences of the disease and kind of matched
+them around the central pump house in London.
+Then there's Florence Nightingale's rose chart, where she looked at the cyclical
+relationship of army deaths during the Korean War. And finally, Charles Joseph Menards'
+march, Napoleon's march that looks at the troop numbers by kind of this differing width on
+this diagram. And the reason I show you guys these is, one so I can geek out with you and
+tell you how cool they are. but two, that we stand on the shoulders of giants, as overly
+dramatic as that is. It's important to acknowledge where we've come from, but also where
+we're going, because the field of data journalism and data storytelling is continually
+building and perfecting on previous work.
+So we're going to jump forward a little bit, way forward, to somewhere where a lot of us
+can trace our kind of first mainstream modern experience with data storytelling on the
+Web. And this is to those super long, eye-catching single image infographics. They were
+modeled after full-space, full-page spreads in newspapers where the space to design was
+more vertical than horizontal. And after I transitioned to newspaper pagination, I even
+designed a bunch of these. So full disclosure on that one.
+Here's one that I did while at The Huffington Post. And the reason that these things, these
+longform infographics started to fall out of favor was, one, the Web just wasn't print. Long
+images weren't the best way to communicate information. Text didn't scale and it became
+illegible, especially when I shifted from desktop to mobile. The second thing that happened
+was the form was kind of co-opted by marketing companies and the data became
+obscured by illustrations or misrepresented entirely.
+So the field of data storytelling, which is rooted in truthfulness, moved away from this type
+of presentation, of course. Then came Snowfall. It was a beast of a visual project by The
+New York Times in 2012, and it was one of the first times that photos, text and graphics
+were seamlessly and elegantly integrated into the web. You can see it here as we scroll
+down. It's just a marvelous piece of journalism and it still holds up to this day.
+But for as engaging and innovative as Snowfall was, the majority of New York Times
+readers didn't even make their way through it. And that's why visual storytelling had to
+keep evolving. We have to operate on the principle of, if a tree falls in the forest and no
+one's around to hear it, does it make a sound? It's not just enough to produce a quality
+data story. We have to make sure that we're meeting our audience where they are.
+Post Snowfall, data storytelling pushed the boundaries of tech. We made all the things --
+all the things interactive and hoverable and clickable and filterable and animated. In 2017,
+Gregor Aisch, formerly of The New York Times interactive team and now a data rapper,
+revealed that 85 percent of the Times page visitors online simply ignored interactive
+infographics altogether. Now, that doesn't mean that we shouldn't make interactive
+graphics and in fact, I'll talk about that in a later video. But again, it just means that we
+have to evolve and meet our audience where they are.
+The biggest takeaway here is that we shouldn't make the audience work too hard. We
+shouldn't hide important information behind a click. And we should make sure that their
+experience is as seamless as possible.
+So what does a data story look like now? Well, there's no magic formula. Visually, data
+stories can look very different, but at their core, the most successful ones often start with a
+question. We're gonna take a look at a few overarching categories of data stories and see
+how they each present themselves. These are by no means the only way to present and
+tell the data story, but they're just some of the most recognizable patterns that we're
+seeing out there today. So the first type of data story we're going to talk about is something
+known as scrollytelling and at The Pudding this is something that we're known for. It's a
+technique where the story unfolds linearly with animations as the reader scrolls down the
+page. And instead of alternating between text graphic, text graphic, the two are layered
+and integrated. And scrollytelling tries to bring the story straight to the reader. Often we're
+handholding them through a step by step process, and because the readers are scrolling
+instead of clicking, it's a little bit more frictionless.
+First, we'll take a look at a project that Russell Goldenberg did with The Pudding about the
+NBA and how the league would look if you redrafted everyone. And here's the scrollytelling
+part. He walks you through all the picks and then kind of where they actually ended up in
+their career. The second example is from Reuters. It looks at the aging population of
+Japan, and as you scroll, different points in the line are highlighted and match with the
+annotations that come up on the left side of your screen. The reason I really, really love
+this one is those little bitty lines look like wire hairs and they remind me of an aging person
+themselves.
+The second type of overarching kind of grouping that we're gonna look at in data stories is
+sometime is something we call micro stories. If scrollytelling takes that high-tech approach
+to data storytelling, micro stories has more of a stripped down analog approach, often with
+a hyper focused storyline. Here's one great example from Mona Chalabi. She's an
+illustrator who uses Instagram as her platform to tell data. This looks at the number of
+measles cases that are on the rise and she's drawn a dot on a little baby for each kind of
+case. And we can obviously see that 2014 is a huge year for measles.
+Another great kind of data analog micro stories is a project called Dear Data, where a
+Giorgia Lupi and Stephanie Posavec wrote postcards back and forth to each other and
+illustrated their day to day lives. This is a little bit more in that data art realm, but it's still
+very, very hyper-focused, and each one of these postcards contains its own micro story.
+The next overarching category that we want to look at in. data stories is something that
+we're broadly terming nontraditional. It's stories that don't look like traditional data stories
+at all. They're completely void of traditional charts and instead use images, videos and
+emerging tech like AR and VR to tell the story. Here's one from The New York Times that
+looks at the photographs that were taken during the moon mission of Apollo 11.
+And this is the money part of the piece. It's again, scrollytelling, but in this instance, the
+data is actually where these photos were taken. And the piece itself guides you through
+each photo and you can see in space exactly what the astronauts saw in space. Another
+great example of this nontraditional data storytelling bit is a video by Josh Begley called
+Concussion Protocol. This video takes a look at every single concussion in the NFL from
+2017 2018. We'll take a quick look at the video now. Again, the video doesn't have a chart
+in it at all and it doesn't look like what you'd expect in a data story, but at its core it's still
+data, just the presentation is different.
+The last broad category of data stories that we're going to look at is something we're
+calling explainers, and it's something that people might not term as data stories at all
+because of that. But just like a good data story, these too start with the question. This time,
+that question is just often a how instead of a why. Here's one of the best examples of. an
+explainer piece. It's called The Parable of the Polygons by Vi Hart and Nicky Case -- your
+guide through the topic of segregation by these adorable and relatable little squares and
+triangles. And they make a very complex topic and often heated topic, way more relatable.
+The next example we'll look at is How to Tune a Guitar by Matthew Conlan and Alex Kale.
+This takes page out of those kind of guitar tab liner books that you used when you were a
+teenager trying to learn how to play Green Day and instead teaches you how to tune the
+guitar interactively. And you can interact with this guitar and actually tune it yourself. Click
+on all the chords. So while it's not telling a completely linear story, it is telling a very
+specific one and it is teaching you something in the process. So now you've seen some
+examples of what types of data stories are out there. In the next video, we'll take a look at
+what makes a good data story.
