@@ -1,7 +1,9 @@
 Preparing Data - Cleaning Data with OpenRefine 
 OpenRefineの使い方と、データセットをきれいにする素晴らしい機能について説明します。openrefine.orgから"Download"をクリックします。
 OSに合わせたバージョンをダウンロードしてください。Windows、Mac、Linuxに対応しています。
-ダウンロードしたらダイヤモンド形ロゴをクリックして開いてみましょう。If you're on Windows it's going to be a black screen that's going to open. Don't worry about that. Leave the black screen open, it's important to run the application. 
+ダウンロードしたらダイヤモンド形ロゴをクリックして開いてみましょう。Windowsの場合は黒い画面が開きますが、気にしないでください。アプリケーションを実行しているので、そのままにしておきます。
+それでは、サラ・コーエンが作った、OpenRefineを使用してデータセットをクリーンアップするチュートリアルを使ってみます。
+cloud data prepと同じデータセットを使いますが、OpenRefineは似て非なるアプローチを用います。
 So I'm gonna be using Sarah Cohen's great tutorial about how to clean a data set using OpenRefine. We use the same data set on the cloud data prep tool and we're gonna be using a similar but different approach to clean this data set with OpenRefine. And remember, this is the data set that Sarah, that at the time she was a New York Times, and she gave this presentation at the computer assisted, Computer Assisted Reporting Conference at the NICAR conference in Denver in 2016. I watched a class and it was a great class, a great workshop. And she built this data set out of Medicaid plans in the state of New York and trying to decide which company to do the investigation on. 
 And she built, like every sheet on the spreadsheet was a month and then she built like this big, big, big spreadsheet with all of the files together in one. And then she used OpenRefined to clean it, especially regular expressions. We're gonna be using a couple today but we're not going to be using all the time. 
 So but this is, this is the spreadsheet and what we're really want is to get like the, a column with the plan names, the county's total enrollment, a month column and a year column. That's something that looks like this. Plan, county, enrollment, month and year. And to do that, we're gonna use OpenRefine. We can also check Sarah's tutorial here, it's pretty cool. It has some of the more advanced features of OpenRefine. We're gonna get familiar with this. 
