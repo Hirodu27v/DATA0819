@@ -1,0 +1,117 @@
+
+Hey, everyone, and welcome back. In the last video, we took you through the process of
+crafting a data story. And in this video, we'll take you through some steps and tips to really
+make those stories shine.
+So first, spend the majority of the time crafting the story. On GitHub, where we keep all of
+our code and repositories, you can track the progress of a story based on the activity of
+that repository or how many times that you make commits or change the code in that story.
+Here we're looking at the commits from my data collection on my story for hyphenated
+names in pro sports on the bottom and then my front-in build or the visual build that you
+see on the top. But this really leaves out where I spent most of my time. The story.
+Here, I took the liberty of adding in a chart. Full disclosure, you probably shouldn't do this
+for any data storytelling project because this is one that's made-up data. I estimated it. But
+to give you an idea of just how much time I spent crafting the story, I've added this chart in.
+That story chart dwarfs the data and development lines. There's a peak before any of the
+actual heavy lifting of the data and development starts, and there's one after to make sure
+that that story comes full circle and what I'm showing is also what I'm telling.
+And the story is really, really important because. Right? If you don't have a story, then
+you're just another pretty project on the Internet.
+The second tip is that it's equally important to show as it is to tell. There's a reason that we
+learn about the concept of show and tell early on in grade school. It works. Both are
+important for people to learn and absorb. Think of showing as a way of communicating
+that's a little bit more participatory and collective. It's open for discussion, reactions and
+feedback, where telling is more like a lecture. You're delivering facts at face value with no
+response necessary. Combined together, those are pretty powerful. And that's why at The
+Pudding we're big believers in little things that make graphic special like annotations.
+Because the graphics themselves show, but the annotations tell.
+The other thing to keep in mind is that it's important to know how your audience interacts
+with your pieces. In an earlier video, I mentioned that 85 percent of New York Times
+readers never interacted with the piece. And Gregor Aisch, that former member of the New
+York Times interactive team, says that knowing that the majority of readers don't click
+buttons doesn't mean you shouldn't use any buttons. And knowing that people will ignore
+tool tips, doesn't mean you shouldn't use any tool tips or helpers. All it means is that you
+shouldn't hide that important information behind those interactions.
+So we're going to take a look at why interactions can remain useful. And first is, although a
+lot of readers may never interact with your piece, the most loyal will, the ones that want
+more information and the ones that are invested in your story. Those are the audience that
+you really want to target and capture. Interactions also allow readers to dig deep and
+explore the full dataset, and that means that they can pull back the curtain and make data
+more transparent and trustworthy. And finally, those interactions can add a lot of whimsy
+and personality to your story. And those are important for making those emotional
+connections with your readers.
+I mentioned the importance of annotations earlier as a little, small thing that you can add to
+take your data story to the next level. And Andy Kirk has a wonderful blog that he calls The
+Little Of Visualization Design, where he catalogs these different techniques that really just
+add spice, clarity and personality to the graphics.
+Here are a few of my favorite things that often get overlooked in data storytelling that The
+Pudding has used. First, we'll look at something called an orientation assistant or a mini
+map. In this piece that we called our Hipster Reading List, we looked at books from the
+Seattle Public Library that hadn't been checked out in forever. The entire pages is a giant
+book stack, but there's no really way to know how far down these books go until you look
+at the mini map and this little, tiny book stack on the right of the page. And that gives you a
+clear idea about where you are in the larger picture.
+The second of visualization design that we're going to look at is integrating graphics and
+labels into the text itself. Here on this piece, we have put this blue line and blue text to
+indicate that this is what you're seeing in the line below. This eliminates you having to
+double label the line and makes a clear connection with your reader when they're reading
+the piece that this is what they're looking at.
+Another tool is disappearing small values. Here, this directs the readers eye to the most
+important values and kind of doubling codes value. One, it's encoded with a size, and then
+two, it's encoded by the opacity. These little values are still here, and you never lose them.
+But you just direct the reader elsewhere to the most important content.
+We looked at this standup comedy piece on Ali Wong earlier, but this is another great
+example of a little visualization design. And this is called seamless help. Here, we're
+placing these pink boxes around the entire perimeter of the page to direct the reader what
+to do and how to interact with it. It's important that when you're exposing a reader to a
+nontraditional or different format than they're used to seeing, that you tell them how to use
+this.
+And finally, this is a reader guide in our piece on how you spell celebrity names. It walks
+you through step by step, how to read these diagrams that you're about to see that are
+Sankey-esque or Sankey inspired. And then you can see, the final results were all of these
+diagrams are then presented, and you know how to read them.
+The last tip that I want to give you about your data stories is to have fun. It seems like a no
+brainer, but it's important to remember because if you're having fun telling the story, your
+audience will have fun consuming the story.
+Now I want to walk you through a few of my favorite whimsical bits that we've added to
+stories at The Pudding and some stories while I was at The Guardian us to show you just
+exactly how much fun you can have with a data story. Again, we're at The Pudding, so we
+do a lot of cultural stories and avoid things around the news cycle, which gives us a lot of
+leeway when we're having this type of fun interactions. You know, we don't want to take a
+serious topic like stories about abortion or immigration and put these fun doodads in them.
+But since we're talking a lot about cultural subjects, we have the freedom to do that.
+Here, this first piece is a video that we did on NBA three-seconds calls, and I'll play it for
+you. This section in the bottom right is what you're looking at. It's where a little Lance
+Stephenson comes and blows the dots to their correct position. If you're an NBA fan, you
+know that this gif of Lance Stephenson is very popular. He was trying to throw LeBron
+James off of his game and blow in his ear, distracting him a little bit. So that is just one
+way to connect with your reader to make sure that you're including cultural tidbits and
+cultural moments that they will be able to laugh at.
+Here's another great example of a fun character that we added into a story. In this piece,
+Amber looked at the types of birth control that women across the United States use. And
+she included this little condom clippy guy in the bottom right corner to help give you a little
+bit more context and information about each type of birth control. We call them condom
+clippy because he was modeled after Word's famous paperclip that kept popping up and
+asking you, "Do you need help?" So in this one, you can kind of click on each of the
+different types of birth control, and condom clippy will will give you more information.
+The next fun bit in a story we'll look at is a piece comparing emo rap to the emo bands of
+the early 2000s. And this is a little scroll trigger emoji as you slide down. You can see it
+changes to be just a little bit less sad. I'm giving you an idea of just how sad each of these
+lyrics are. If you scroll back up, you get the oh my gosh, I'm crying, I'm dying, I'm drowning
+in my own tears face.
+This is a project that I worked on while at The Guardian US with their interactive team, and
+in itself, it looks like a very outlandish project to begin with. So you're saying, "Woah, the
+whole thing is fun." But what I really want you to focus on is these little constellations that
+draw in behind this scary Trump floating orbit, and you'll see that they're all kind of
+Republican-themed constellations. There was one that was an elephant that just
+disappeared called the Grand Old Pachyderm. One just came up, called the Bible Belt,
+and one will come up really soon. There's a bald eagle. So these are just little bitty tidbits
+that make the story enjoyable.
+Here's another one from The Guardian US. This was during the primary elections, where
+the famous block and painted maps of where candidates won come into place. And they
+actually use the 8-bit characters to come draw and spray paint in the counties of Iowa
+themselves. You can see they write in their little machines. There's 8-bit Hillary Clinton and
+8-bit Ted Cruz.
+Again, having fun in your stories is really important. It makes sure that you're connecting
+with the reader. It makes sure you're giving them something memorable, and it makes sure
+that you're meeting them where they are. And that's one of the most important things we
+can do as data journalists is not ask the audience to come to us. It's to go to them.
