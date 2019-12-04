@@ -1,0 +1,89 @@
+
+In this video, I'm going to talk about some of the publishing options for your visualizations
+and how to either publish, to Flourish, or download your visualizations and everything like
+that. So the thing to know is that there are a couple of different ways to publish Flourish
+visualizations for the web. And it depends on what kind of customer you are, for some of
+the options. But I'm just going to run through the ones that are available and tell you what's
+available on the free plan and what isn't.
+So the first and most sort of common way that people publish Flourish visualizations is to
+publish straight to Flourish, to our servers, and then to use an embed code to embed them
+on a web page. So to do this, there's this button in the top right corner that says export and
+publish. If it's unpublished, it's going to be black, and then if it's published, it's going to be
+green, and if it's published but has some unpublished changes, it's going to be orange.
+So let me show you how that works. So if I wanted to export and publish to Flourish, I click
+this button, then click this button right here and it's going to ask me if I want to publish it
+and if I want to make a password. So it can only be seen with people who have the
+password. I'm going to say no, so I'm just going to click publish, and you can see now that
+this is turned to green and you can see a preview of your public - of your published
+visualization on this link right here. So that's what it looks like.
+And then there are a couple of different embed options right below this for if you want to
+embed this visualization straight onto your web page. So the main normal one is just this
+one right here, which is just a normal script tag. But we also have an AMP Iframe and a
+normal Iframe available as well. There's also this option for paying customers to hide the
+Flourish credit when they embed the visualization on their web page. You can also click
+unpublish this project right here.
+But I also want to show you what happens when you have something published and you
+make a change. So say, for example, this right now doesn't really have the right heading
+for this chart. It's actually the 2009 to 2017 school years. So I'm going to go down here and
+change this subtitle to that, and you should see here in the right hand corner, this is just
+changed from green to orange. But I haven't published the changes, so green to orange
+means that there are unpublished changes for a published project. And if I go here, I can
+see that this still says 2009 2010 academic year, and this says 2009 to 2019. So if I click
+this and click republish and go back here and refresh, this has changed. So this is a really
+good way to do sort of draft things on your website. So if you are a Newsroom customer
+and you are making a bunch of empty charts for an election that you just kind of want to fill
+in, you can make them and then you don't have to change the embed code or anything like
+that. You can just republish them to Flourish. Keep updating the data and they will update
+on your website.
+The other option for publishing is, well, one of the other options is to download an image
+and there's a couple of different sizing options. You can size the image however you want.
+This specific template, you can download a PNG, a JPEG, or an SVG. In some of the
+templates, you can only download a PNG and a JPEG because of the way they're coded.
+They're not coded using SVG. And you would just click download to download that, and it
+would download to your computer. So that's just a static image.
+And then there's also one more option for paying customers, which is this download HTML
+option, which will download a modified sort of version of the chart as an HTML file. And
+that is a way for people who want to host their own graphics, so for them not to be on the
+Flourish server, to do that.
+In this video, I'm going to talk about making one-slide stories in Flourish and the situations
+in which you might want to do so, and why you'd make a one-slide story instead of just sort
+of making a visualization and publishing a single visualization. I think this is something
+that's quite unique to Flourish, so it definitely warrants explanation. And it's something
+that's a little tricky to get your head around, but once you do, it makes a lot of sense.
+So to illustrate the need and explain a situation in which you may need to do this, I'm going
+to use this line chart race, which is showing UK general election results by party from
+every election since 1918. So it's a line chart race so obviously it animates, which is pretty
+cool. So it's getting cut off here but you can see there's a new, other parties shown at the
+bottom. And say, for example, that I wanted to talk about - I wanted just to show sort of the
+animation to 1970, so when the SNP - the first election where the SNP win seats. And if I
+do this and have this - because using this thing, you can move the visualization back and
+forth. And if I want to just show this year, sort of like this, this view, if I click export and
+publish, which makes a lot of sense, you would think, OK. This is my visualization. I'm
+going to export and publish it. It doesn't save that view. It starts at the beginning of the
+animation and just goes straight through again. And I can even sort of do this again. Oh,
+maybe something didn't work. I'm going to go to here. And then I'll export and publish
+again. And it just does the same thing.
+So there is a way to actually save this sort of view here, and that is using the story editor.
+So if I click create a story from here, in the story editor, unlike in the visualization editor, as
+we just saw, it lets you save this sort of point of view, or the view of the visualization, which
+you can't do in the visualization editor. The visualization editor just lets you make the
+visualization, and since all this data is in there, it's just going to play the animation. But in
+the story editor you can save the view, so if I do this and go back, the same thing that I did
+in the visualization editor, and now I export and publish this as a story, you know which
+you can embed in the same way you would embed a visualization, it stops. It stops at this
+view.
+So that is the situation. A very simple and common situation in which you would want to
+make a one-slide story. So there are a couple of other ones, like if you wanted to - if you
+made a cool 3D map and you wanted to kind of zoom into a certain angle and a certain
+view of it, that's another situation where you would want to use one-slide story.
+And there is another little trick to know about this, which is that right now you can see this
+navigation bar, which is where you usually would put your caption or whatever if you
+wanted, and where you would click through the story, or if it was an autoplay sort of talky
+situation where it would show how far along in the talk you are, but you can actually get rid
+of this and embed this, so it looks basically like it would if it was just this regular line chart
+visualization. And that trick is just here at the top, navigation style is on default. You can
+set it to none, which will get rid of it. So that just basically looks like your regular line chart
+race, but it's actually a story and no one would know really the difference if you had
+embedded this somewhere on a web page.
+So yeah. So I hope that sort of clears up confusion about animation and stuff like that. And
+when you might want to use a one-slide story.
