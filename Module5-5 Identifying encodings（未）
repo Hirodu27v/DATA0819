@@ -1,11 +1,8 @@
 Identifying encodings
-Let's take a look at a couple of data visualizations and see whether we can identify the
-encodings that were used in those graphics. The graphic you have on screen right now, it
-was designed by The Marshall Project. The Marshall Project is a news organization, a
-nonprofit news organization, and a while ago, they did a story titled Crime in Context. And
-within that story, you have a line chart, a line chart that shows right now the rate of violent
-crime in different cities between 1975 and 2015. And then you have the variation of that
-rate over the years.
+いくつかのビジュアライゼーションを題材に、どんなエンコーディングが使われているのか見てみましょう。今スクリーンに示しているのは、マーシャル・プロジェクトが作成したものです。
+マーシャル・プロジェクトは非営利の報道機関で、しばらく前に「Crime in Context」という記事を出しました。
+記事の中に1975年から2015年までのさまざまな都市の暴力犯罪率の経年変化を示す折れ線グラフがあります。
+
 Before we get to the encoding, by the way, I would like to point out a feature that I really
 like about this project, which is the menu. All right. The navigation menu on top. You may
 notice that the menu has been integrated, it has been blended with the introduction to the
