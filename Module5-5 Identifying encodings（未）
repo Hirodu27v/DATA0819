@@ -13,22 +13,11 @@ Identifying encodings
 まず、線そのものに注目してください。マイアミ・デイド郡の1975年から2015年までの殺人事件の推移を示しています。
 ここで使われているエンコードはpositionですが、なぜpositionなのでしょうか。折れ線グラフの作成方法を考えてみましょう。
 折れ線グラフの「足場」層はたいてい縦軸です。何を測定したいか、それは殺人事件が増えているのか、それとも減っているのかです。
-横軸は、ここでは時間、それぞれの年になっています。ふつう、折れ線グラフでは、何よりもまず横軸の上に、各年に対応する
-But in any case, let's focus on the encoding, so let's focus on the chart itself. Which
-encodings, among the ones that I showed you before, can you identify here? I'm going to
-just give you a give you a clue, or give you an idea. First of all, focus on the line itself,
-right? The line that represents the change, or in this case, homicides in Miami-Dade from
-1975 and 2015. The encoding there is position, why position? Well, think about how a line
-chart is created. A line chart, the scaffolding layer of a line chart is usually a vertical axis,
-which measures what it is, what you want to measure, more homicides, fewer homicides,
-and then the horizontal axis is in this case, it is time, right? Is year by year, right? What
-you do in a line chart usually, conceptually is first of all, place tons of little dots, each one
-of them corresponding to a year, over the horizontal axis. One dot from 1975, 1976, 1977,
-and so on and so forth. You put those dots on the horizontal axis, you change the position
-of those dots according to the years. And then what you do is to change the Y position, the
-vertical position over those dots according to the metric that you want to measure in this
-case, homicide rates. The higher the position of a dot is, the higher the homicide rate in
-that city is in that particular year.
+横軸は、ここでは時間、それぞれの年になっています。ふつう、折れ線グラフでは、何よりもまず横軸の上に、各年に対応するドットをたくさん配置することです。
+1975、1976、1977と順番に、横軸の上にドットを置いていきます。そして、ドットの位置を殺人事件率に合わせて変えるのです。
+位置が高くなるほど、その年におけるその都市の殺人事件率は高くなります。
+
+
 But then what we do is to connect those dots with lines, but the encoding is still the
 position of the dots that mark the years, right? As a byproduct, though, as a byproduct of
 connecting those dots, we could also say that a secondary encoding in a chart like this is
