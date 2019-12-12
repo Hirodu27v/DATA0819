@@ -2,21 +2,18 @@ Identifying encodings
 いくつかのビジュアライゼーションを題材に、どんなエンコーディングが使われているのか見てみましょう。今スクリーンに示しているのは、マーシャル・プロジェクトが作成したものです。
 マーシャル・プロジェクトは非営利の報道機関で、しばらく前に「Crime in Context」という記事を出しました。
 記事の中に1975年から2015年までのさまざまな都市の暴力犯罪率の経年変化を示す折れ線グラフがあります。
-
-Before we get to the encoding, by the way, I would like to point out a feature that I really
-like about this project, which is the menu. All right. The navigation menu on top. You may
-notice that the menu has been integrated, it has been blended with the introduction to the
-graphic itself. You can vary the different elements in the introduction to the graphic, and
-the graphic will change. So if you want to see, for example, instead of rates, you want to
-see the total counts, the total number of violent crimes, you can select that. And then the
-intro to the graphic will change, and the chart will vary accordingly. And then if you want to
-see specific kinds of crimes, for example, if you want to see specifically homicides, you
-can select that from the top menu. And then all the elements in the introduction text will
-change accordingly. You can also change the city, so if you want to see those numbers
-not from Milwaukee, but for example, Miami, where I live, or Miami-Dade County, so I'm
-going to select Miami-Dade County. I can see that now, right now, that the rate of homicide
-in Miami-Dade County was down 53 percent between 1975 and 2015. And the time range
-can also change. Anyway, this is a very interesting way of presenting the data.
+エンコーディングの話に入る前に、このプロジェクトで特に気に入っている機能、メニューについて説明したいと思います。
+上部のナビゲーションメニューでは、メニューがグラフィックの概要とブレンドされていることがわかります。
+イントロダクションの異なるエレメントを変更すると、グラフィックも変更されます。
+例えば、率ではなく、暴力犯罪の総数を選択します。すると、それに応じてチャートが変化します。
+さらに、特定の種類の犯罪、例えば殺人について見たい場合、トップメニューから選択できます。それに応じて解説も変わります。
+都市を変更することもできます。ミルウォーキーではなく私が住んでいるマイアミ・デイド郡の数字を見たければ、これを選択します。
+今のところ、マイアミ・デイド郡の殺人事件数は1975年から2015年に53%減少しました。これはデータを提示する興味深い方法です。
+閑話休題、エンコーディングの話に戻りましょう。どんなエンコーディングが使われているか分かりますか？手がかりを教えましょう。
+まず、線そのものに注目してください。マイアミ・デイド郡の1975年から2015年までの殺人事件の推移を示しています。
+ここで使われているエンコードはpositionですが、なぜpositionなのでしょうか。折れ線グラフの作成方法を考えてみましょう。
+折れ線グラフの「足場」層はたいてい縦軸です。何を測定したいか、それは殺人事件が増えているのか、それとも減っているのかです。
+横軸は、ここでは時間、それぞれの年になっています。ふつう、折れ線グラフでは、何よりもまず横軸の上に、各年に対応する
 But in any case, let's focus on the encoding, so let's focus on the chart itself. Which
 encodings, among the ones that I showed you before, can you identify here? I'm going to
 just give you a give you a clue, or give you an idea. First of all, focus on the line itself,
