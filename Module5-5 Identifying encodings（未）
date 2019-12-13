@@ -18,21 +18,13 @@ Identifying encodings
 位置が高くなるほど、その年におけるその都市の殺人事件率は高くなります。
 ドットは線でつながれています。それでも、エンコーディングは年ことに置かれたドットのpositionなのです。
 副次的に、線の傾きは経時的な殺人事件の推移についての解釈する手がかりになります。
- But the primary
-encoding is still position, right? The position of those dots identifying the homicide rate for
-each specific year. We could also say, by the way, in this chart, that color hue is used as
-an encoding because color hue, in this case red and gray, color hue is used to identify the
-city that you are highlighting, in this case Miami-Dade and the other cities. All the other
-gray lines that you're having, though, in the background, all those lines correspond to all
-the other cities in the data set. They are still visible because the designer of these charts
-wanted to put the line that you selected in contexts. Allowing you to compare the line that
-you're selecting with all the other lines in the data set. But the color hue was used to
-identify, again, the line that you're interested in and all the other lines that should stay in
-the background.
-Another chart or another data visualization that we could use to test our ability of
-identifying, to identify encodings is this produced by NPR, National Public Radio. So this is
-a chart that shows a map that shows, as the title says, a dramatic rise in health insurance
-coverage under the ACA. The ACA is the Affordable Care Act, also known as Obamacare.
+しかし、主要なエンコーディングはやはり位置なのです。ところで、このチャートには色もエンコーディングとして使われています。
+色（この場合は赤と灰色）は強調したい都市（マイアミ・デイド郡）を識別するために使われています。
+背景の灰色の線はデータセットの他の都市に対応しています。チャートを設計した人は全体のコンテキストの中に線を表示したいと思ったので、（都市を選択しても）他の（都市を表す）線は表示されたままです。。
+そうすると、データセットの他の都市と比較できます。しかし、色相によって興味のある線と他の線とを区別することができるのです。
+エンコーディングを識別する能力を鍛える他の例として、NPR、National Public Radioで作ったチャートを使いましょう。
+これは地図であり、タイトルにあるようにACAの下での医療保険の劇的な増加を示しています。
+The ACA is the Affordable Care Act, also known as Obamacare.
 Take a look at the map that you have in there. That kind of map, because you are
 interested in terms, the terms that we use in data visualization, is called a choropleth,
 choropleth map. Choropleth maps are maps that use well, sort of spoiler alert, the
@@ -47,6 +39,7 @@ graphic. So you can you know, you can hover over and you can also use the time s
 go back in time and compare the current colors, the current shades of colors to how the
 map looked like in 2010. And you will see that more counties have much higher rates of
 uninsured people, right? Before the Affordable Care Act was approved and was passed.
+
 All right. So it's shade of color, right? Color shade is the main encoding here.
 But there is another one because there is another graphic on the screen right now. Take a
 look at this sort of bar graph that you have right underneath the color, the color legend.
