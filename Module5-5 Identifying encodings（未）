@@ -16,13 +16,9 @@ Identifying encodings
 横軸は、ここでは時間、それぞれの年になっています。ふつう、折れ線グラフでは、何よりもまず横軸の上に、各年に対応するドットをたくさん配置することです。
 1975、1976、1977と順番に、横軸の上にドットを置いていきます。そして、ドットの位置を殺人事件率に合わせて変えるのです。
 位置が高くなるほど、その年におけるその都市の殺人事件率は高くなります。
-
-
-But then what we do is to connect those dots with lines, but the encoding is still the
-position of the dots that mark the years, right? As a byproduct, though, as a byproduct of
-connecting those dots, we could also say that a secondary encoding in a chart like this is
-the slope, the slope of the line, the angle of those lines is also sort of a clue as to how to,
-you know, interpret or to see the variation of homicide rates year by year. But the primary
+ドットは線でつながれています。それでも、エンコーディングは年ことに置かれたドットのpositionなのです。
+副次的に、線の傾きは経時的な殺人事件の推移についての解釈する手がかりになります。
+ But the primary
 encoding is still position, right? The position of those dots identifying the homicide rate for
 each specific year. We could also say, by the way, in this chart, that color hue is used as
 an encoding because color hue, in this case red and gray, color hue is used to identify the
