@@ -1,9 +1,8 @@
 The annotation layer
-Now that we have learned about encodings, let's talk about the next layer in a data
-visualization, which is, I would say equally important to the encodings itself. It's what we
-usually call in the world of data visualization, the annotation layer, which is not a term that I
-invented. It's a term that I believe was invented in the graphics department of The New
-York Times.
+エンコーディングについて学んだところで、データ視覚化の次の層、つまりエンコーディングと同じくらい重要な層について説明しましょう。
+データ・ビジュアライゼーションの世界では注釈層と呼ばれています。私が（勝手に）名付けたわけではありません。
+たしかニューヨークタイムズ社のグラフィックス部門が作り出した用語だったはずです。
+
 What is the annotation layer? Well, the annotation layer is those text elements that we add
 to visualizations to either clarify the data, to highlight the most important data points in your
 chart or to put the data in context somehow. And this is a very important layer in any data
