@@ -30,24 +30,10 @@ Identifying encodings
 色が濃いほど、2015年にその郡で医療保険に入っていない人は多くなり、薄くなるほど少なくなります。
 これはインタラクティブなグラフィックで、タイムスライダーを使用して時間をさかのぼると現在と2010年を比較することができます。
 そうすると、保険未加入率が高い郡はより多くなります。それはACAが承認され、可決される前だからです。
-
-All right. So it's shade of color, right? Color shade is the main encoding here.
-But there is another one because there is another graphic on the screen right now. Take a
-look at this sort of bar graph that you have right underneath the color, the color legend.
-This is not really a bar graph, although it uses bars to represent the data, this is called a
-histogram. A histogram is a kind of bar graph, a variation of the bar graph that is used
-usually to represent the distribution of a variable. The number of counts, that in this case,
-the number of counties that you have within each specific range of an insurance rates,
-right? So basically what this chart is telling you, if you pay attention to it and considering
-that the height method of encoding here is height, the height of these bars is proportional
-to the counts to the number of counties that you have within these sort of beans of data.
-This is basically telling you that in 2015 there were 110 counties that had a rate of lack of
-health insurance between 0 percent and 5 percent, more than 1,000 counties that have a
-rate between 5 percent and 10 percent, around 1,000 counties that have 10 percent to 15
-percent, 500 counties or something like that between 15 and 20, 182 counties between 20
-percent and 25. And then 48 counties that have a rate of more than 25 percent of people
-lacking health insurance. Take a look at how this histogram looks like. If we go back in
-time to 2010, you will notice that the bars on the right end of the spectrum become much
-higher, becomes much taller, showing you that there are more counties with higher rates
-of lack of health insurance. Again, the method of encoding in this particular chart, this
-histogram, is height, the height of the bars is proportional to the counts.
+ということで、ここでは色の濃淡が主要なエンコーディングでした。
+今画面には別のグラフィックがあります。色の凡例の下にある棒グラフを見てください。これは実際には棒グラフではありませんが、データを表すために棒を使います。
+これはヒストグラムです。ヒストグラムは棒グラフの一種で、通常は変数の分布を示すために使われます。
+ここでは、保険料率の特定の範囲にある郡を数え上げています。このグラフが何を伝えているのか注意してみると、ここでのエンコーディングは高さです。
+棒の高さは郡の数に比例しています。2015年に健康保険の未加入率が0%から5%の郡が110、5%から10%は1,000以上、10％から15％は約1000、15％から20％は500というところ、20％から25％は182、そして25％以上は48でした。
+ヒストグラムを俯瞰してみると、2010年では右側の棒が高くなっています。これは健康保険未加入率が高い郡が多いことを示しています。
+おさらいですが、このヒストグラムのエンコーディングは高さで、棒の高さは郡の数に比例しています。
