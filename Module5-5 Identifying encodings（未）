@@ -23,7 +23,9 @@ Identifying encodings
 背景の灰色の線はデータセットの他の都市に対応しています。チャートを設計した人は全体のコンテキストの中に線を表示したいと思ったので、（都市を選択しても）他の（都市を表す）線は表示されたままです。。
 そうすると、データセットの他の都市と比較できます。しかし、色相によって興味のある線と他の線とを区別することができるのです。
 エンコーディングを識別する能力を鍛える他の例として、NPR、National Public Radioで作ったチャートを使いましょう。
-これは地図であり、タイトルにあるようにACAの下での医療保険の劇的な増加を示しています。
+これは地図であり、タイトルにあるようにACAの下での医療保険の劇的な増加を示しています。ACAは医療費負担適正化法、すなわちオバマケアとして知られています。
+その地図をご覧ください。ご興味があると思いますが、この種の地図はコロプレスマップといいます。
+コロプレスマップは、ネタバレになってしまうのですが、使われているエンコーディングは色の濃淡です。
 The ACA is the Affordable Care Act, also known as Obamacare.
 Take a look at the map that you have in there. That kind of map, because you are
 interested in terms, the terms that we use in data visualization, is called a choropleth,
