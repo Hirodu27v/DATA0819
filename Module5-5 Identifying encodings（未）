@@ -26,21 +26,10 @@ Identifying encodings
 これは地図であり、タイトルにあるようにACAの下での医療保険の劇的な増加を示しています。ACAは医療費負担適正化法、すなわちオバマケアとして知られています。
 その地図をご覧ください。ご興味があると思いますが、この種の地図はコロプレスマップといいます。
 コロプレスマップは、ネタバレになってしまうのですが、使われているエンコーディングは色の濃淡です。
-The ACA is the Affordable Care Act, also known as Obamacare.
-Take a look at the map that you have in there. That kind of map, because you are
-interested in terms, the terms that we use in data visualization, is called a choropleth,
-choropleth map. Choropleth maps are maps that use well, sort of spoiler alert, the
-encoding of this map is shade of color, right? The darker the color, the higher the number
-that that color is representing. So in the map that you have on the screen right now, the
-main encoding of that map is color shade, right? As you can see, the counties on the map,
-the ones that have darkest colors are the counties that have highest rates of lack of health
-insurance. The darker, darker the color, the more people you have in that particular county
-who didn't have health insurance in 2015. And the lighter the color, the fewer the number
-of people who didn't have health insurance in 2015. By the way, this is an interactive
-graphic. So you can you know, you can hover over and you can also use the time slider to
-go back in time and compare the current colors, the current shades of colors to how the
-map looked like in 2010. And you will see that more counties have much higher rates of
-uninsured people, right? Before the Affordable Care Act was approved and was passed.
+色が濃いほど、その色が表す数値は大きくなります。ご覧のように、地図上で最も色が濃い郡は医療保険未加入率が最も高い郡です。
+色が濃いほど、2015年にその郡で医療保険に入っていない人は多くなり、薄くなるほど少なくなります。
+これはインタラクティブなグラフィックで、タイムスライダーを使用して時間をさかのぼると現在と2010年を比較することができます。
+そうすると、保険未加入率が高い郡はより多くなります。それはACAが承認され、可決される前だからです。
 
 All right. So it's shade of color, right? Color shade is the main encoding here.
 But there is another one because there is another graphic on the screen right now. Take a
