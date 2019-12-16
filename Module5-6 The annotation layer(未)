@@ -2,30 +2,18 @@ The annotation layer
 エンコーディングについて学んだところで、データ視覚化の次の層、つまりエンコーディングと同じくらい重要な層について説明しましょう。
 データ・ビジュアライゼーションの世界では注釈層と呼ばれています。私が（勝手に）名付けたわけではありません。
 たしかニューヨークタイムズ社のグラフィックス部門が作り出した用語だったはずです。
-
-What is the annotation layer? Well, the annotation layer is those text elements that we add
-to visualizations to either clarify the data, to highlight the most important data points in your
-chart or to put the data in context somehow. And this is a very important layer in any data
-visualization if you want to communicate effectively with the public. Let's suppose that you
-do a line chart, right? With tons of little data points and stuff and suddenly there is a spike
-in your line chart. Well, you better add a little note to that spike telling people, well, this
-event or this phenomenon happen at this particular point in time, and this is the reason
-why we have this sudden spike in our line chart. That's the annotation layer, that little note
-that you're putting there, that's the annotation layer at work. The annotation layer is also
-the intros that we write to our visualizations, the headlines that we write for our
-visualization. Those elements are incredibly important in data visualization.
-As an example of how the annotation layer works, I would just like to show you this project
-by The Washington Post titled The Geography of Voting. It's basically a series of maps
-and graphs and charts showing county by county which counties have higher participation
-rates in elections or smaller participation rates in elections. The Washington Post
-designers could have limited themselves just to show you the data, right? Just to map the
-data, encode the data using colors and shapes and height and lengths and so on and so
-forth, but they did something else. On top of those charts, they added little notes here and
-there pointing out, you know, the counties with the highest rates, they counties with the
-lowest rates. "Hey, don't miss these data point, this is really, really important." Those little
-textural elements are crucial, are fundamental in data visualization. This is the annotation
-layer at work. Never, never miss the opportunity to explain something in your chart or in
-your graph, or in your map if you believe that that particular number, that particular point in
-time or that particular county on a map should not be missed by your readers. If you don't
-want them to miss it, just point it out and add a little bit of text next to it so people will focus
-their attention on that particular point.
+注釈層とは何でしょう？それは、データを明確にしたり、チャートの最も重要なポイントを強調したり、あるいは何らかの方法によって、データをコンテキストに適合させるために追加するテキスト要素のことです。
+どんなビジュアライゼーションでも、一般の人々と効果的にコミュニケーションを図るには重要です。
+折れ線グラフを作成するとしましょう。大量のデータ・ポイントがあると、グラフにスパイクが発生することがあります。
+このスパイクに、この現象が特定の時点で発生していることを伝える注意書きを追加するとよいでしょう。
+これが注釈層であり、そこに配置する注意書きです。注釈層は、ビジュアライゼーションの導入、ヘッドラインでもあります。
+これらの要素はデータ・ビジュアライゼーションにとって非常に重要です。
+注釈層の仕組みを示す例として、ワシントンポスト紙の”The Geography of Voting”というプロジェクトをお見せします。
+これは投票率の高い郡と低い郡を示す地図とグラフとチャートで構成されています。
+ワシントンポストのデザイナーたちは、データを見せることだけに的を絞ることもできました。
+データをマッピングするために色、形、高さや長さなどを駆使しましたが、他にもしたことがあります。
+地図の上に、彼らは小さな注意書きを置き、投票率が最も高いのはどこか、最低だったのはどこかを指摘しました。
+「このデータポイントを見逃さないで！これは本当に重要です！」というように。
+この小さなテキスト要素は重要で、ビジュアライゼーションの礎です。
+これは作業途中の注釈層です。特定の数、特定の時点、または地図上の特定の郡を見逃してほしくないなら、あなたのチャート、グラフ、または地図で説明する機会を決して逃さないでください。
+見逃してほしくないのであれば、それを指摘し、その隣にちょっとテキストを追加して、人々に注意を促しましょう。
