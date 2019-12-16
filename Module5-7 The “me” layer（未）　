@@ -1,18 +1,12 @@
 The “me” layer
-それでは、
-Let's talk now about what I would say is my favorite part, or my favorite layer in data
-visualization, particularly in interactive data visualizations. It's sort of the interactive layer,
-but I prefer to call it sometimes the "me" layer. Why? Because I think that any visualization
-can be made more interesting or more engaging if we somehow tell people why they
-should care about the data that we are presenting or where they are in the data that we
-are presenting to them. Let me give you just an example. Let's suppose that you do sort of
-a graphic showing the distribution of wealth in the United States. On the horizontal axis,
-you put the wealth ranges or the income ranges, right? Zero dollars, 1,000 dollars, 2,000
-dollars and so on and so forth, up to a billion dollars a year, right? You do that on the
-horizontal axis, right? The wealth ranges.
-And then the y axis will be sort of the number of people, or the number of families within
-each one of those ranges of wealth, right? The end result will be sort of a histogram, a
-histogram of data, right? The higher the bar, the higher the number of people who have a
+ここでは、私がビジュアライゼーションの中でお気に入りの部分であるレイヤーを説明しましょう。
+これはインタラクティブなレイヤーの一種ですが、私は「me」レイヤーと呼びたいと思います。
+なぜなら、私たちのデータになぜ関心を持つべきか、あるいは私たちがデータのどこに関心を持っているのかを人々に伝える方法があれば、どんなビジュアライゼーションでもより面白く、魅力的になると思うからです。
+アメリカの富の分布をグラフに表したとしましょう。横軸は富、つまり収入です。
+0ドル、1,000ドル、2,000ドルときて、年間最高10億ドルとなっていますね?これが横軸です。
+そしてY軸は人々の数、つまりそれぞれの富の範囲内にある世帯数です。最終的にはヒストグラムのようになるはずです。
+
+ The higher the bar, the higher the number of people who have a
 particular wealth. Now, usually the distribution in many countries looks like this, right?. A
 lot of people on the lower end of the spectrum, most people in the United States make
 around between 0 dollars, 1000 dollars, very poor people, obviously, up to around 100,000
