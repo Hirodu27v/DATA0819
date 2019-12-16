@@ -5,19 +5,13 @@ The “me” layer
 アメリカの富の分布をグラフに表したとしましょう。横軸は富、つまり収入です。
 0ドル、1,000ドル、2,000ドルときて、年間最高10億ドルとなっていますね?これが横軸です。
 そしてY軸は人々の数、つまりそれぞれの富の範囲内にある世帯数です。最終的にはヒストグラムのようになるはずです。
-
- The higher the bar, the higher the number of people who have a
-particular wealth. Now, usually the distribution in many countries looks like this, right?. A
-lot of people on the lower end of the spectrum, most people in the United States make
-around between 0 dollars, 1000 dollars, very poor people, obviously, up to around 100,000
-dollars, that would be 120,000 dollars, that's sort of the middle class. Most people are like
-in that lower end of the spectrum. But then we have a very long tail, right? Much fewer
-people, many fewer families who make much, much less money, sorry, much more
-money. So we have sort of that long tail like that, poor people, middle class people, tons of
-people over here and then very rich people over here. Now, that's interesting per say,
-because that chart will show you sort of the income and wealth inequality that exists in
-most countries in the world. Most people are here, but then we also have very rich people
-on this upper end of the of the spectrum.
+棒が高いほど、その範囲にある富を持っている人は多くなります。さて、多くの国ではこのような分布になっています。
+アメリカの低所得層は大半が０～1000ドルの収入を得ています。10万～12万ドルは中流階級と言っていいでしょう。
+ほとんどの人はここまでの範囲に含まれます。しかし、このグラフには長い尾があります。
+より少ない収入しか得られない人々、そして多くの金を稼ぐ世帯がいます。
+貧困層、中流階級、たくさんの人々がここにいて、億万長者がここにいます。
+これは興味深いことです。というのも、このチャートはたいがいの国に存在する富と収入の不平等を指し示しているからです。
+ほとんどの人はここにいますが、帯域の上限には非常に裕福な人々がいます。
 But what about, that will be the encodings, right? Encoding the data, that's interesting per
 say. But what about if before we show people the chart, we ask people how much money
 do you make? How much do you make every year? Let's suppose that you're making
