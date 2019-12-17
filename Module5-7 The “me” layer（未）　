@@ -12,21 +12,23 @@ The “me” layer
 貧困層、中流階級、たくさんの人々がここにいて、億万長者がここにいます。
 これは興味深いことです。というのも、このチャートはたいがいの国に存在する富と収入の不平等を指し示しているからです。
 ほとんどの人はここにいますが、帯域の上限には非常に裕福な人々がいます。
-But what about, that will be the encodings, right? Encoding the data, that's interesting per
-say. But what about if before we show people the chart, we ask people how much money
-do you make? How much do you make every year? Let's suppose that you're making
-60,000, 80,000, and you input that. "Well, I make around 80,000 dollars a year," and you
-input that in the chart. And then I show you the chart, I show you the distribution of families
-according to wealth. Remember that the height is the number of families and the horizontal
-axis is the wealth levels or the wealth ranges. So I show you that chart and then I add a
-little line, an annotation saying "you are here," that you are here, that's the "me" layer. The
-"me" layer is where you are in the data, and it could also add, for example, 70 percent of
-families make more money than you do, 30 percent of families make more money than
-you do. That's the "me" layer. I have to believe that when we add this layer to our
-visualizations, our visualizations become much more interesting and much more engaging
-because the data has been humanized. The data has been transformed into something
-almost physical, something that appeals to you, that talks about you, you in comparison to
-everybody else in the data.
+これはエンコーディングですよね？データをエンコーディングするのは面白いものです。
+しかし、チャートを披露する前に「毎年いくら稼いでいますか」と聞いてみたらどうでしょう。
+６万ドルでも、８万ドルでも、その額を入力します。「私は年収８万ドルです」と言われたらそれをチャートに入力します。
+グラフには資産別の世帯分布が示されています。高さは世帯数、横軸は富のレベルまたは範囲であることを覚えておいてください。
+このグラフに線を引いて、「あなたはここにいます」と注釈を付けます。これが「me」レイヤーです。
+「me」レイヤーは、データの中であなたがいる場所であり、例えば、70%の家族があなたより多くのお金を稼いでおり、30%の家族があなたより多くのお金を稼いでいるかもしれない。
+ビジュアライゼーションにこのレイヤーを追加すると、データが人間性を帯び、ビジュアライゼーションがより面白く魅力的なものになります。
+こうしてデータは身近になり、あなたにアピールし、あなたについて語り、あなたをデータ内の他の人と比較するものとなるのです。
+「me」コンポーネントを追加することによってビジュアライゼーションをより魅力的なものとする例を紹介しましょう。
+これを実現するには、人々に問いかけることです。この話題についてどう思いますか。データはどのようになると思いますか。
+何かを描いたり、したりするよう促して現実のデータを提示すると、彼らは推測や直感と現実とを比較します。
+ニューヨークタイムズ紙は先日、「You Draw It: What Got Better or Worse During Obama's Presidency?」というプロジェクトを公表しました。
+これは一連の折れ線グラフで皆さんが想像する通りに線を描けます。例えばオバマ政権下の失業率を予想してください。
+ここに空白があって、失業率を表す線を書き加えることができます。失業率はきっと急上昇したのでは？
+急増する線を描いて、書き終わったらクリックすると（現実には）どうなったか見ることができます。あまりうまくいきませんでした。
+私は今、自分の推測と現実を比較しています。「なんてこった！」とあなたは感じ、理解を深めることができます。
+それはエンゲージメントを高め、あなたが間違っているとか、正しいと伝えることによって
 Let's take a look at several examples of how to make data visualizations more engaging
 and interesting by adding sort of these "me" component to them. One way to do this is to
 challenge people, to basically ask people questions. What do you think about this topic?
@@ -50,6 +52,7 @@ appealing. Under Obama, the number of immigrants convicted of crimes who were
 deported, did it increase or decrease? All right. So I say, I would say that it increased,
 show me how I did. Well, I didn't do as badly as before, right? So it's a very interesting
 example of how to add this layer to any visualization.
+
 Another one that I would like to show you was published recently. Sort of, it begins, it's a
 quiz. It begins with a quiz. Let us predict whether you are a Democrat or a Republican
 according to who you are, right? Let me guess whether you lean more Democrat or you
