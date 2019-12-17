@@ -28,30 +28,11 @@ The “me” layer
 ここに空白があって、失業率を表す線を書き加えることができます。失業率はきっと急上昇したのでは？
 急増する線を描いて、書き終わったらクリックすると（現実には）どうなったか見ることができます。あまりうまくいきませんでした。
 私は今、自分の推測と現実を比較しています。「なんてこった！」とあなたは感じ、理解を深めることができます。
-それはエンゲージメントを高め、あなたが間違っているとか、正しいと伝えることによって
-Let's take a look at several examples of how to make data visualizations more engaging
-and interesting by adding sort of these "me" component to them. One way to do this is to
-challenge people, to basically ask people questions. What do you think about this topic?
-Or what do you guess that the data will look like? And then you ask them to draw
-something or to do something and then you show them the reality, so they can compare
-their own guesses and intuitions, with what the reality released.
-The New York Times did this a while ago with a project titled You Draw It: What Got Better
-or Worse During Obama's Presidency?, and it's a series of line charts in which you can
-basically draw what you guess that, for example, the unemployment rate was during the
-Obama years. So, for instance, under President Obama, the unemployment rate was and
-you have here an empty space that you can draw on, I'm going to guess, basically trace a
-line. I would guess that unemployment went up very sharply. So I'm going to draw very,
-very sharply increasing line over here. And once I finish drawing, I'm going to click on
-show me how I did. Well, I didn't do that well. So, now I am comparing my own assumption
-and my own conjecture to the reality. And you get these sort of "oh, wow" effect. All right.
-I might guess what's wrong. I think that that "oh, wow" effect can really increase
-understanding. It increases engagement, and it basically tells you, by telling you that you
-are wrong or that you are right, it's putting you inside of the data that you are that you are
-presenting, right? It's that element of surprise that makes the graphics so engaging and so
-appealing. Under Obama, the number of immigrants convicted of crimes who were
-deported, did it increase or decrease? All right. So I say, I would say that it increased,
-show me how I did. Well, I didn't do as badly as before, right? So it's a very interesting
-example of how to add this layer to any visualization.
+それはエンゲージメントを高め、あなたが間違っているとか、正しいと伝えることによって提示したデータの中にあなたを引き込むのです。
+グラフィックを魅力的で魅力的なものにしているのは驚きの要素です。オバマ政権下、有罪判決を受け強制送還された移民の数は増えたのでしょうか、それとも減ったのでしょうか。
+増加していると思うのですが、実際のところを見てみましょう。まあ、前ほど悪くはありませんでした。
+これが、このレイヤをビジュアライゼーションに追加する非常に興味深い例です。
+
 
 Another one that I would like to show you was published recently. Sort of, it begins, it's a
 quiz. It begins with a quiz. Let us predict whether you are a Democrat or a Republican
