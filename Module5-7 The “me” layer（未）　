@@ -32,31 +32,20 @@ The “me” layer
 グラフィックを魅力的で魅力的なものにしているのは驚きの要素です。オバマ政権下、有罪判決を受け強制送還された移民の数は増えたのでしょうか、それとも減ったのでしょうか。
 増加していると思うのですが、実際のところを見てみましょう。まあ、前ほど悪くはありませんでした。
 これが、このレイヤをビジュアライゼーションに追加する非常に興味深い例です。
+もう一つお見せしたいのは最近公開されたものです。それはクイズから始まります。あなたが共和党支持者なのか、民主党支持者なのかを当てさせてください。
+記事をスクロールすると、大量のビジュアライゼーション、チャート、グラフ、マップが並んでいることが分かります。
+しかし、彼らはまずあなた自身について尋ねます。どんなことを考えているのか、何を信じているのか、あなたは何者であるのか、などなど。
+繰り返しになりますが、これはストーリーの「me」コンポーネントです。例えば、黒人か、ヒスパニックか、アジア系か。私はヨーロッパ人だと自覚しているので、スペイン語は話せますが自分のことをヒスパニックとは呼びません。
+宗教はあなたの人生にとって重要ですか？それほどでもないので「いいえ」をクリックします。
+あなたは正気ですか?はい。大学には行きましたか。はい。あなたはプロテスタントですか。いいえ。あなたはカトリック教徒ですか。いいえ。あなたは女性ですか。いいえ。大学の学位を持っていますか。そうですね。
+そうですね、あなたのような人は48％のマージンで民主党支持者です。民主党には大きなマージンがあります。いろいろなことを試してみてください。
+さまざまな人口統計上の集団が政治的スペクトルにどのように依存しているのか、右寄りか左寄りかをみることができます。
+ひとたびこれらを見せると人々はこれらを使って楽しみます。そしてスクロールして記事全体を読んで詳細や背景、データの組み立て方、データから得られた洞察を読むことができます。
+これらはすべて、この記事とこのプロジェクトの他のビジュアライゼーションで紹介されています。
+ビジュアライゼーションで「me」コンポーネントを使用する方法を示す三つ目の例は、シミュレーションです。
 
 
-Another one that I would like to show you was published recently. Sort of, it begins, it's a
-quiz. It begins with a quiz. Let us predict whether you are a Democrat or a Republican
-according to who you are, right? Let me guess whether you lean more Democrat or you
-lean more Republican, on the political spectrum. And if you scroll down this story, you will
-see that it contains tons of data visualizations and charts and graphs and maps, so you
-can read all these later on. But the first thing that they do is to ask about you. To ask about
-what you think or what you believe or who you are, etc.. Again, that is the "me" component
-of the story, right? So the questions are, for example, are you black, Hispanic or Asian?
-Well, I'm European, so I wouldn't say, I speak Spanish, obviously, but I would not call
-myself Hispanic. So I would say no. Is religion important in your life? Well, not that much.
-I'm going to click on no. Are you straight? Yes. Did you attend college? Yes. Are you
-Protestant? No. Are you Catholic? No. Are you female? No. Do you have a college
-degree? Well, yes. So people like you are democratic by a 48 percent margin. Is like a
-huge margin towards the Democrats, right? That's a very interesting way to percent data.
-And this sort of presentation prompts you to basically start over and try different things, to
-see how different demographic groups lean on the political spectrum, whether they lean to
-the right or the lean to the left. Another very compelling example of how to do it, because
-once you have showed all these on, you have let people play a little bit with these, then
-they can scroll down and read the entire story underneath and read all the details, the
-background information, how the data was put together and the main insights from the
-data. They are all presented in this story, and in the other visualizations of this project.
-The third strong example that I would like to show you how to use this sort of "me"
-component in visualization is a simulation. Simulations can also be really powerful in
+Simulations can also be really powerful in
 communication and particularly in visualization. So this is a simulation designed by
 FiveThirtyEight titled The Atlas Of Redistricting. So you probably know that in the US we
 have sort of a problem with a phenomenon called gerrymandering, which is basically that
