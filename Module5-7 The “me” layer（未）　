@@ -49,13 +49,11 @@ The “me” layer
 ここでは詳細には触れません。しかし、このプロジェクトでは全ての選挙区を異なる方法で再描画します。
 民主党寄りにするか、共和党寄りにするか、２党のバランスを取るか、数学的に等しい区を作るか。異なる可能性を見ることが出来ます。
 これが「もしも」ビジュアライゼーションまたは「もしそうなったら」というべきものです。
-It's a great example of that, I think. You may see when you scroll down, it lets you first see
-the entire, the entire United States or you can select a particular state, for example, I'm
-going to select here Florida. Let's gerrymander Florida. So we, right now we have seen the
-current district boundaries. So, first of all, I'm going to see what happens if I am a
-Republican and I want to redistrict Florida to favor Republicans so the map will get
-redrawn. And as you can see, I have, we have redrawn the map in a way that most of
-these districts probably will be won by Republican candidates. But we could also
+これはよい例だと思います。スクロールすると、まずアメリカ全土を見ることが出来ます。
+特定の週を選択することも出来ます。例えばこれはフロリダです。フロリダでゲリマンダーを実践してみましょう。
+現在の選挙区割りはこの通りです。私が共和党員で、フロリダを共和党寄りにするために区割りを変更したいと思ったらどうすべきでしょうか。
+このように描き直せばほとんどの選挙区で共和党候補が勝利を収めるでしょう。
+But we could also
 gerrymander, gerrymander these districts to favor Democrats, right? To give more space,
 for example, to South Florida, which tends to lean more towards the Democratic Party. But
 then you can have other goals and you can see what would happen if we did this, "match
