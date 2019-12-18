@@ -43,20 +43,12 @@ The “me” layer
 ひとたびこれらを見せると人々はこれらを使って楽しみます。そしてスクロールして記事全体を読んで詳細や背景、データの組み立て方、データから得られた洞察を読むことができます。
 これらはすべて、この記事とこのプロジェクトの他のビジュアライゼーションで紹介されています。
 ビジュアライゼーションで「me」コンポーネントを使用する方法を示す三つ目の例は、シミュレーションです。
-
-
-Simulations can also be really powerful in
-communication and particularly in visualization. So this is a simulation designed by
-FiveThirtyEight titled The Atlas Of Redistricting. So you probably know that in the US we
-have sort of a problem with a phenomenon called gerrymandering, which is basically that
-politicians in many places are allowed to draw electoral districts according to their needs to
-favor some candidates or to disfavor other candidates, and so on and so forth. So I'm not
-going to get into the details of all these. But what this project lets you do is to basically
-redraw all the electoral districts in different ways, either to favor the Democrats, or to favor
-the Republicans, or to try to balance out one party with the other, or to use a mathematical
-formula to create equal districts, or districts that are sort of correct quotation marks in there
-to let you see different possibilities. It's like we could call these "what if visualization," "what
-if this happened?" right? If this particular thing happened.
+シミュレーションは、コミュニケーション、特にビジュアライゼーションにおいても非常に強力です。
+これはFiveThirtyEightによってデザインされたThe Atlas Of Redistrictingというタイトルのシミュレーションです。
+アメリカのゲリマンダーと呼ばれる現象をご存じでしょう。これは、ある候補者を支持したり、支持しなかったりする理由から、政治家が選挙区割りを決めることが許されることです。
+ここでは詳細には触れません。しかし、このプロジェクトでは全ての選挙区を異なる方法で再描画します。
+民主党寄りにするか、共和党寄りにするか、２党のバランスを取るか、数学的に等しい区を作るか。異なる可能性を見ることが出来ます。
+これが「もしも」ビジュアライゼーションまたは「もしそうなったら」というべきものです。
 It's a great example of that, I think. You may see when you scroll down, it lets you first see
 the entire, the entire United States or you can select a particular state, for example, I'm
 going to select here Florida. Let's gerrymander Florida. So we, right now we have seen the
