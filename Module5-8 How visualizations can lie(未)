@@ -1,13 +1,9 @@
 How visualizations can lie
-Let's talk now about how charts may mislead. This is a very common problem. And this is
-the topic that I covered in my most recent book, How Charts Lie, which is the first one that
-I have written for the general public to be better prepared to read charts, and graphs, and
-maps more effectively. It's a book sort of like presented this way, a book that teaches
-people how to become better readers of charts. And I believe that this is an essential skill,
-a fundamental skill if you want to work in data journalism. Many of you may end up not
-designing charts and graphs and maps for a living, but all of us will read charts, and
-graphs, and maps on a regular basis. So it is very important, I think, to start abandoning
-certain myths that surround data visualization.
+ここでは、チャートがどのようにして誤解を招くのかについて説明します。これはよく発生する問題です。私の近著「How Charts Lie」でも取り上げました。
+これはチャートや地図をより効果的に読み解けるようにするために書いた、一般の人向けの初めての著書です。このような本です。
+これは、データ・ジャーナリズムに関わる仕事をするうえで必須かつ基本的なスキルだと思います。
+多くの人は、生業としてチャートや地図を作ったりしないでしょう。しかし日常的にチャートやグラフ、地図に接しています。
+ですから、データ・ビジュアライゼーションを取り巻くある種の神話を取り除くことが非常に重要だと思います。
 For example, how many times have you heard the saying a picture is worth a thousand
 words? This is not true, as I hope that I will prove to you in just one minute. Or
 visualization is intuitive, we have sort of this bias to think that, you know, graphs and maps
