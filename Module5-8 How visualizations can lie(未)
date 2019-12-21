@@ -4,21 +4,15 @@ How visualizations can lie
 これは、データ・ジャーナリズムに関わる仕事をするうえで必須かつ基本的なスキルだと思います。
 多くの人は、生業としてチャートや地図を作ったりしないでしょう。しかし日常的にチャートやグラフ、地図に接しています。
 ですから、データ・ビジュアライゼーションを取り巻くある種の神話を取り除くことが非常に重要だと思います。
-For example, how many times have you heard the saying a picture is worth a thousand
-words? This is not true, as I hope that I will prove to you in just one minute. Or
-visualization is intuitive, we have sort of this bias to think that, you know, graphs and maps
-and charts can be understood in the blink of an eye just by taking a quick look at them,
-and that is wrong. Charts need to be read not just seen in order to be understood correctly.
-Or the last one is very common in the world of business analytics. The data should speak
-for itself, just show me the data. Well, that is wrong, data never speaks for itself. Data
-needs to be made to talk in order to present, in order to be able to extract meaning from
-that data. So we should abandon, abandon these myths. Or as I usually say in my classes
-and also in the book, perhaps we could append, append a second portion or a second
-element to all these sentences saying, well, yeah, a picture may be worth a thousand
-words, but only if you know how to read it. If you don't know how to read it or if you don't
-pay attention to the chart, the chart will not be worth a thousand words. The chart needs to
-be explained. You need to explain it to yourself. What is the chart saying? What is the
-chart conveying? So let me show you a couple of examples of what I mean.
+例えば、１枚の画像は1000語に値すると耳にしたことはありませんか？これは事実ではありません。１分で証明してみせましょう。
+ビジュアライゼーションは直感的なもの、グラフや地図、チャートは一目で理解できるものだと思い込んでいませんか？それは間違いです。
+チャートを正しく理解するには、眺めているだけではいけません。最後の一つはビジネス・アナリティクスの世界では一般的です。
+データそのものに語らせるべきで、ただデータを提示すればよいというのも誤りです。
+データは決してそれ自体が語ることはなく、意味を抽出するためにはデータと対話する必要があります。
+私たちはこのような神話を捨てなければなりません。
+あるいは私の講義や著書で述べているように、さっきの言葉に付け加えて「１枚の画像は1000語に値する。ただし、その読み方を知っていれば」ということもできます。
+読み方が分からなかったり、チャートに注意を払わなかったりすると、チャートには1000語の価値はありません。あなたは自分にそのチャートの意味するところを説明しなくてはいけません。
+そのチャートは何が書いてありますか？何を伝えようとしていますか？いくつか例をお見せしましょう。
 Take a look at this chart. This chart is as straightforward as it gets. It's a chart similar to
 one that we just, we just have seen. It's a chart that shows the homicide rate in the United
 States from 1960 up to 2015. So what the chart is showing is a story that many people in
