@@ -1,27 +1,15 @@
 How to choose the right encodings
-Let's now talk about certain essential principles in visualization use for effective
-communication. If you remember during this lecture, we talked about the encoding slayer.
-Right? The way that we represent data through the variation of certain properties of
-objects: length, height, position, area, angle and so on and so forth.
-Now the question is how do you choose? How do we choose whether we should use
-length, height, position, area, or color shade to encode our data? Well, fortunately, there
-are certain tricks, certain principles, certain guidelines, that you can use to guide yourself
-through that decision. The first thing to think about is that, again, that idea that I presented
-earlier, which is a visualization is certainly something that should look beautiful, nice,
-attractive, engaging. But the main purpose of a visualization is to make data clear and to
-enable people to see trends and patterns in the data. Therefore, a visualization is a tool.
-Right?
-Therefore, whenever we design a visualization, we need to ask ourselves, what is the
-purpose of this visualization? Or what is it that I want to show? What is it that I want people
-to see in the data?
-And based on the answer to that question, you may choose one encoding or a completely
-different encoding. Let me show you an example. This is a chart that was designed by the
-European Court of Auditors in Europe. This is one of the branches of the European Union.
-It's a chart that is showing what percentage of migrants that arrived to Greece in 2016,
-where they came from. So what percentage came from Syria? What percentage came
-from Afghanistan? What percentage came from Iraq? And so on and so forth. And as you
-can see, they are showing the data using this variation of a pie chart that we could call a
-donut chart because it has a hole in the middle.
+次に、効果的なビジュアライゼーションに不可欠な原則について説明します。この講義では、エンコーディングのレイヤーについて説明しました。
+オブジェクトの特定のプロパティ (長さ、高さ、位置、面積、角度など) を変化させてデータを表現する方法のことです。
+問題は、それをどのようにして選択するかです。データのエンコードに長さ、高さ、位置、面積、色の濃淡のいずれを使用するかを選択するにはどうすればよいのでしょうか。
+幸い、いくつかの原則やガイドラインがあるので、それを参考にしてみましょう。
+まず最初に気を付けなくてはいけないのは、ビジュアライゼーションは美しく、魅力的なものではありますが、その第一の目的はデータを明確にし、人々がデータの傾向やパターンを確認できるようにすることです。
+すなわち、ビジュアライゼーションはツールなのです。
+したがって、ビジュアライゼーションを設計するにあたっては、このビジュアライゼーションの目的は何かを考えなければいけません。
+データの中で、私が人々に見せたいものは何ですか？この質問に基づいて、エンコーディングを選ぶとよいでしょう。
+例えばこのチャートは、EUの機関である欧州会計監査院が作成した、2016年にギリシャに到着した難民の構成を表しています。
+シリア難民はどれくらいの割合でしょう。アフガニスタン難民は？何パーセントがイラクから来ましたか？他にもいろいろな質問が考えられます。
+ご覧のように、円グラフの一種を使ってデータを表しています。真ん中に穴が空いているのでドーナツチャートといいます。
 Now, the question is, is this a good visualization or a bad visualization? Well, the answer
 to that question is: it depends. It all depends on what you want to emphasize. It all
 depends on what you want to show. It all depends on what you want people to do with
