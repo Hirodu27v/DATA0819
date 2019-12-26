@@ -10,47 +10,17 @@ How to choose the right encodings
 例えばこのチャートは、EUの機関である欧州会計監査院が作成した、2016年にギリシャに到着した難民の構成を表しています。
 シリア難民はどれくらいの割合でしょう。アフガニスタン難民は？何パーセントがイラクから来ましたか？他にもいろいろな質問が考えられます。
 ご覧のように、円グラフの一種を使ってデータを表しています。真ん中に穴が空いているのでドーナツチャートといいます。
-Now, the question is, is this a good visualization or a bad visualization? Well, the answer
-to that question is: it depends. It all depends on what you want to emphasize. It all
-depends on what you want to show. It all depends on what you want people to do with
-your data. This is the way that I explain it.
-If the purpose of this visualization is to let people see that nearly half of the migrants who
-arrived to Greece in 2016 came from Syria, and then the other half came from other
-countries. But you don't care that much about which countries. You could care more about
-this sort of half-versus-half message then this chart is fine. I mean, the only changes that I
-would make to this chart would be to emphasize that message even more, half and half,
-by using one color for Syria and then another color, a single color, for all of the other
-countries in this mix. Half versus half.
-But what if the purpose of this chart is not to show half versus half? What about if the
-purpose of this chart is to let readers compare these countries to each other without
-having to read every single number? So you want to estimate sort of the size of Syria, the
-percentage of people who came from Afghanistan, from Iraq, and from so on and so forth.
-Well, this chart is not that effective for that. If you don't read the numbers, if you tried to
-compare the segments of the chart to each other, you will need to squint a little bit and
-then use your fingers, to sort of like, you will need to rotate your fingers like that. "Oh this is
-bigger. This is slightly smaller. This is slightly smaller." It's hard work. It's hard work to do.
-Right. So if the purpose of this visualization was comparison, perhaps the pie chart that is
-using angle, an area, to encode the data is not the right solution. Perhaps you will need to
-encode the data, perhaps using length or height, like in a bar graph, so people can
-compare these countries to each other.
-Third alternative. What about if the purpose of this visualization is not to enable
-comparison, it is not to show parts of a whole, and show half versus half. What about if the
-purpose of the visualization were to show where all these countries are, and whether there
-is some sort of relationship between the percentage of people coming from these countries
-to Greece and the distance between these countries and Greece?
-In that particular case, perhaps the way to represent this data, the right way to represent
-this data, will be a map, showing where all these countries are. So this is basically shows
-you these three alternatives.
-The pie chart, as I said before, I think that is fine if the message is to show half versus half.
-It's only that we change the colors. We emphasize Syria, and then we deemphasize all the
-other countries by coloring them with the same color, with that gray color. That's fine if half
-versus half. If e want to compare and rank these countries, though, the bar chart is a little
-bit better. We have sort of empirical evidence that shows that when the purpose of a
-visualization is comparison, accurate comparison, the bar graph is actually better than the
-pie chart. Because we are able to compare lengths or heights much better than we are
-able to compare angles or areas, which are again the encodings that are used in a pie
-chart. And then if the purpose of the visualization is to show where those countries are,
-then the map is the right solution.
-So purpose is always the key word when we think about the design of any data
-visualization. What is my visualization for? What it is that I want people to see or to do with
-the visualization that I'm presenting to them.
+このビジュアライゼーションは適切でしょうか、それとも不適切なのでしょうか。この質問に対する答えは次の通りです。
+全てはあなたが何を見せたいのかによります。データをどのように処理するのかによって異なってきます。
+このビジュアライゼーションの目的が、2016年にギリシャに到着した難民の半数近くがシリア出身で、残りの半数が他国出身であることを人々に理解してもらうことにあるとすれば、次のようになります。
+このように半分対半分であることが（伝えたい）メッセージなら、このチャートで問題ありません。私が加える唯一の変更は、シリアにある色を使い、他の国には別の単色を割り当てることで半々というメッセージを強調することです。
+しかし、このチャートの目的が別だったらどうでしょう。このチャートの目的が、数字を読まなくてもこれらの国を比較できるようにすることだとしたらどうでしょうか。
+シリアの大きさやアフガニスタンやイラクなどから来た人の割合を見積もってみましょう。そうですね、このチャートはあまり役に立ちません。
+数字を読まないでグラフのセグメントを比較しようとすると、目を細めてから（角度を測るために）指を使うことになります。
+「こっちは大きくて、こっちはちょっと小さいかな」。それは大変です。
+したがって、このチャートの目的が比較である場合、データのエンコーディングするために角度を用いる円グラフは適切な選択ではありません。
+棒グラフのように長さや高さを使ってデータをエンコードし、人々がこれらの国を比較できるようにする必要があるでしょう。
+第３の選択肢です。このビジュアライゼーションの目的が比較を容易にすることでも、全体に対する部分の割合を示すことでも、半分対半分を示すことでもなかったらどうなるでしょう。
+これらの国の位置を示し、ギリシャに逃れ来る人の割合と、その国とギリシャの距離の間に関係があるのかどうかを示すことだったらどうでしょう?
+その場合、これらの国がどこにあるかを示す地図が正しい方法でしょう。
+ビジュアライゼーションの設計は、常に目的がキーワードになります。そのビジュアライゼーションの目的は何か、そのビジュアライゼーションを通じて人々に示したいものは何かということです。
