@@ -3,20 +3,17 @@ The big picture vs. the details
 一般的には、あなたのグラフィックに基づき人々に正確な判断をしてもらうには共通の軸の上にある長さ、高さ、位置を使用するのが適切かつ便利です。
 物事を比較したり、時間の経過による変化を把握したり、2変数間の関連性を見たりしたいときは、常に共通の軸を使った位置、高さ、長さなどを使って、データをエンコーディングするようにしてください。
 これは他の領域や角度、色などのエンコーディングが役に立たないということではありません。ビジュアライゼーションの目的が正確な見積もりである場合は優れたエンコーディングではありませんが、データの概要を提供することが目的なら、非常に役立ちます。
+先ほどのビデオで紹介した領域、色、角度などへの変換は、例えばこのような場合に役立ちます。この地図はニューヨークタイムズ紙が大統領選の結果を示すためにデザインしました。
+ご覧のように、領域、色、形、色相などがデータを表すために使われています。そのため、データに基づいた推計や比較には適していません。
+それはこの地図の目的ではないのです。
 
-Area, color, angle, etc. and other encodings that we saw in a previous portion of these
-videos, they may be useful in cases such as this one, for example. The purpose of these
-maps, these are graphics that were designed by the New York Times to show the results
-of a presidential election. As you can see, all these maps use area, color, shade, hue, etc.
-to represent the data. So they are not that great for comparisons, for example, to get
-accurate estimates or make accurate judgments based on the data. But that is not the
-purpose of these visualizations.
 The purpose of these visualizations is to give you the big picture of the data. How the
 country voted in general, whether, you know, certain regions voted more Democratic or
 more Republican. What matters here is not to be able to compare, you know, Florida with
 Illinois and Illinois to California or one city to another city or one county to another county.
 That doesn't really matter in this particular case. They care more about showing you the
 overall picture. The bird's eye view picture of the general overview of the data.
+
 If we wanted, for example, to rank or to compare counties to each other, then we should
 not use a map. We should use some sort of bar graph or something like that, which is
 much more appropriate to visualize rankings or to visualize comparisons. But in this
