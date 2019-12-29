@@ -1,23 +1,13 @@
 Using multiple encodings
 あなたが伝えようとしているストーリーが複雑で、データの概要を把握しつつ、データに基づいて正確な判断を下さなければいけない場合があります。
 複数のビジュアライゼーションまたは複数のエンコード手法を使用するというこのアイデアの一例として、ワシントンポスト紙の"America's Great Housing Divide： Are you a winner or are you a loser?"という記事があります。
+これはとても長いストーリーで、その中にいくつかのビジュアライゼーションがあります。
+主なものは、2004～2014年に住宅価格が上昇または下落した地域を示すインタラクティブなグラフィックです。
+これを見ると、データが異なる二つの方法で表現されていることに気づくかもしれません。まず第一に、これはコロプレスマップ、つまり色の濃淡で表現されています。
+色の濃淡は2004～2014年の住宅価格の変化を表しています。ちなみに、郵便番号をここに入力できます。今表示されているのはワシントンDCですが、郵便番号を入力すればあなたがお住いの地域が出てきます。
+このデータの空間分布の概観をお見せしましょう。住宅価格が1年ごとの間隔で増減します。これにより、データの概要がわかります。
+しかし、詳細が必要な場合はどうでしょうか。たとえば、選択した特定の地域における年ごとの変動を正確に表示したい場合などです。ここでは任意の地域を選択でき、グラフはグラフィックのこちら側に表示されます。
 
-This is a basically a very long story that includes several data visualizations. The main one
-being an interactive graphic that shows in your area, which neighborhoods experience an
-increase or decrease in home prices between 2004 and 2014.
-When you get to it, you may notice that the data is represented in two different ways. First
-of all, it represented through a coropleth map, shades of color. Right? The different shades
-of color represent a variation of home prices between 2004 and 2014. Now, this is, by the
-way, you can input your zip code here. Right now we are seeing Washington, D.C., but
-you can put any zip code here. And then the map will show your specific area, your
-specific zip code.
-Now, the data again is first represented through shades of color. Just to give you an
-overview of the spatial distribution of this data, where home prices increase or decrease in
-terms between one year and another year. That gives you the overview of the data. But
-then what about if you want the details? If you want to see, for example, the year by year
-variation very accurately in that specific region that you are selecting. Because you can
-select any neighborhood over here and a chart will appear on this side of the graphic.
-Right?
 This is a line chart, so it is using angle. And it's also using in this case position of dots, as
 we explained in a previous video when talking about encoding. It's using the position of
 those dots, later connected with a line, to show you the year by year variation of home
