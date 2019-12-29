@@ -1,27 +1,21 @@
 Intro to Flourish
-Hi, my name's Duncan Clark. I'm one of the co-founders of Flourish, which is a tool for
-data visualization and storytelling. In this module, we're going to be helping you use
-Flourish to get started making charts, maps, tables and other kinds of data driven content.
-It's going to start with a quick tour of the product, which I will give. And then my colleague
-Katie Riley, our in-house data journalist, has made a series of short videos just two to
-three minutes each focusing on different aspects of using Flourish, particular templates, for
-example, or using the flourish data tables. In the next module, we'll also be talking about
-how to use Flourish for storytelling, but we'll come back to that bit.
-So Flourish is a tool for visualizing data and telling stories with data. It lets you create
-interactive, attractive, mobile friendly graphics without needing to code. The way it works is
-you go to flourish.studio and register. You'll find yourself on your project home page where
-you can browse and search any projects you've made. Up here you can click to create a
-new visualization and that takes you to the Flourish template browser. Here you can pick a
-template and the general workflow is that you pick a template, replace the data with your
-own, configure the graphic and then you're ready to publish or export it.
-So let's have a look at the kinds of things you can make in Flourish. The templates include
-a basic chart. So this is our line bar pie chart template. They're all combined in one
-template which allows you to create cool animations between the different types of graphic
-and even animate between a single chart and a grid of charts. There are things like the bar
-chart race template, which creates cool play through animation showing changing values
-over time. There are flow diagram templates for things like chord diagrams and Sankey
-diagrams, and there are some things that are a little bit more Flourish specific like our
-survey template, for example, which enables you to plot every individual data point in the
+こんにちは、私はダンカン・クラーク、データ・ビジュアライゼーションとストーリーテリングのツール、Flourishの共同創業者です。
+このモジュールでは、Flourishを使用してチャート、マップ、表その他のデータ駆動型コンテンツを作成する方法について説明します。
+製品の簡単な説明から始めます。私の同僚のデータジャーナリスト、ケイティ・ライリーが2~3分の短いビデオを作ってくれました。
+Flourishの様々な側面、テンプレートや、華やかなデータ・テーブルの使い方に焦点を当てています。
+次のモジュールでは、Flourishを使用してストーリーテリングを行う方法についても説明しますが、話を戻しましょう。
+Flourishはデータを可視化し、データを使ってストーリーを伝えるツールです。
+コーディング不要で、インタラクティブかつ魅力的、モバイルでも見やすいグラフィックスを作成できます。
+まずはflourish.studioに登録してください。プロジェクトのホームページでは、これまでに作成したプロジェクトを参照や検索することができます。
+「create a new visualization」をクリックするとテンプレートが選択できます。
+一般的なワークフローでは、テンプレートを選択した上で自分のデータに置き換え、グラフィックを調整して公開またはエクスポートという流れになっています。
+ではFlourishで作れるものを見てみましょう。テンプレートには基本的なグラフが用意されています。これは折れ線グラフ、これは円グラフです。
+異なる種類のグラフィックや、複数のチャートをアニメーションのように動かすクールなテンプレートもあります。
+これは「バーチャート・レース」というテンプレートで、時間の変化とともに動く値をアニメーションで示します。
+コードダイアグラムやサンキーダイアグラムのようなフロー・ダイアグラム・テンプレートがありますし、Flourish独自のサーベイテンプレートもあります。
+
+
+for example, which enables you to plot every individual data point in the
 data set and then break them out to different groups and put them on a histogram or even
 on a map where you can still individually interrogate them.
 We also have other types of graphics in Flourish, such as tables where you can create a
