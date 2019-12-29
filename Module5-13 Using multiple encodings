@@ -7,16 +7,8 @@ Using multiple encodings
 色の濃淡は2004～2014年の住宅価格の変化を表しています。ちなみに、郵便番号をここに入力できます。今表示されているのはワシントンDCですが、郵便番号を入力すればあなたがお住いの地域が出てきます。
 このデータの空間分布の概観をお見せしましょう。住宅価格が1年ごとの間隔で増減します。これにより、データの概要がわかります。
 しかし、詳細が必要な場合はどうでしょうか。たとえば、選択した特定の地域における年ごとの変動を正確に表示したい場合などです。ここでは任意の地域を選択でき、グラフはグラフィックのこちら側に表示されます。
-
-This is a line chart, so it is using angle. And it's also using in this case position of dots, as
-we explained in a previous video when talking about encoding. It's using the position of
-those dots, later connected with a line, to show you the year by year variation of home
-prices in this area.
-The second chart shows you the detail. The second chart is what allows you to see the
-year by year variation very accurately. The map is not very accurate in giving you an
-impression of the variation year by year. It's just an overview of the data. The spatial
-distribution of the data.
-But then you have this other graphic that encodes the exact same data, but it does it in a
-completely different way. Rather than use shades of color, it is using position and the lines
-to represent the change over time, so you can get a much more accurate picture of the
-data.
+これは折れ線グラフなので、角度によってデータを変換しています。また点の位置も変換に用いられています。エンコードについてはすでにビデオでお話ししました。
+点を線で結んで、この地域の住宅価格の年ごとの変動を示しています。二つ目のチャートは詳細です。
+年々変化している印象を与えるには、地図はあまり正確ではありません。これはデータの空間的分布を示しているのです。
+全く同じデータを変換する二つのグラフィックがありますが、その手法は全く異なります。
+色の濃淡ではなく、時間の経過を示すために（点の）位置と線を使用しているため、データをより正確に把握できるのです。
