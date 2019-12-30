@@ -13,22 +13,14 @@ Flourishはデータを可視化し、データを使ってストーリーを伝
 異なる種類のグラフィックや、複数のチャートをアニメーションのように動かすクールなテンプレートもあります。
 これは「バーチャート・レース」というテンプレートで、時間の変化とともに動く値をアニメーションで示します。
 コードダイアグラムやサンキーダイアグラムのようなフロー・ダイアグラム・テンプレートがありますし、Flourish独自のサーベイテンプレートもあります。
+例えば、データセット内の個別のデータポイントをプロットしてから異なるグループに分割し、ヒストグラムまたは地図にして個別に把握することも可能です。
+Flourishには他の種類のグラフィックもあり、小さなチャートやスパークラインがあっても、モバイルに適したテーブルを作成できます。
+地図の種類も豊富で、一部の領域だけを切り取ることもできますし、データの値に応じて立体感がある地図にすることもできます。
+３Dマップはベースとなる世界地図が既に用意してあるので、その上にデータを可視化します。
+これは3Dタイルマップに表示された米国の郡のデータです。Flourishのもう一つの特徴は、これらのビジュアライゼーションをストーリーの一部に活用することができる点にあります。
+例えば、このビジュアライゼーションをストーリーエディターで開くと、すぐにアニメーションを使ったスライドを作成して読者を導くことが出来ます。
 
 
-for example, which enables you to plot every individual data point in the
-data set and then break them out to different groups and put them on a histogram or even
-on a map where you can still individually interrogate them.
-We also have other types of graphics in Flourish, such as tables where you can create a
-nice mobile-friendly table even with little charts, spark lines. And we have lots of map
-templates, so that includes things like the projection map where you can upload some
-regions or we use an existing example as a starting point and then shade in those regions
-by the values in your data.
-We also have 3D maps which have a base map behind which extends out to the whole
-world, and then you can visualize data on top of. So this is an example also of US counties
-data visualized on a 3D tile map. The other thing to say about Flourish that makes it really
-unique is that any of these visualizations can be used as the basis of a structured story. So
-if you open this visualization into the story editor, for example, we can quickly make a cool
-animated tour of this visualization to guide the audience through our dataset.
 So that's a quick overview of, you know, Flourish at the top level. Let's just quickly come
 back to the first template I had opened, just a look at the layout of the editor. So over on
 the left here we have the previews. Anything in this box is what will ultimately be
