@@ -19,23 +19,11 @@ Flourishには他の種類のグラフィックもあり、小さなチャート
 ３Dマップはベースとなる世界地図が既に用意してあるので、その上にデータを可視化します。
 これは3Dタイルマップに表示された米国の郡のデータです。Flourishのもう一つの特徴は、これらのビジュアライゼーションをストーリーの一部に活用することができる点にあります。
 例えば、このビジュアライゼーションをストーリーエディターで開くと、すぐにアニメーションを使ったスライドを作成して読者を導くことが出来ます。
-
-
-So that's a quick overview of, you know, Flourish at the top level. Let's just quickly come
-back to the first template I had opened, just a look at the layout of the editor. So over on
-the left here we have the previews. Anything in this box is what will ultimately be
-published. This is your visualization. You can also change the size of that, see how it looks
-on different screen widths up here. Down the side, you have the settings. Now, these
-settings are typically part of the template, so you won't find the same settings in every
-template, which actually makes everything easier to use because there should be nothing
-irrelevant. But you will find some things like headers and footers in pretty well all the
-Flourish templates.
-Over here in the data area is where the actual values live, the spreadsheets. A Flourish
-template can have one or more sheet. And as you can see, when you open something
-from the template chooser, it loads with some sample data that you can look at and then
-you can replace this with your own data and we'll be looking at that in more depth soon.
-Over here, the final bit to mention is the column selection. So this is where you choose
-which columns are used for which element of the graphic. So that's a quick tour of
-Flourish. We're now going to dive into more depth on individual templates and individual
-aspects of the editor, and for that, I'm going to hand over to my colleague, Flourish's data
-journalist Katie Riley.
+Flourishの概要は以上です。最初のテンプレートに戻ってエディタのレイアウトを見てみましょう。左側にプレビューがあります。
+ここにあるものは全て公開されます。サイズを変更することもできます。幅を変えてみましょう。
+下部に設定があります。これらの設定はテンプレートの一部であるため、全てのテンプレートに共通しているわけではありませんが、何らかの設定画面はあるので使いやすくできます。
+Flourishのテンプレートにはヘッダーやフッターがあります。
+データ・エリアのこの部分には実際のデータ、つまりスプレッドシートがあります。Flourishには一つ、または複数のシートを含めることができます。
+テンプレートを選択するとサンプルデータがロードされているので、自分のデータと置き換えてください。
+最後に列の選択を取り上げます。ここでは、グラフィックのどの要素にどの列を使用するかを選択します。
+Flourishを簡単に紹介してきました。ここからは個別のテンプレートとその編集の仕方について、同僚でありFlourishのデータ・ジャーナリストであるケイティ・ライリーが説明します。
