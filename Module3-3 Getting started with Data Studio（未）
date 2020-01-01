@@ -11,6 +11,8 @@ Data Studioで利用できるコミュニティを前提としたコンテンツ
 Data Studioを使って作成したダッシュボードやインフォグラフィックをいくつか見てみましょう。まずはマーク･ソアレスのインフォグラフィックです。
 X軸には年、Y軸には何百万平方キロメートルという規模で氷の面積を表しています。これは北極の氷の年間最大量と年間最小量が、何年にもわたって減少し続けていることを明確に示しています。
 インタラクティブなダッシュボードではありませんが、ご紹介しておきます。
-次にお見せするのは、サイアン・ミラーによるもので、これはF1の開幕戦がいかに重要かを物語っています。
- Now in different sports getting off to a good start might show the future success of a player or a participant. However in this infographic we can clearly see the first message here that in fifty percent of the times the first race of a Formula One season was owned by the season winner and for the other fifty percent times it was owned by a different driver. And then we have a bit more details into the data. It shows the same data but on a by decade distribution and then you have the raw data on this right side which shows the distribution of each of the races by year, with the race sequence and whether the season winner or some other driver won a specific race. 
+次にお見せするのは、サイアン・ミラーによるもので、これはF1の開幕戦がどのくらい重要なのかを物語っています。
+さまざまなスポーツで、いいスタートを切ることは選手の将来的な成功を示すとされています。しかし、このインフォグラフィックではF１開幕戦の勝者の半分はシーズン勝者以外のドライバーだということが分かります。
+もう少し詳しく見てみましょう。これは同じデータですが、10年ごとの分布を示しています。右側に元のデータがあります。
+ここには各レースの年ごとの分布とレース順位、そしてシーズンの勝者か他のドライバーか特定のレースに勝ったかが示されています。
 This third example is from the Google Trends team. This was published during the Brazilian presidential debate in 2018. This one shows the list of candidates at the top and then their Google Trends information over here. This has some interactivity. For example, if you scroll down and go here you can pick a certain candidate and then this map chart will get filled out only for that candidate. And you can play around, pick different options and you can scroll further down and see more information, more data. And your viewers will be able to change these filters and see how the data changes. They can have their own hypothesis and then by selecting different filters and options they can try out whether their hypotheses are right or not. And they can also do some exploratory data analyses through these static interactive dashboard.
