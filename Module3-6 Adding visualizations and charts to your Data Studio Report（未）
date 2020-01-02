@@ -1,4 +1,5 @@
 Adding visualizations and charts to your Data Studio Report
+レポートの名前を変更します。
 First let's start by changing the name of the report. We will call this "2020 Vehicle Fuel
 Economy Dashboard".
 Now this is just one page, for now it's a blank canvas, and on the right hand side we can
