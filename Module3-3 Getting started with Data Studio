@@ -15,4 +15,9 @@ X軸には年、Y軸には何百万平方キロメートルという規模で氷
 さまざまなスポーツで、いいスタートを切ることは選手の将来的な成功を示すとされています。しかし、このインフォグラフィックではF１開幕戦の勝者の半分はシーズン勝者以外のドライバーだということが分かります。
 もう少し詳しく見てみましょう。これは同じデータですが、10年ごとの分布を示しています。右側に元のデータがあります。
 ここには各レースの年ごとの分布とレース順位、そしてシーズンの勝者か他のドライバーか特定のレースに勝ったかが示されています。
-This third example is from the Google Trends team. This was published during the Brazilian presidential debate in 2018. This one shows the list of candidates at the top and then their Google Trends information over here. This has some interactivity. For example, if you scroll down and go here you can pick a certain candidate and then this map chart will get filled out only for that candidate. And you can play around, pick different options and you can scroll further down and see more information, more data. And your viewers will be able to change these filters and see how the data changes. They can have their own hypothesis and then by selecting different filters and options they can try out whether their hypotheses are right or not. And they can also do some exploratory data analyses through these static interactive dashboard.
+3番目の例はGoogle Trendsチームによるものです。これは2018年のブラジル大統領選の候補討論会にあたって発表されたものです。
+これはトップ候補のリストとGoogle Trendsの情報で、インタラクティブなものです。たとえば、下にスクロールしてここに移動した場合、ある候補を選択すると、このマップチャートはその候補についての情報を表示します。
+また、さまざまなオプションを選択してスクロールし、より多くの情報やデータを表示できます。
+これらのフィルタを変更し、データがどのように変化するか確認できます。
+仮説を立て、さまざまなフィルターやオプションを選択することで、その仮説が正しいかどうかを試すことができます。
+また、静的でインタラクティブなダッシュボードを使用して探索的なデータ分析を行うこともできます。
