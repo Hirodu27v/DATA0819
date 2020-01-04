@@ -13,22 +13,14 @@ Data Studioには、データの分析に役立つさまざまなツールや機
 これらの機能を使用し、データを可視化するダッシュボードやレポートを作成したとしましょう。次は作成したものを共有します。
 さまざまな方法があります。ダッシュボードは、リンクまたは電子メールアドレスを使用して直接共有できます。ダッシュボードを作成する場合は自分だけしか表示できませんが、作成したダッシュボードのアクセス権を電子メールアドレスを使用して他のユーザーに付与したり、リンクを作成して、そのリンクにアクセスできるユーザーとダッシュボードを共有することができます。
 編集の権限を与えることもできます。
-You can take your dashboard and embed it in external websites using iframes or oEmbed.
-You can also create PDFs and send those out. You can generate scheduled emails where
-people can get a PDF copy of your report on a regular interval in their email addresses. So
-that's the broader floor for using Data Studio. Next we'll head into the tool and go through
-each of these steps one by one using a data set.
-To start using Data Studio, open up your browser and go to datastudio.google.com. If this
-is your first time using the application you probably will have to go to the workflow and
-provide necessary permissions to the application so that it can run on your account. Once
-you've completed the workflow this is the home place that we'll see. In this home page you
-can have a look at all the reports, data sources and explorer views that you have access
-to. And we'll going to all of these in detail. On the left side you have the list of recent items
-and also the items that have been shared with you and the "create" button will let you
-create new items like reports or data sources. Reports are basically your dashboards.
-These are the files that you create where you attach your data and then create charts
-visualizations, add images, text. And you'll be sharing these with your viewers who'll be
-able to then view and interact with them.
+ダッシュボードはiframeやEmbedを使って外部のウェブサイトに埋め込めます。また、PDFファイルにして送信することもできます。
+定期的にメールを送るようにして、自分のアドレスにPDFのレポートを受け取るように設定することも可能です。
+これがData Studioを使用するための流れです。次に、このツールにアクセスし、データセットを使用してこれらの各手順を1つずつ実践してみます。
+Data Studioを使用するには、ブラウザを開いてdatastudio.google.comに行きます。初めて使用する場合は、ワークフローに移動して、必要なアクセス権を得る必要があります。
+ワークフローが完了すると、ここが表示されます。このホームページでは、アクセスできるすべてのレポート、データソース、およびエクスプローラビューを表示できます。
+詳細を説明します。左側には最近使用したアイテムのリストと、共有したアイテムがあり、「作成する」ボタンをクリックすると、レポートやデータソースなどの新しいアイテムを作成できます。レポートはおおむねダッシュボードと同じようなものです。
+これはデータの可視化、画像やテキストの追加を行うためのファイルです。利用者と共有し、インタラクティブなやり取りをすることができます。
+
 Data sources are what let you bring in data into your report. A very simplistic way to think
 about data sources are data tables that you have access to in your report and that you can
 visualize. To create a new data source you'll basically click on the "create" button and
