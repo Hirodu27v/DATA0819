@@ -1,24 +1,16 @@
 How does Data Studio work
-Before we start using the tool, let's see how Data Studio works. This is the overall workflow
-when you're trying to use your data set in Data Studio. Let's say you have a data set in
-some source. First you'll have to connect with a data source, then you analyze and
-visualize that in Data Studio and then you share whatever you've created.
-The first step is connecting. To connect to your data, you use different connectors in Data
-Studio. There over 160 connectors available from Google and from other providers, and
-you can use these connectors to pull your data sets from more than 500 different sources.
-There are a lot of data sources over here and in this course we'll be focusing mostly on the
-file upload and Google Sheets connector. And we'll also try to talk a little bit about the
-BigQuery connector later on. Once you've connected to your data using those connectors,
-now your data is ready to be used in Data Studio. That's where you both analyze and
-visualize the data that you have connected.
-There are different tools and features available within Data Studio that helps you to
-analyze your data. There is the Explorer feature that lets you quickly do ad hoc analysis to
-get answers to questions. You can also use Data Blending to merge data from different
-sources. You can use Custom Functions to create your own fields and columns in your
-data. Charts and tables lets you visualize your data on your dashboards. You can bring
-External Content using iframes or images. And there's also Report Gallery available which
-work as templates which you can just use to create your own visualization from an already
-established template rather than starting from scratch.
+このツールの使用を開始する前に、Data Studioがどのように動作するのか確認しましょう。これは、Data Studioでデータセットを使用する場合の大まかなワークフローです。
+データセットのあるソースに接続し、それを分析して可視化し、作成したものを共有する必要があります。
+最初のステップは接続です。データに接続するには、Data Studioで別のコネクタを使用します。
+Googleや他のプロバイダが提供する160以上のコネクタを使用して、500以上の異なるソースからデータセットを取り出すことができます。
+ここには多くのデータ・ソースがありますが、このコースでは主にファイルのアップロードとGoogle Sheetsコネクタに焦点を当てます。
+また、BigQueryコネクタについても後ほど少し説明します。これらのコネクタを使用してデータに接続すると、データをData Studioで使用できるようになります。
+ここでは、接続したデータの分析と可視化を行います。
+Data Studioには、データの分析に役立つさまざまなツールや機能が用意されています。エクスプローラの機能を使用すると、アドホック分析をすばやく実行してあなたの疑問に答えることができます。
+異なるソースのデータを結合することもできます。カスタム関数を使用すると、データに独自のフィールドと列を作成できます。グラフとテーブルを使用すると、ダッシュボード上のデータを可視化できます。
+インラインフレームやイメージから、外部のコンテンツを取り込むこともできます。
+テンプレートとして機能するReport Galleryも用意されており、一から作成するのではなく、既存のテンプレートから独自のビジュアライゼーションを作成することができます。
+
 So let's say you've used all of these features and you've created a dashboard or a report
 that visualizes your data. The next step would be to share what you have, whatever you've
 created. There are different ways of sharing as well. You can share your dashboard
