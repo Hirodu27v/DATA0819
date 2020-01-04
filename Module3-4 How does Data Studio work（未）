@@ -10,15 +10,9 @@ Data Studioには、データの分析に役立つさまざまなツールや機
 異なるソースのデータを結合することもできます。カスタム関数を使用すると、データに独自のフィールドと列を作成できます。グラフとテーブルを使用すると、ダッシュボード上のデータを可視化できます。
 インラインフレームやイメージから、外部のコンテンツを取り込むこともできます。
 テンプレートとして機能するReport Galleryも用意されており、一から作成するのではなく、既存のテンプレートから独自のビジュアライゼーションを作成することができます。
-
-So let's say you've used all of these features and you've created a dashboard or a report
-that visualizes your data. The next step would be to share what you have, whatever you've
-created. There are different ways of sharing as well. You can share your dashboard
-directly by using a link or by email addresses. Normally when you create a dashboard you
-can only see it yourself, but you can then give a view access for the dashboard to other
-people using their e-mail addresses or you can share by link where you create a link and
-whoever you give that link to can access that and then view the dashboard. You can also
-give out edit permissions.
+これらの機能を使用し、データを可視化するダッシュボードやレポートを作成したとしましょう。次は作成したものを共有します。
+さまざまな方法があります。ダッシュボードは、リンクまたは電子メールアドレスを使用して直接共有できます。ダッシュボードを作成する場合は自分だけしか表示できませんが、作成したダッシュボードのアクセス権を電子メールアドレスを使用して他のユーザーに付与したり、リンクを作成して、そのリンクにアクセスできるユーザーとダッシュボードを共有することができます。
+編集の権限を与えることもできます。
 You can take your dashboard and embed it in external websites using iframes or oEmbed.
 You can also create PDFs and send those out. You can generate scheduled emails where
 people can get a PDF copy of your report on a regular interval in their email addresses. So
