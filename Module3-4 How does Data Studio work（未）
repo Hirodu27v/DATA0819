@@ -20,17 +20,9 @@ Data Studioを使用するには、ブラウザを開いてdatastudio.google.com
 ワークフローが完了すると、ここが表示されます。このホームページでは、アクセスできるすべてのレポート、データソース、およびエクスプローラビューを表示できます。
 詳細を説明します。左側には最近使用したアイテムのリストと、共有したアイテムがあり、「作成する」ボタンをクリックすると、レポートやデータソースなどの新しいアイテムを作成できます。レポートはおおむねダッシュボードと同じようなものです。
 これはデータの可視化、画像やテキストの追加を行うためのファイルです。利用者と共有し、インタラクティブなやり取りをすることができます。
-
-Data sources are what let you bring in data into your report. A very simplistic way to think
-about data sources are data tables that you have access to in your report and that you can
-visualize. To create a new data source you'll basically click on the "create" button and
-select "data source" and from there you can select any of these connectors that are
-available in Data Studio and then provide the necessary configuration within them. For
-example, I can select the Google Sheets connector and then from there I can select a
-specific spreadsheet and then from there select a specific worksheet or arrange and then
-connect. Once I do that, Data Studio will create a new data source and this data source
-then can be attached to different reports and then that data from this specific worksheet
-will be able to you'll be able to access that data in your reports and then visualize that. One
-thing you should keep in mind is a same data source can be used across different reports
-and a single report can have one or more data sources attached to it. Next we'll create our
-first report in Data Studio.
+データソースはデータをレポートに取り込むための機能です。いわばレポート内でアクセスでき、可視化できるデータテーブルと言えます。
+新しいデータソースを作成するには、「作成する」ボタンをクリックして「データソース」を選択し、そこからData Studioで使用可能な任意のコネクタを選択し、その中で必要な設定を行います。
+例えばGoogleシートを選択して、特定のワークシートやスプレッドシートを接続することができます。
+これを実行するとata Studioは新しいデータソースを作成し、スプレッドシートのデータをレポートのデータとして可視化できるようになります。
+別々のレポートで同じデータソースを利用でき、また単一のレポートに複数のデータソースを使うことができるのが特徴です。
+それではData Studioで最初のレポートを作成しましょう。
