@@ -1,18 +1,12 @@
 Create a report in Data Studio
-To create our first report in Data Studio, we are using a data set from fueleconomy.gov.
-This data set has fuel efficiency information about different vehicles available in the year
-2020 in the US. We downloaded this data set and imported it into Google Sheets and from
-there we filtered out a few fields, and this is the final table that we'll be using. We'll be
-sharing a link to this spreadsheet, so you'll be able to use the same data set that we're
-using here, and you'll be able to follow with whatever steps we are doing and then create
-your own report.
-A little bit about this data set, it has information about different vehicles each row in this
-data set is a single vehicle. The fields include name of the manufacturer, the name of the
-division of the manufacturer, the car line for that specific vehicle. This column over here is
-unique for each row, it's the index number. We also have information about engine
-displacement, number of cylinders in the vehicle, the fuel efficiency information, the
-mileage, the combined mileage, the highway mileage and the city mileage. And then other
-fields that describe different aspects of the vehicle and its engine.
+fueleconomy.govのデータセットから最初のレポートを作りましょう。
+このデータセットには、2020年現在、米国で利用可能なさまざまな車両に関する燃費情報が含まれています。
+このデータセットをダウンロードしてGoogle Sheetsにインポートし、そこからいくつかのフィールドを除外すると、これが最後に使用するテーブルになります。
+リンクを共有することで、ここで使用しているのと同じデータセットを使用して、あなたの思うままにレポートを作成することができます。
+このデータセットについて少し説明すると、各行はそれぞれ１台の車に関する製造元、部門名、車種といった情報を記載しています。
+この列は行に対して一意、すなわちインデックスです。
+排気量、気筒数、燃費、走行距離、総走行距離、高速道路の走行距離、市内走行距離などの情報もあります。車両とエンジンに関するフィールドもあります。
+
 There is also a release date, a fuel efficiency rating from one to ten, and dollar values
 about how much you save over five years by using this vehicle, or how much you end up
 spending over five years by using this vehicle. To use this data set we'll go back into Data
