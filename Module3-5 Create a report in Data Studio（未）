@@ -6,27 +6,16 @@ fueleconomy.govのデータセットから最初のレポートを作りまし�
 このデータセットについて少し説明すると、各行はそれぞれ１台の車に関する製造元、部門名、車種といった情報を記載しています。
 この列は行に対して一意、すなわちインデックスです。
 排気量、気筒数、燃費、走行距離、総走行距離、高速道路の走行距離、市内走行距離などの情報もあります。車両とエンジンに関するフィールドもあります。
+また、発売日、10段階の燃費評価、5年使用した場合の節約額、またこの車を5年間使うことでどれくらいの出費が必要かという項目もあります。
+データセットを使用するには、Data Studioの画面左側にある「作成する」ボタンをクリックし、「レポート」を選択します。
+これで空白のレポートができました。まだデータは入っていません。右側にこのアカウントでアクセスできるすべてのデータソースが表示されます。
+既存のデータソースがある場合は、作成する新しいレポートに取り込むか、新しいデータソースの作成を選択できます。
+「新しいデータソースの作成」ボタンをクリックすると、Data Studioで使用可能なすべてのコネクタのリストが表示されます。
+Google製品のコネクタ、ネイティブなコネクタ、提携しているサービスのコネクタ、またはData Studioで追加したその他のコネクタです。
+Googleシートのコネクタを探して接続するとプレッドシートのリストが表示されます。URLでファイルを追加することもできます。
+そのファイルはリンクを使用して、全ユーザーが同じファイルを使用できます。"all items"でファイルを選択し、"selected data"で目的のスプレッドシートを選びます。
+これはワークシート名です。次に、「接続する」をクリックします。これでData Studioは新しいデータソースを作成することができました。
 
-There is also a release date, a fuel efficiency rating from one to ten, and dollar values
-about how much you save over five years by using this vehicle, or how much you end up
-spending over five years by using this vehicle. To use this data set we'll go back into Data
-Studio and try to create our first report. We'll go to this left hand side, click on the "create"
-button and then select "report". This creates a blank report in Data Studio. Now this blank
-report does not have any data source attached to it. On the right hand side you can see all
-the data sources that I already have access to on this account. If you have existing data
-sources you can attach them to any new report that you create, or you can select to create
-a new data source. We will click on this "create new data source" button and that will give
-us a list of all the connectors that are available in Data Studio. These can be the Google
-built connectors, the native connectors, or the partners connectors that are available, or
-any other connector that you have added in Data Studio.
-To select our data set, we will look for the Google Sheets connector and select this sheet's
-connector, and from there you can see a list of all the spreadsheets this account has
-access to. You can also add files by URL. So, for this specific file we'll be sharing the link
-with all of you and you can use this, that link over here to use that same file. Now we'll go
-to the "all items", we will select this file that we've created and we will select the "selected
-data" spreadsheet. As you can see this is the spreadsheet name, it is the worksheet name.
-And from there we'll click "connect". This lets Data Studio create a new data source based
-on the sheets' connector and the configuration that we have provided.
 This is now showing us the field screen, and over here we can see all the different fields
 that are available in the data. Here you can see the field names and the names are
 colored in blue and green. The blue ones are basically metrics and the green ones are
