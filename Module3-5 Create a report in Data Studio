@@ -15,29 +15,14 @@ Google製品のコネクタ、ネイティブなコネクタ、提携してい�
 Googleシートのコネクタを探して接続するとプレッドシートのリストが表示されます。URLでファイルを追加することもできます。
 そのファイルはリンクを使用して、全ユーザーが同じファイルを使用できます。"all items"でファイルを選択し、"selected data"で目的のスプレッドシートを選びます。
 これはワークシート名です。次に、「接続する」をクリックします。これでData Studioは新しいデータソースを作成することができました。
-
-This is now showing us the field screen, and over here we can see all the different fields
-that are available in the data. Here you can see the field names and the names are
-colored in blue and green. The blue ones are basically metrics and the green ones are
-dimensions and we'll go into details about what they mean. Over here you can see the
-different types of data, and as you click over here you can change that type of the data.
-Data Studio parses the data by itself and tries to guess the data type, but you can always
-go in and change that data type. And for numerical data types you can also change the
-default aggregation method for this data. Let's start to understand what are dimensions
-and metrics.
-This help page on the Data Studio support site talks about what dimensions and metrics
-are. So easy way to describe this are, is basically what dimensions describe and metrics
-measure. In this table "item name" and "colors" will be dimensions whereas "quantity sold"
-will be measure. Though not all numerical fields are metrics and we'll see an example of
-that in our data set. In this data set we had this index field which is a numerical field, but it
-doesn't really mean 18 numerically, it's just an ID that we are using to uniquely identify
-each vehicle. And we would like to treat this as a dimension. So we'll go back to our report
-and from here we can see index has been colored as blue and all the blue colored ones
-are metrics. So we will go in and change this into a text, and as we can get into a text this
-becomes a dimension from a metric. We won't change anything else here, we can see that
-the release date has been automatically identified as a date. We'll just go onto the right
-side and click on "add to report". As we click on "add to report" again, this is creating a
-new data source based on the Google Sheets' connector and the configuration that we
-provided and attaching that data source to our report. Now our data source and our report
-is ready and we have a blank canvas where we can create visualizations based on our
-data set.
+フィールド画面が表示され、使用可能なすべてのフィールドを確認できます。フィールド名は青と緑で表示されます。
+青はメトリクス、緑はディメンションです。詳しくは後ほどお話しします。さまざまな種類のデータが表示されていて、ここをクリックするとデータの種類を変更できます。
+Data Studioはデータ型を推測してくれますが、そのデータ型はいつでも変更できます。数値データなら、集計の方法を変えることもできます。
+ではディメンションとメトリクスについて説明しましょう。
+Data Studioのヘルプではディメンションとメトリクスについて説明しています。簡単に説明すると、ディメンションは指標、メトリクスはデータの属性です。
+ここでは"item name"と"colors"はディメンション、"quantity sold"はメトリクスになります。すべての数値がメトリクスになるわけではなく、データセットにこの例があります。
+数値であるインデックスフィールドがありますが、これは数値の18に意味があるのではなく、各車両を一意に識別するために使用するIDです。
+これはディメンションとして扱うのが適切です。インデックスは青で表示されていますが、これを文字列に変換します。
+そうするとインデックスはメトリクスからディメンションになります。ここではそれ以外の変更は行いません。
+発売日は自動的に日付として認識されています。右側の"add to report"をクリックすると新しいデータソースが作成され、レポートに追加されます。
+これでデータソースとレポートの準備が整い、可視化のための空のキャンバスができました。
