@@ -1,17 +1,10 @@
 Adding visualizations and charts to your Data Studio Report
-レポートの名前を変更します。
-First let's start by changing the name of the report. We will call this "2020 Vehicle Fuel
-Economy Dashboard".
-Now this is just one page, for now it's a blank canvas, and on the right hand side we can
-see different configuration items for the layout of this dashboard. You can change different
-elements here, you can change the width and the height. You can also change the theme
-of the report including forms, different kinds of colors and themes. We're not going to
-change anything here right now. What we'll do is first add some visualizations and charts.
-So let's try to figure out how many vehicles there are in that table in total. So add this
-scorecard, and for the metric we will add the index and this will automatically convert to the
-count of index and you can see there are 435 vehicles in the table. We'll switch this and
-rename it to "number of vehicles". And this is counting the distinct number of IDs or the
-index in that field.
+レポートの名前を"2020 Vehicle Fuel Economy Dashboard"変更します。
+今はまだ空白のページに過ぎません。右側には、このダッシュボードのレイアウトのさまざまな構成アイテムが表示されます。
+幅や高さ、色やレポートのテーマなどが変更できます。でも今は変えなくてもいいでしょう。いくつかのビジュアライゼーションとチャートを追加します。
+このテーブルには車両が何台あるのか調べましょう。このスコアカードを追加し、メトリクスにインデックスを追加すると自動的に435台と表示されます。
+そうしたら名前を「車両数」に変更します。これは、そのフィールドのIDまたはインデックス数をカウントします。
+
 Let's add another scorecard identifying how many manufacturers are there. So we'll do the
 same thing, add a scorecard and this time we will pull in the manufacturer's name (Mfr
 Name). So "number of mfg" and as you recall there were also the divisions within the
