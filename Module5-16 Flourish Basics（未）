@@ -2,43 +2,22 @@ Flourish Basics: The Data Table, Importing Data, and Column Settings
 このビデオでは、Flourishのデータテーブルと、それを取り込んだ後に実行できるデータの編集やクリーニングについて説明します。
 これらのほとんどは、 [データ] タブに表示されますが、ここでは、このグラフを使用しています。これは積み上げ縦棒グラフでイギリスの大学とその学生の出身国別、年別の架空のデータセットを示しています。
 これがデータタブで、これがデータテーブルです。これがどのようなものかはご存知かと思いますが、知らない人もいるかもしれません。
+Google SheetsやExcelのような表計算ソフトでできる基本的なデータの編集や整理はすべてFlourishでできます。
+セルを編集したり、ドラッグしたり、列をドラッグしたり、削除したりすることができます。コントロールをクリックしてメニューが表示され、列を削除または挿入できます。
+行の場合も同様に行を削除したり、上または下に行を挿入したりできます。オプションも豊富です。
+ここをクリックすると、列の削除や列の挿入などのオプションに加えて、フィルタやソート (AからZ、ZからA) などのオプションもすべて表示されます。
+データのフィルタ機能は強力で、値がその範囲内にない行はすべて除外され、元に戻すことはできません。
+これは永続的な影響を及ぼすので注意してください。行や列を入れ替えることもできます。横持ちのテンプレートに縦持ちのデータを挿入しようとするときなどは非常に便利です。
+ここをクリックするとプレビューが変わります。
+最後に、画像の挿入とアップロードについてお話しします。例えば、折れ線グラフレースや棒グラフレースのような多くのFlourishのテンプレートには、線や棒グラフに画像を追加できる設定があります。
+URLの入力が求められていますが、インターネット上に必要な画像がない場合、列のセルをクリックしてファイルをアップロードできます。
+例えばこれがFlourishのものであれば、サーバーにアップロードしてURLを指定すると、グラフに画像を表示できます。
+あまり知られていませんがFlourishを使っている人にとってはとても便利な機能です。データテーブルの基本を説明しました。
+この後、データテーブルを使用する他の方法について説明します。しかし、これは間違いなく知っておくべき基本的なことです。
+自分のデータを取り込むことがビジュアライゼーションの第一歩です。このビデオではそれを説明します。新しいビジュアライゼーションを開くと、プレビュータブには何らかのグラフが表示されています。
+テンプレートにはサンプルのデータセットがインポートされるか、プリロードされるため、常に何らかのグラフが表示されているのです。
+データ・タブに戻るとすでにインポートされたデータがあります。XとYの値が表示されます。これがこの散布図を描き出しているのです。
 
-And the thing to keep in mind is that all the basic data editing and cleaning things that you
-can do in more advanced spreadsheet programs like Google Sheets and Excel, you can
-do in Flourish. So things like editing cells, you can see that changed over there, and
-dragging cells around, sorry, dragging columns around and deleting columns. So control
-click will give you this context menu which lets you remove or insert columns. Same with
-rows, so control click on the row and it'll give you remove row or insert row above or below.
-There's also a bunch of options for columns with this little carrot menu here. So if you click
-here, it opens up all of these options which include remove column and insert column, but
-also things like filter and sort A to Z and Z to A. Filter data option is an intense filter. It's
-going to filter out any row where the value is not in the range for that column, so you can't
-really undo it. So it's quite a permanent choice, so I would caution anyone about using
-that. But you can also swap rows and columns to transpose rows and columns, which is
-really useful if you're using a template which has a wide format and you have a sort of long
-- your data's sort of long when you insert it into Flourish. So you'd do that, click that, and
-you can see the preview change over here.
-The last thing I want to talk about is inserting and uploading images. So a lot of Flourish
-templates like, for example, the line chart race and the bar chart race have an image
-column setting which lets you add an image to your lines or your bars. And what it asks for
-is a URL, so if you don't already have an image that you want that is on the Internet at a
-URL, you can control click on a cell, the cell in the image column and click upload file and
-then it'll let you upload, for example, whatever this is to Flourish to our servers and it'll give
-it a URL which you can then use to display the image in Flourish in your chart. This is
-something that a lot of people don't know about but is really useful for anyone who's using
-Flourish.
-So I hope that that explained the basics of the data table and in further videos I'm going to
-be talking about other ways to use the data table. But this is definitely the basic stuff that
-you should know.
-So the first real step in making a Flourish visualization of your own is inputting your own
-data and getting your own data into Flourish. So that's what this video is going to be about.
-So when you first open a new visualization, there's always going to be something here in
-this preview tab. You're always going to see some sort of chart because there's always
-going to be a sample dataset imported, or preloaded rather, into the template. And for now
-we're going to be working back in this data tab, but just so you know, you can see here
-that there's already data imported in. And if you go to the data tab, you can see again in
-here, here are our X and Y values. So that's what's drawing this scatter plot, which we can
-see here in the corner.
 And to overwrite the sample data, all you have to do is click this big import your own data
 button. Flourish templates can take Excel files, CSV files, TSV files, and then also JSON
 and GeoJSON files for maps. In this case, I'm going to import this CSV file that I have
