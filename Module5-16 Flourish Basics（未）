@@ -1,13 +1,8 @@
 Flourish Basics: The Data Table, Importing Data, and Column Settings
-このビデオでは、Flourishのデータテーブルと、入力後に実行できるデータの編集やクリーニングについて説明します。
+このビデオでは、Flourishのデータテーブルと、それを取り込んだ後に実行できるデータの編集やクリーニングについて説明します。
+これらのほとんどは、 [データ] タブに表示されますが、ここでは、このグラフを使用しています。これは積み上げ縦棒グラフでイギリスの大学とその学生の出身国別、年別の架空のデータセットを示しています。
+これがデータタブで、これがデータテーブルです。これがどのようなものかはご存知かと思いますが、知らない人もいるかもしれません。
 
-In this video, I'm going to be talking about the data table in Flourish and some of the basic
-data editing and cleaning that you can do once your data has already been put into
-Flourish. Most of this is going to be down here in the data tab, but just so you know, this is
-the chart that we're working with. It's a stacked column chart that's showing a fake data
-set, I believe, about UK universities and their students by home country and year. So here
-is the data tab and here's the data table. We should all sort of be familiar with what it looks
-like already, but if not, here it is.
 And the thing to keep in mind is that all the basic data editing and cleaning things that you
 can do in more advanced spreadsheet programs like Google Sheets and Excel, you can
 do in Flourish. So things like editing cells, you can see that changed over there, and
