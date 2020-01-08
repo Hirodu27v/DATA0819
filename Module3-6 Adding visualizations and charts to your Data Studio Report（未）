@@ -4,15 +4,10 @@ Adding visualizations and charts to your Data Studio Report
 幅や高さ、色やレポートのテーマなどが変更できます。でも今は変えなくてもいいでしょう。いくつかのビジュアライゼーションとチャートを追加します。
 このテーブルには車両が何台あるのか調べましょう。このスコアカードを追加し、メトリクスにインデックスを追加すると自動的に435台と表示されます。
 そうしたら名前を「車両数」に変更します。これは、そのフィールドのIDまたはインデックス数をカウントします。
+メーカー数を示すスコアカードを追加しましょう。同じようにスコアカードを追加し、メーカーの名前を入力します。
+"number of mfg"、覚えていらっしゃると思いますが、メーカー内に部門がありました。スコアカードをコピーして貼り付け、右に移動します。
+ここで、メーカー数を部門数に変更できます。現在のデータテーブルには、22のメーカーの計39の部門があります。
 
-Let's add another scorecard identifying how many manufacturers are there. So we'll do the
-same thing, add a scorecard and this time we will pull in the manufacturer's name (Mfr
-Name). So "number of mfg" and as you recall there were also the divisions within the
-manufacturer. So we can take a different approach, we can copy this scorecard and we
-can paste. We'll move it to the right, let's move it to below this one. And here we can
-change just change the number of manufacturers to count of divisions. And now we have
-the division count, there are a total thirty nine divisions from twenty two manufacturers in
-our data table.
 Now if we want to look at all the names of all the manufacturers and the count of vehicles
 we will add a bar chart. Let's draw that over here and it automatically picked up
 manufacturer name as the dimension. And for the metric we will again pick this index and
