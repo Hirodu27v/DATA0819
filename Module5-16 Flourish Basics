@@ -17,36 +17,17 @@ URLの入力が求められていますが、インターネット上に必要�
 自分のデータを取り込むことがビジュアライゼーションの第一歩です。このビデオではそれを説明します。新しいビジュアライゼーションを開くと、プレビュータブには何らかのグラフが表示されています。
 テンプレートにはサンプルのデータセットがインポートされるか、プリロードされるため、常に何らかのグラフが表示されているのです。
 データ・タブに戻るとすでにインポートされたデータがあります。XとYの値が表示されます。これがこの散布図を描き出しているのです。
-
-And to overwrite the sample data, all you have to do is click this big import your own data
-button. Flourish templates can take Excel files, CSV files, TSV files, and then also JSON
-and GeoJSON files for maps. In this case, I'm going to import this CSV file that I have
-locally on my computer. I'm going to click import again, and it also is always going to show
-you how many rows are imported. And if you're in a template that gets rid of rows, like
-throws rows out for any reason, it will also show you here how many rows have been
-thrown away.
-So now that I've imported my data, I have to tell Flourish which columns to use and in what
-way, and what column corresponds to what type of data. So this is all done using this
-select columns to visualize panel over here on the right, and it has all of these column
-settings. If you scroll down, you can see all of them. There's quite a lot in this template
-because the scatter template is quite complicated. And in this case, there's only two
-required ones, X and Y, for a basic scatter plot. And so let's say that this was actually on
-here. This makes a bit more sense. So you saw how this switched over here. Basically,
-these settings are how you tell the template what kind of data is over here.
-So in this case, we have each row as a neighborhood in the city of Chicago, and then each
-of these columns is a different type of hardship factor, like poverty and housing and
-unemployment rate. And what's being currently drawn on this map down on this plot down
-here is across the Y, across the X axis, we have this C column, households below the
-poverty line percentage, and then also a percentage across the Y axis we have crowded
-housing percentage, which corresponds over here. And in this case, we also have a name
-column so we can add this name column in here. But say, for example, I wanted to put the
-households below poverty line across the Y and credit housing across the X. All we would
-do is change these right here. You can see how it changes here in the preview.
-Basically, all you're doing is telling the template what to read and what column is what kind
-of data. If you scroll down, like I said, there's a bunch of other options, but in this case, if
-we go back to the preview, you can see that it's plotting crowded housing and households
-below the poverty line. And then each of these dots is also showing that it's the name of
-the neighborhood. And there's no need to fill these extra column settings in, if you're not
-going to use them you can just leave them blank. And yeah, this is one of the trickiest
-parts of Flourish, so once you sort of understand this, I think you're pretty much on your
-way.
+サンプルデータを上書きするには、この大きな 「Import your own data」 ボタンをクリックするだけです。Flourishテンプレートは、Excelファイル、CSVファイル、TSVファイル、そして地図用のJSONとGeoJSONファイルを取り込めます。
+ここでは、ローカルコンピュータにあるこのCSVファイルをインポートします。再度 [インポート] をクリックすると、インポートされた行数も常に表示されます。
+また、行を削除するテンプレートの場合、ここには削除された行数も表示されます。
+データをインポートしたので、どの列をどのように使用し、どの列がどのタイプのデータに対応するかをFlourishに指示する必要があります。
+右のパネルにはこれらの列の設定が並んでいます。下にスクロールするとすべて表示されます。
+散布図のテンプレートは非常に複雑になりうるので、設定すべきことは多いです。しかし基本的な散布図に必要なのはXとYの2つだけです。
+実際にやってみましょう。こうした方がいいですね。どう変わったかご覧いただけましたでしょうか。
+これらの設定は、どのような種類のデータがここにあるかをテンプレートに伝えます。
+ここではシカゴの街区が各行に対応しています。列には貧困や住宅失業率といった異なる種類の障壁要因があります。
+この図にはX軸とY軸が描かれています。Cの列は貧困ライン以下の世帯を表し、Y軸は住宅融資の割合を表しています。
+この例では、name列もあるので、ここに追加します。Y軸に貧困ライン以下の世帯を配置しX軸に住宅融資を配置したいとします。どのように変化するかプレビューで確認できます。
+テンプレートに、どの列にどのデータを入れるか指示するだけです。下にスクロールしていくと他にもたくさんの選択肢がありますがプレビューに戻ってみると貧困ライン以下の住宅融資や世帯が表示されています。
+それぞれの点が地域を表しています。列の設定を全て使わなくても構いません。使わない列は空白のままで大丈夫です。
+これはFlourishの分かりにくい部分の一つなので、ひとたびこれを理解してしまえばかなり使いこなせると思います。
