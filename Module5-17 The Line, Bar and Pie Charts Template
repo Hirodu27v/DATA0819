@@ -18,26 +18,11 @@ The Line, Bar and Pie Charts Template
 この場合、列または行ごとに色を付けることができます。ここでは、列ごとに色が割り当てられています。
 行によって色分けしているように見えますが、実際には列によって色分けしています。データの列が異なるためです。
 [行単位] をクリックすると、各列が異なる色になります。これは2009年、2010年、2011年で色分けしているからです。これは、強調したいバーがある場合に便利です。
-
-So I'm going to just make this a single column chart for now and say, for example, I
-wanted to highlight one of these columns. What I would do would be there's a couple of
-different ways to do this. So you can either take your color palette and delete most of the
-colors and then add other ones back. So they're all the same except for one of them. So
-now I'm highlighting this and the color palette is kind of showing this. You can also just do
-custom overrides. So if I wanted to do 2009 red, 2010 red, 2011 blue, I could do that as
-well. But if I click back to by column, this isn't going to work because we're coloring. This is
-one column and so it's all going to be the same color. So that's why it's important to
-understand how these work. And then by column then by row corresponds to the data and
-not to what you're seeing here in the preview.
-Some other things, you can turn on the legend, you can turn off the legend. Oftentimes
-turning off the legend makes it more sort of clear. There's this interesting add data colors
-to text option, which I will now show you. So basically what this does is automatically
-highlights color in the header text if you have the name of a column in there. So if I wrote
-this is the header for this chart with 2010 in it, you can see the 2010 is now being
-highlighted by the color that the column is, which is pretty cool. And then I did 2011 is in it
-too. Now it's being highlighted by that color. So this is a kind of legend that you can use as
-well.
-You can add a filter. There's a bunch, you can add data labels to each column or row,
-depending on what chart you're using. You can add annotations, which we have several
-videos on that as well. This is really a template that you can do a lot with, and I hope that
-this sort of explained some of the more confusing features for the line, bar, pie template.
+ここで、これらの列の1つを強調表示したいとします。実現する方法はいくつかあります。カラーパレットを使用してほとんどの色を削除してから、他の色を追加し直すことができます。
+一つのバーを除いて他はすべて同じ色にします。カスタムで上書きすることもでき、2009は赤、2010も赤、2011は青というようにできます。
+しかし、列ごとに色を付けているのでれはうまくいきません。機能をよく理解することが大切です。
+の他にも、凡例をオンにしたり、オフにすることができます。多くの場合、凡例をオフにすると、より明確になります。
+「テキストにデータの色を追加する」 という興味深いオプションがあります。これは基本的に、カラムの名前があれば自動的にヘッダのテキストの色をハイライトします。このグラフの見出しに2010と書くと2010が列の色で強調表示されています。
+これはすごいことです。そして2011年も入れました。その色でハイライトされています。これは凡例の一種で、あなたも使うことができます。
+フィルタも追加します。使用しているグラフに応じて、各列または行にデータラベルを追加できます。注釈を追加することもできます。
+このように、テンプレートを使って多くのことができます。ここまで、折れ線グラフ、棒グラフ、円グラフのテンプレートの複雑な機能のいくつかを説明しました。
