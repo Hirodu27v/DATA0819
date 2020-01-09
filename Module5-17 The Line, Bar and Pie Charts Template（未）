@@ -1,20 +1,11 @@
 The Line, Bar and Pie Charts Template
-In this video, I'm going to be talking more in depth about our line, bar, and pie charts
-template. So let's get started. So here I am in the line, bar, and pie charts template. I
-currently have, click up there for a second, I currently have the stacked column chart
-selected. So the first thing to know is that this chart type settings block up here is where
-you change the type of chart. So because this chart can do so many different types, there
-are a couple of different, well there are a bunch of different types that you can choose
-from.
-So right now I'm here in stacked column chart, but I could also make this into a grouped
-column chart, which is pretty much the same. It's just that there are individual bars instead
-of them stacked on top of each other. I can also make it into a percentage one, which
-means that the template sort of reads each column by itself and then decides what
-percentage to give each of the sections. And then I can also do the same thing, but do it
-horizontally as a stacked bar or grouped bar and whatnot. I think it's important to sort of
-look a little bit more in depth about how this works because it's kind of important to know
-how the data is structured to be able to choose and get your data in the right way and
-choose the right chart type.
+このビデオでは、折れ線グラフ、棒グラフ、円グラフのテンプレートについて詳しく説明します。では始めましょう。ここでは、折れ線グラフ、棒グラフ、および円グラフのテンプレートを使用します。
+現在、積み上げ縦棒グラフが選択されています。まず最初に、ここでグラフの種類を変更できます。
+このグラフには多くの類型があるので、選択できる種類が豊富にあります。ここでは積み上げ縦棒グラフを使っていますが、これをこれをグループ化した縦棒グラフにすることもできます。
+ほとんど同じです。ただ、積み上げてバーになっているのではなく、個々のバーに分かれているだけです。
+100％積み上げ棒グラフにすることもできます。テンプレートが各列の数値を読み取ってそれぞれのセクションに与える割合を決めるものです。
+積み上げ縦棒グラフやグループ化したグラフを水平にすることもできます。データがどのように構造化されているのかを理解し、正しい方法でデータを取得し、適切なグラフの種類を選択できるようにすることが重要です。
+
 So in this case, you can see each of these colors here is just one of these columns and
 then each of these bars is a row, and the same goes for when you choose a column type.
 They're just sort of rotated 90 degrees. When it comes to line charts, which this template
