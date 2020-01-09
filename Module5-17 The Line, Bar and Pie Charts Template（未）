@@ -5,39 +5,20 @@ The Line, Bar and Pie Charts Template
 ほとんど同じです。ただ、積み上げてバーになっているのではなく、個々のバーに分かれているだけです。
 100％積み上げ棒グラフにすることもできます。テンプレートが各列の数値を読み取ってそれぞれのセクションに与える割合を決めるものです。
 積み上げ縦棒グラフやグループ化したグラフを水平にすることもできます。データがどのように構造化されているのかを理解し、正しい方法でデータを取得し、適切なグラフの種類を選択できるようにすることが重要です。
+この例では、列が色によって、行がそれぞれのバーによって表されています。水平のグラフを選択した場合でも90度回転させただけなので同様です。
+折れ線グラフは、データの各列を取得して1行にします。ピンクに近い紫の四つ目の線を取り除くと4列目のデータを取り除けます。これで終わりです。では元に戻しましょう。
+このグラフは円グラフにもなります。線、列、および棒のオプションとは異なり、円グラフはそれぞれの行のデータから作成されます。
+（折れ線グラフでは）これらの年はX軸に沿って展開されていましたが、ここでは円グラフの一部になっています。
+このように円グラフのデータ構造が少し変わりますが、理解しやすいままです。もう一つ、簡単にFlourishの特徴をお話ししましょう。
+これらのグラフは全て、グリッドごとに分割することが出来ます。グラフのグリッドをクリックすると、それぞれの列が異なるミニグラフになります。
+2009年から2017年までのグラフが並んでいます。グリッドの列の設定を変更することも出来ます。
+これをAに変更すると、この列の各エントリのチャートが表示されます。この例では、それぞれの年のチャートです。
+小さな複合データ群（small multiples）を作成するときに非常に便利ですが、ここでは元に戻します。多くの設定を含む大きなテンプレートであり、その全てを説明することは出来ないので、最も有益で興味深いものを紹介します。
+それはさまざまなカラーコードの設定です。このテンプレートには非常に独特で、二つの異なるモードがあり、異なるテンプレートや異なるグラフの種類で選択されたときに視覚的に異なる意味を持つことがあるため、多少混乱すると思います。
+この場合、列または行ごとに色を付けることができます。ここでは、列ごとに色が割り当てられています。
+行によって色分けしているように見えますが、実際には列によって色分けしています。データの列が異なるためです。
+[行単位] をクリックすると、各列が異なる色になります。これは2009年、2010年、2011年で色分けしているからです。これは、強調したいバーがある場合に便利です。
 
-So in this case, you can see each of these colors here is just one of these columns and
-then each of these bars is a row, and the same goes for when you choose a column type.
-They're just sort of rotated 90 degrees. When it comes to line charts, which this template
-can also do, it takes each of the columns in the data and makes that one line. So if I
-wanted to get rid of line four, this sort of pinky purple line, I would just get rid of the data in
-column 4. And there it's gone. Let's get that back. Whoops. There we go.
-So it's also worth pointing out that this chart can do pie charts as well. Unlike the line,
-column, and bar options, the pie kind of works in a different way, which is that it makes
-each of the rows. So in this case, these were years that were along our x axis, but now
-they're a segment in the pie chart. So that kind of changes the data structure a little bit for
-pie charts, but it's still pretty intuitive.
-I'm going to go back to column stacked, just to show you one more quick feature, which is
-that these charts can all be made into grids of charts instead. So if I click grid of charts, it
-will make each of the columns here into a different mini chart. So we have 2009 to 2017 in
-each of these. And you can kind of change how this works by giving this charts grid
-column setting a column, so I can change it to A which will give me a chart for each of the
-entries in this column, so in this case, each of the years. So that's pretty useful when
-you're trying to make small multiples, but let's go back to this normal view for now.
-Just because this is such a big template that does so many different things, there are a lot
-of different settings, and so I'm not going to be able to explain all of them, but I'm going to
-give it a go to explain the ones that are most useful and interesting and confusing. So the
-main one that I can think of now is this color, chart colors, different color modes setting. So
-it's pretty unique to this template, and I think it's semi-confusing because it has two
-different modes and they sometimes visually mean different things when you're selected
-on different templates or different chart types.
-So in this case, you can color by column or by row. So in this case, we actually are
-coloring by column because this is actually coloring by the column of data, not the column
-in the actual chart. So it looks like we're coloring by row, but we're actually coloring by
-column because this is the different columns in the data. If I click by row, each of these
-columns are going to become a different color. This is because, you know, now we're
-coloring by 2009, 2010, 2011 and sort of column one, two, three, four. This is really useful
-when you have a bar that you want to highlight.
 So I'm going to just make this a single column chart for now and say, for example, I
 wanted to highlight one of these columns. What I would do would be there's a couple of
 different ways to do this. So you can either take your color palette and delete most of the
