@@ -5,28 +5,15 @@ The Scatter Template
 これらは散布図から派生したグラフです。見かけは様々ですが、散布図のテンプレートから作ることが出来ます。ここにないのはビースウォームプロットくらいでしょう。
 散布図の構造を説明し、作例がどのように作られているかお見せします。しかしあなたは一からグラフを作らなくても大丈夫です。
 基本の図にデータを取り込んでから散布図を作成し、列の設定を行います。いいガイドがあります。
-So I'm going to start here in a basic scatter plot which is showing, I think, GDP per capita
-and life expectancy from a bunch of different countries. So each of these dots is the
-country. And I wanted to show you this because I want to show you the differences
-between a basic scatter plot and a bubble chart. So here's the basic scatter, also good to
-know is that in the scatter template, the settings panel is kind of enormous and a bit
-daunting. But don't be too scared by that. A lot of these things, if you're not making that
-kind of chart, you don't really need to touch them, so yeah.
-So here we are in the basic sort of X Y scatter plot with GDP per capita on one axis and
-life expectancy on the other. And they're doing a little bit of coloring by continent, or region,
-or whatever. But if we go to the data we can see, if you just ignore everything else, you
-can just see that the X values are here bound to GDP and the Y values are the life
-expectancy. And then we're naming each of them and giving them a region for the color.
-But that's really just a basic, even if I just got rid of these two settings, you can see that
-these are just a normal X Y scatter plot.
-So, I'm going to throw those back on there though, so we've already talked about color and
-stuff like that, so I don't need to go over that again, but this is a basic scatter plot. If I want
-to make this into a bubble chart, I need to add a third sort of value dimension, and that
-would be the value that the bubbles would be scaled by. So in this case, that is the size
-column setting right here, and I'm going to make that column E. So we're going to be
-sizing by this population column that we have yet to sort of touch so far. And there you go.
-So now we can see that the bubbles are being sized by population and it should come up
-in the pop-up population now.
+基本的な散布図から始めましょう。多くの国の一人当たりGDPと平均余命を示しています。それぞれの点が国を表しています。
+これをお見せしたいのは基本的な散布図とバブルチャートの違いを示すためです。
+散布図のテンプレートでは設定パネルが細々としているので気が遠くなりそうです。しかし心配はいりません。
+複雑なチャートを作るのでなければ触れる必要がないのです。これは一人当たりのGDPと平均余命を軸にしたXY散布図です。
+大陸や地域ごとに色分けしています。他の全てを無視するとXの値はGDPに従い、Yの値は平均余命です。
+各点に名前をつけて地域ごとの色を与えますが、この二つの設定を取り除くと通常のXY散布図と変わりません。
+すでに色などについては説明したとおりですが、これは基本的な散布図です。バブルチャートにする場合は三つ目のディメンションの値を入力する必要があります。
+これによってバブルの大きさが決まります。これがサイズの設定です。この列をEにします。ここまで触れてこなかった人口をサイズで表します。
+このようにすれば、人口はバブルのサイズに反映されるはずです。
 A couple of setting things to know about the dots, you can kind of change the color palette
 like normal here, but you can also change in the style. So I like to do low opacity for the
 dots because, especially if you're using a color palette that's a bit darker, so you can see
