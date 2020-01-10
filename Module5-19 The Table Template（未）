@@ -1,14 +1,9 @@
 The Table Template
 このビデオでは、テーブルテンプレートを説明します。これは比較的新しいテンプレートです。基本的な概念は単純ですが、最大限に活用する方法を知っていると非常に強力です。
 その方法を教えましょう。ここではデータタブから始めてデータ構造を説明します。データ構造はおそらく、Flourishテンプレートの中で最も単純なものです。
-You basically just enter your data in the data table as you would like it to appear in the
-actual table. There's a little bit more intricacy going on here when you want to make charts,
-but I'll talk about that in a second. So basically the only thing you have to make sure is that
-the data is in the right order, whatever you want, and that all of the columns that you want
-to show up are selected. There's only one column settings, so it's pretty simple.
-So back here in the preview tab, you can see that the data is, you know, kind of just
-displayed in the same way. And there are a couple of different features I really want to
-point out that sort of make tables quite powerful and useful.
+基本的には、実際のテーブルに表示したいデータをデータテーブルに入力するだけです。チャートを作成する場合はもう少し複雑ですが、後で説明します。確認する必要があるのは、データが適切な順序で、表示するすべての列が選択されていることだけです。列の設定は1つだけなので、とても簡単です。[プレビュー] タブに戻ってみると、データが同じように表示されています。
+テーブルを非常に強力で便利なものにするいくつかの機能があります。
+
 So the first one is that these can be sortable. These columns can be sortable, so make
 sure you have this column-sorting setting on. And once you do that, you can click through
 and sort of sort the columns – A to Z, Z to A, or unsorted back to the beginning. This is
