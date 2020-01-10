@@ -1,19 +1,10 @@
 The Scatter Template
-So in this video, I'm going to be talking kind of more in-depth about the scatter template,
-and this is a template which is possibly the most wide ranging in its uses of any Flourish
-template. We always kind of joke when we're developing a new template like, oh, maybe
-we can just add it to the scatter chart, scatter plot, rather, because it can just do so many
-things. And I wanted to start here in the template chooser, because I wanted to show you
-visually how many different things scatter can do. So these are all the starting points that
-we have with scatter, and these are all sort of like different types of charts, really generally
-actually different types of charts that you can make with the scatter template. I think the
-only one that's not on here that you can do is beeswarm plots.
-So I'm going to kind of go through them and explain the basic structure of the scatter
-template and then kind of show you how each of the other plots are made. But just know
-that if you want to make one of these, you don't need to 100 percent make it, just throwing
-your data into this basic plot, and then scatter plot, and then trying to sort of do the settings
-yourself in the column settings. There are these starting points which should be good
-guides.
+このビデオでは、分散図のテンプレートについてさらに詳しく説明します。このテンプレートは、おそらくFlourishテンプレートの中で最も使用されています。
+私たちはテンプレートを開発するとき、よくこんな冗談を言います。「散布図に追加できるかもね」。
+なぜなら、散布図は実に多くのことが出来るからです。テンプレートの選択画面から始めたいと思います。
+これらは散布図から派生したグラフです。見かけは様々ですが、散布図のテンプレートから作ることが出来ます。ここにないのはビースウォームプロットくらいでしょう。
+散布図の構造を説明し、作例がどのように作られているかお見せします。しかしあなたは一からグラフを作らなくても大丈夫です。
+基本の図にデータを取り込んでから散布図を作成し、列の設定を行います。いいガイドがあります。
 So I'm going to start here in a basic scatter plot which is showing, I think, GDP per capita
 and life expectancy from a bunch of different countries. So each of these dots is the
 country. And I wanted to show you this because I want to show you the differences
