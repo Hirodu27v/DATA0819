@@ -1,11 +1,6 @@
 The Table Template
-In this video, I'm going to be talking about the table template in a little bit more depth, and
-sort of explaining some of the features of the table template. This is kind of a newish
-Flourish template. And it's sort of a simple concept, but it's quite powerful when you know
-how to make the best of it. So I'm going to be explaining how to make best of it.
-So actually I'm going to start not here in the table with the settings, but actually in the data
-tab just to show it to you and explain the data structure. And the data structure is probably
-the simplest of any Flourish template that we have.
+このビデオでは、テーブルテンプレートを説明します。これは比較的新しいテンプレートです。基本的な概念は単純ですが、最大限に活用する方法を知っていると非常に強力です。
+その方法を教えましょう。ここではデータタブから始めてデータ構造を説明します。データ構造はおそらく、Flourishテンプレートの中で最も単純なものです。
 You basically just enter your data in the data table as you would like it to appear in the
 actual table. There's a little bit more intricacy going on here when you want to make charts,
 but I'll talk about that in a second. So basically the only thing you have to make sure is that
