@@ -12,54 +12,29 @@ Module6に戻ってきました。ビデオ２です。最初のビデオでは�
 私がハフィントンポストで書いたものです。こうした縦長のインフォグラフィックは、Web（ページ）が印刷物ではないために、次第に人気を失いました。
 縦に長い画像は情報を伝達するのに最良とは言えないのです。テキストは拡大できず、とりわけデスクトップからモバイルに移行したときには読みにくくなりました。
 さらに、こうした様式をマーケティング会社が取り入れ、データがイラストで隠されたり、明らかに誤解を招くものになったりしたことも影響しました。
+誠実を信条とするデータ・ストーリーテリングはこうしてこの種のプレゼンテーションから離れました。そして、これは（カスケード山脈の雪崩災害を取り上げた）Snow Fallです。
+2012年、ニューヨークタイムズ紙による優れたビジュアルプロジェクトであり、Web上で写真、テキスト、グラフィックスがシームレスかつエレガントに統合された最初の例となりました。
+下にスクロールすると、ここに表示されます。これは素晴らしいジャーナリズムで、今日も見ることができます。しかし、Snow Fallは魅力的で革新的だったにも関わらず、読者の大半には不評でした。
+だからこそ、ビジュアル・ストーリーテリングは進化し続けなくてはなりませんでした。「誰もいない森で木が倒れても音はしない」という原則で運営しなくてはいけません。
+質の高いデータストーリーを生み出すだけでは十分ではないのです。視聴者や読者がどこにいるのかを気に留めなくてはいけません。
+Snow Fallの後、データ・ストーリーテリングの技術は発展を続けました。全てをインタラクティブにし、ホバーもクリックもフィルターもアニメーションも導入しました。
+2017年、ニューヨークタイムズ紙のインタラクティブチームの一員だったデータラッパーのグレゴール・アイシュは2017年、タイムズ紙のWebページを訪問した人の85％はインタラクティブなグラフィックを素通りしていると明らかにしました。
+これはインタラクティブなグラフィックを作るべきではないということではありません。続くビデオでお話しすることになります。繰り返しになりますが、私たちが進化し、読者のいるところまで（データストーリーを）届けなくてはいけません。
+最大の教訓は読者に作業を強いてはならないということです。重要な情報をクリックの陰に隠すべきではありません。そして私たちはなるべく彼らの体感がシームレスになるようにすべきです。
+それでは、データストーリーとはいかなるものなのでしょうか。魔法の公式はありません。データストーリーはそれぞれ異なっているように見えますが、成功したものはしばしば質問から始まっています。
+ここでは、包括的なデータ・ストーリーのカテゴリーをいくつか取り上げ、それぞれがどのように表示されるかを見ていきます。
+これらは決してデータストーリーを伝える唯一の正解ではありませんが、最も分かりやすいパターンの一つです。
+最初のタイプはスクローリーテリングと呼ばれるもので、The Puddingではこれがよく知られています。読者がページをスクロールすると、ストーリーがアニメーションで直線的に展開されます。
+テキストとグラフィックを交互に並べるのではなく、この二つをレイヤー化して統合します。そしてストーリーを直接読者に届けようとする手法です。
+読者はクリックではなくスクロールするので、多少手間が省けます。ラッセル・ゴールデンバーグがThe puddingで行った、NBAが選手全員を再度ドラフトしたらどうなるかというプロジェクトを見てみましょう。
+ここがスクローリーテリングの部分です。選択肢全てに説明を付け、実際（のドラフト）はどうだったかを示します。
+二つ目の例はロイター通信社からです。日本の高齢者人口がテーマで、スクロールしていくと左側の説明文に合わせて線が強調表示されます。
+この細い線が針金のようで本当に気に入っています。
+二つ目は主要なグループ化手法の一つであり、マイクロストーリーと呼ばれています。スクローリーテリングがストーリーテリングの高度な技術からアプローチするものだとすれば、マイクロストーリーは非常に焦点を絞ったアナログ的なアプローチと言えます。
+これはモナ・チャラビの作品です。彼女はイラストレーターで、データを伝えるプラットフォームとしてInstagramを使っています。
+これははしかの症例の増加を示しています。それぞれの症例について赤ちゃんの体に小さな点を付けています。これを見ると2014年は大流行でしたね。
 
-So the field of data storytelling, which is rooted in truthfulness, moved away from this type
-of presentation, of course. Then came Snowfall. It was a beast of a visual project by The
-New York Times in 2012, and it was one of the first times that photos, text and graphics
-were seamlessly and elegantly integrated into the web. You can see it here as we scroll
-down. It's just a marvelous piece of journalism and it still holds up to this day.
-But for as engaging and innovative as Snowfall was, the majority of New York Times
-readers didn't even make their way through it. And that's why visual storytelling had to
-keep evolving. We have to operate on the principle of, if a tree falls in the forest and no
-one's around to hear it, does it make a sound? It's not just enough to produce a quality
-data story. We have to make sure that we're meeting our audience where they are.
-Post Snowfall, data storytelling pushed the boundaries of tech. We made all the things --
-all the things interactive and hoverable and clickable and filterable and animated. In 2017,
-Gregor Aisch, formerly of The New York Times interactive team and now a data rapper,
-revealed that 85 percent of the Times page visitors online simply ignored interactive
-infographics altogether. Now, that doesn't mean that we shouldn't make interactive
-graphics and in fact, I'll talk about that in a later video. But again, it just means that we
-have to evolve and meet our audience where they are.
-The biggest takeaway here is that we shouldn't make the audience work too hard. We
-shouldn't hide important information behind a click. And we should make sure that their
-experience is as seamless as possible.
-So what does a data story look like now? Well, there's no magic formula. Visually, data
-stories can look very different, but at their core, the most successful ones often start with a
-question. We're gonna take a look at a few overarching categories of data stories and see
-how they each present themselves. These are by no means the only way to present and
-tell the data story, but they're just some of the most recognizable patterns that we're
-seeing out there today. So the first type of data story we're going to talk about is something
-known as scrollytelling and at The Pudding this is something that we're known for. It's a
-technique where the story unfolds linearly with animations as the reader scrolls down the
-page. And instead of alternating between text graphic, text graphic, the two are layered
-and integrated. And scrollytelling tries to bring the story straight to the reader. Often we're
-handholding them through a step by step process, and because the readers are scrolling
-instead of clicking, it's a little bit more frictionless.
-First, we'll take a look at a project that Russell Goldenberg did with The Pudding about the
-NBA and how the league would look if you redrafted everyone. And here's the scrollytelling
-part. He walks you through all the picks and then kind of where they actually ended up in
-their career. The second example is from Reuters. It looks at the aging population of
-Japan, and as you scroll, different points in the line are highlighted and match with the
-annotations that come up on the left side of your screen. The reason I really, really love
-this one is those little bitty lines look like wire hairs and they remind me of an aging person
-themselves.
-The second type of overarching kind of grouping that we're gonna look at in data stories is
-sometime is something we call micro stories. If scrollytelling takes that high-tech approach
-to data storytelling, micro stories has more of a stripped down analog approach, often with
-a hyper focused storyline. Here's one great example from Mona Chalabi. She's an
-illustrator who uses Instagram as her platform to tell data. This looks at the number of
-measles cases that are on the rise and she's drawn a dot on a little baby for each kind of
-case. And we can obviously see that 2014 is a huge year for measles.
+
 Another great kind of data analog micro stories is a project called Dear Data, where a
 Giorgia Lupi and Stephanie Posavec wrote postcards back and forth to each other and
 illustrated their day to day lives. This is a little bit more in that data art realm, but it's still
