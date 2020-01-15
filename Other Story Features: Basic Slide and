@@ -1,0 +1,66 @@
+Other Story Features: Basic Slide and Audio/
+In this video, I'm going to talk about basic slides, and how to add them to Flourish stories,
+and some of the customization that you can do to them and how they may help you make
+better Flourish stories.
+So first things first. A basic slide looks like this. It's an option when you add a slide to a
+story. So down here, new slide. When you do this, you should have two options, right here.
+Choose a visualization and basic slide. I have a couple more because these are some
+special slides. But usually you'll choose basic slide, and it'll come up and look like this.
+So this is really great for people who want to use Flourish as a presentation tool because it
+allows you to add text, and bullet points, and everything like that that you'd add using
+something like PowerPoint or Google Slides. It's also great just as a beginning or ending
+slide in the middle of a bunch of visualizations.
+So this is the story that I showed you before with all of these European election result
+visualizations. So, for example, I may want to put just a header slide here at the beginning
+to say what's about to happen and what you're about to see.
+There are kind of three elements to a basic slide. The first is the layout. So up here in the
+top left corner, you'll see this little icon that you can click on, and it lets you change the
+layout. You'll see how everything is moving around here. So this one is slide over image.
+This is image left. Slide part right. And so on. So choose one of those, and then you can
+also choose a background color and things like margins.
+The second element is the text element. So it's title, subtitle and text. If you click on this
+right here, you can customize it as well. So add alignment, and positioning, and text
+colorings. So if I wanted to say something about comparing EU election results,
+parliament's election results 2014 and 2019, I can do that. I could change the color if I
+wanted to make it a little bit navy-er. If I want to get rid of one of the text options, I can click
+this icon right here, and it'll go away. You'll still see this expand icon, but once you go to
+the preview, you'll see that this is gone. This is just showing a little bit of a guide to show
+you that you can add another text element down there.
+And then the final element is this image one. So if you click down here, you can hide it, so
+that just gets rid of it. But you can also add an image or a video, so you can upload an
+image or a video. So if I wanted to upload an image of maybe this little dog, I would click
+there. There he is. And then there's a bunch of different options for the image size, so you
+can do that.
+So those are the three elements to the slide. And if I go to this preview and click here, here
+is what it looks like. You can see that this has gone away, and it's all centered and nice. So
+I hope that explains a little bit about how to use basic slide. And in further videos, I'll talk
+more about other slide options.
+In this video, I'm going to be talking about audio, and auto play, and how to add those to
+Flourish stories. This is a feature that we sort of internally refer to as Talkies. And yes, let's
+get started.
+I have here this story. This line chart race story, which sort of iterates through and goes
+through different points in this chart about UK general election results, and the
+audio-auto-play-talkies feature is only available in the story editor. Probably for obvious
+reasons. It's all done here, for the most part, in this little panel here that says audio / auto
+play at the top near the navigation options. So currently it's disabled. If I click enabled, a
+couple of things happen. So you can use the auto play option without any audio. So if I
+don't upload any audio, which I do using this button which I'll show you in a second, the
+auto play is enabled. This just means this story will go through at ... and I can add sort of
+little durations. You can see the little durations here for each slide. Over here. And then
+you can change the durations up here. So if I wanted to make this first slide two seconds
+instead of five, I would do that, and you can see how it changed over here.
+And then if I go to my story, you get a play button instead of just a simple navigation bar up
+here. You'll see every five seconds it's going.
+A couple of other things to note is to add the audio. You just click upload audio, and you
+can upload MP4 files, I believe. I'm sorry, MP3 files. And that will sink your audio, so it'll
+play over your story. To make your audio and your auto play sync up together, you will
+have to play around with these.
+So, you know, for example, if I had audio over the top of this explaining what's going on in
+each of these points, I'd want to make the durations of these slides change with the points
+in the audio.
+And there's also this option over here, which is loop at end. So if you want your video, if
+you want your talkie to go back to the beginning and just keep looping, you can click that.
+If not, click off of it, and it's this little gray icon, right here.
+Yeah. That's about it. Talkies are a really unique and cool feature that Flourish offers. And
+they're really fun and they're really engaging, and it's something that you should definitely
+try. 
