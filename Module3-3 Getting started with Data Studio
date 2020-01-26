@@ -5,7 +5,11 @@ Data Studioや他の可視化ツールを使ったことがなくても短時間
 使い方は簡単なのですが、非常に強力な機能を備えており、高性能なビジュアライゼーションを作成することができます。
 また、リアルタイムのコラボレーションもサポートします。他の共同作業者やチームメンバーと一緒にダッシュボードで作業できます。
 Data Studioで利用できるコミュニティを前提としたコンテンツが豊富にあります。特定のデータセットで作業する場合、利用可能なテンプレートを参考にすることができます。
-既存のコネクターやビジュアライゼーションをもとに、データを取り込んで統合し、データ・ストーリーを仕立てることができます。Data Studio is a scalable solution. It's based completely on the cloud. You don't need any kind of client to use it. That means it is not operating system dependent. As long as you have a browser you should be able to use Data Studio to create and view dashboards. It is also cost effective because there is no charge for using the studio. And it lets you create not just static visualizations but you can also create interactive dashboards where your viewers can come in change filters, click on charts and tables to where the charts and tables will interact with each other and the users will be able to really find tune all the parameters that you set and sort of derive their own insights from your dashboard. 
+既存のコネクターやビジュアライゼーションをもとに、データを取り込んで統合し、データ・ストーリーを仕立てることができます。
+Data Studioは拡張性のあるサービスです。完全にクラウドベースで、いかなるクライアントも必要ありません。つまり、OSに依存していないということです。
+ブラウザがあれば、Data Studioを使用してダッシュボードを作成および表示できます。使用料もかかりませんから、費用対効果も高いです。
+静的なビジュアライゼーションだけではなく、インタラクティブなダッシュボードを作成することができます。
+フィルタを表示したり、グラフや表をクリックして相互に作用するようにしたり、設定した全てのパラメーターをユーザーが調整して、それぞれの洞察を引き出すことができるようにしたりします。
 また、接続するデータセットによっては高いパフォーマンスを発揮します。例えばBigQueryに接続する場合、Data Studioは資本データを管理および処理することができます。
 ソースからデータを取得し、要約を提供します。用途に応じて、数キロバイト程度の単純なダッシュボードから数テラバイトのデータまで拡張できます。
 Data Studioを使って作成したダッシュボードやインフォグラフィックをいくつか見てみましょう。まずはマーク･ソアレスのインフォグラフィックです。
