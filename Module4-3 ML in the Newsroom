@@ -44,10 +44,4 @@ BuzzFeedによれば、この中には偵察機もあれば、それ以外のも
 また、国境地帯で麻薬カルテルを追跡している機もありました。当時、明らかにされていなかった多くのことをつかんだのです。
 モデルはこれを偵察機だと判断し、記者はそれを検証しました。しかし、このモデルは多くのミスを犯しました。スカイダイビングの飛行機はループ状の航跡を残していたので、全て偵察機と認識されていました。
 これは、あらゆる機械学習モデルはミスを排除できないという素晴らしい教訓を残しました。スカイダイビングの飛行機と同じようなミスをする可能性は常にあります。
-したがって、記者はモデルの扱い方を理解しておくことが重要です。モデルが秘密の偵察機だと判断したら、記者として従来の方法にのっとりその機を検証する必要があるのです。
-
-
-What they found was really fascinating. They found, for example, that there were some planes that were supposed to be tracking terrorism in Africa, but there were actually flying over U.S. cities. And they found, for example, planes that were tracking drug cartels on the border. And lots of things that work were sort of unexplained to them when they wrote the piece. They were able to to learn more about them.
-So the model would say this is a spy plane, and then the reporters would try to verify.
-However, the model made mistakes a lot. For example, it consistently recognized skydiving planes as spy planes because they also have these weird, loopy trajectories. So there's a great lesson to be learned here, which is that all machine learning models make errors, and sometimes they make them consistently, like consistently misclassifying skydiving planes.
-So it's important when you're a reporter to understand how to work with these models, and when they make predictions that say something damning like this is a secret spy plane, that you as the reporter have to go and then verify that plane using traditional reporting.
+したがって、記者はモデルの扱い方を理解しておくことが重要です。モデルが秘密の偵察機だと判断したら、記者として昔ながらの方法にのっとりその機を検証する必要があるのです。
